@@ -23,9 +23,11 @@
 		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
 		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+		<PackageReference Include="payOS" Version="1.0.6" />
 	</ItemGroup>
 
 	<ItemGroup>
+		<Folder Include="Controllers\" />
 		<Folder Include="Pages\Member\Products\" />
 	</ItemGroup>
 

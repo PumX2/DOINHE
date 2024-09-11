@@ -1,0 +1,159 @@
+﻿@page
+@model DOINHE.Pages.LoginModel
+@{
+}
+<body>
+    <div class="screen-1">
+        <form method="post">
+            @* <div class="email">
+                <div class="sec-2">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <input asp-for="User.Email" placeholder="Username@gmail.com" />
+                    <label class="form-label" for="Account_Email">Email</label>
+                    <span asp-validation-for="User.Email" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="password">
+                <div class="form-outline form-white mb-4">
+                    <input asp-for="User.Password" class="form-control form-control-lg" />
+                    <label class="form-label" for="Account_Password">Password</label>
+                    <span asp-validation-for="User.Password" class="text-danger"></span>
+                </div>
+            </div> *@
+
+
+            <div class="password">
+                <label for="email">Email Address</label>
+                <div class="sec-2">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <input type="email" asp-for="User.Email" placeholder="Username@gmail.com" />
+                    <span asp-validation-for="User.Email" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="password">
+                <label for="password">Confirm Password</label>
+                <div class="sec-2">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                    <input type="password" asp-for="User.Password" placeholder="**********" />
+                    <ion-icon class="show-hide" name="eye-outline"></ion-icon>
+                    <span asp-validation-for="User.Password" class="text-danger"></span>
+                </div>
+            </div>
+
+
+            <button class="login" type="submit">Login</button>
+        </form>
+
+        <div class="footer">
+            <span><a href="/Signup">Signup</a></span>
+            <span><a href="/ForgotPassword">Forgot Password?</a></span>
+        </div>
+    </div>
+</body>
+
+
+
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f5f6fa;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .screen-1 {
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        width: 320px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .password {
+        margin-bottom: 20px;
+    }
+
+    label {
+        font-size: 14px;
+        color: #333;
+        margin-bottom: 5px;
+        display: block;
+    }
+
+    .sec-2 {
+        position: relative;
+        display: flex;
+        align-items: center;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+        .sec-2 ion-icon {
+            color: #999;
+            font-size: 18px;
+            margin-right: 10px;
+        }
+
+    input[type="email"], input[type="password"] {
+        border: none;
+        outline: none;
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .pas {
+        letter-spacing: 5px;
+    }
+
+    .show-hide {
+        position: absolute;
+        right: 10px;
+        cursor: pointer;
+        color: #999;
+    }
+
+    button.login {
+        background-color: #1e4356;
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+        button.login:hover {
+            background-color: #1e4356;
+        }
+
+    .footer {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+        .footer span {
+            font-size: 14px;
+            color: #777;
+            margin: 0 10px;
+        }
+
+        .footer a {
+            color: #1e4356;
+            text-decoration: none;
+        }
+
+            .footer a:hover {
+                text-decoration: underline;
+            }
+
+</style>

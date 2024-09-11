@@ -1,0 +1,18 @@
+﻿@page
+@model DOINHE.Pages.PaymentModel
+@{
+    ViewData["Title"] = "Payment";
+    Layout = "_Layout";
+}
+
+<h1>Payment</h1>
+
+@if (!string.IsNullOrEmpty(Model.PaymentUrl))
+{
+    <p>Click the link below to proceed with the payment:</p>
+    <a href="@Model.PaymentUrl" class="btn btn-primary">Pay Now</a>
+}
+else
+{
+    <p>Payment is not available at this time.</p>
+}
