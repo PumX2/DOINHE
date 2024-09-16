@@ -6,6 +6,13 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 	</PropertyGroup>
 
+	<ItemGroup>
+	  <Compile Remove="Pages\Member\**" />
+	  <Content Remove="Pages\Member\**" />
+	  <EmbeddedResource Remove="Pages\Member\**" />
+	  <None Remove="Pages\Member\**" />
+	</ItemGroup>
+
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.0" />
@@ -28,7 +35,6 @@
 
 	<ItemGroup>
 		<Folder Include="Controllers\" />
-		<Folder Include="Pages\Member\Products\" />
 	</ItemGroup>
 
 	<ItemGroup>
