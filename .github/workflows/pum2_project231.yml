@@ -21,7 +21,7 @@ jobs:
       - name: Restore dependencies
         run: dotnet restore
 
-      # Build và publish các project
+      # Publish từng project vào thư mục riêng biệt
       - name: Publish DOINHE1_API
         run: dotnet publish D:\a\DOINHE\DOINHE\DOINHE1_API\DOINHE1_API.csproj -c Release -o "${{env.DOTNET_ROOT}}/myapp/DOINHE1_API"
 
