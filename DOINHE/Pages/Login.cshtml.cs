@@ -56,7 +56,7 @@ namespace DOINHE.Pages
                 var role = responseData.GetProperty("role").GetString();
                 var user = responseData.GetProperty("user");
                 var userId = responseData.GetProperty("userId");
-                var name = responseData.GetProperty("Name");
+                var name = responseData.GetProperty("name");
 
                 // Lưu thông tin người dùng vào Session
                 HttpContext.Session.SetString("Account", user.ToString());

@@ -67,7 +67,7 @@ namespace DOINHE1_API.Controllers
             var userId = user.Id;
             var name = user.Name;
             var role = user.Role == 1 ? "admin" : "user";
-            return Ok(new { message = "Login successful", role = role, user = user, userId = userId, Name = name });
+            return Ok(new { message = "Login successful", role = role, user = user, userId = userId, name = name });
         }
 
 

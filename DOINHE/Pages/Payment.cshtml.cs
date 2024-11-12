@@ -111,7 +111,7 @@ namespace DOINHE.Pages
                 await _db.SaveChangesAsync();
 
                 TempData["Message"] = "Mua hàng thành công mà không cần thanh toán thêm.";
-                return RedirectToPage("/Profile"); 
+                return RedirectToPage("/Profile");
             }
 
             int totalPayment = (int)(product.Price - availableCredit);
@@ -133,7 +133,7 @@ namespace DOINHE.Pages
 
                 PaymentData paymentData = new PaymentData(
                     orderCode: orderCode,
-                    amount: totalPayment, 
+                    amount: totalPayment,
                     description: "Thanh toán cho dịch vụ",
                     items: items,
                     cancelUrl: "http://doinhe.runasp.net/Index",
@@ -167,3 +167,69 @@ namespace DOINHE.Pages
 
     }
 }
+
+
+//using Microsoft.AspNetCore.Mvc.RazorPages;
+//using System.Net.Http;
+//using System.Net.Http.Json;
+//using System.Threading.Tasks;
+
+//namespace DOINHE.Pages
+//{
+//    public class PaymentModel : PageModel
+//    {
+//        public ProductDTO Product { get; set; }
+//        public UserDTO User { get; set; }
+//        public string PaymentUrl { get; set; }
+
+//        private static readonly HttpClient _httpClient = new HttpClient
+//        {
+//            BaseAddress = new System.Uri("http://localhost:7023")
+//        };
+
+//        // Phương thức xử lý dữ liệu truyền vào và gọi API
+//        public async Task OnGetAsync(int id, int userId)
+//        {
+//            Product = await _httpClient.GetFromJsonAsync<ProductDTO>($"api/Payment/product/{id}");
+//            User = await _httpClient.GetFromJsonAsync<UserDTO>($"api/Payment/user/{userId}");
+//        }
+
+//        public async Task OnPostCreatePaymentLinkAsync(int availableCredit, int id, int userId)
+//        {
+//            var response = await _httpClient.PostAsJsonAsync("api/Payment/createPaymentLink", new
+//            {
+//                availableCredit,
+//                productId = id,
+//                userId
+//            });
+
+//            var paymentResponse = await response.Content.ReadFromJsonAsync<PaymentResponse>();
+//            PaymentUrl = paymentResponse?.PaymentUrl;
+
+//            if (!string.IsNullOrEmpty(PaymentUrl))
+//            {
+//                Response.Redirect(PaymentUrl);
+//            }
+//            else
+//            {
+//                await _httpClient.PostAsJsonAsync("api/Payment/paymentSuccess", new { productId = id, userId });
+//            }
+//        }
+
+//        public class ProductDTO
+//        {
+//            public string ProductName { get; set; }
+//            public decimal Price { get; set; }
+//        }
+
+//        public class UserDTO
+//        {
+//            public decimal Money { get; set; }
+//        }
+
+//        public class PaymentResponse
+//        {
+//            public string PaymentUrl { get; set; }
+//        }
+//    }
+//}
