@@ -1,0 +1,80 @@
+﻿@page
+@model DOINHE.Pages.Admin.OrderAdminModel
+@{
+    Layout = "_LayoutAdmin";
+}
+<div class="container-fluid py-2">
+    <div class="row">
+        <div class="col-12">
+            <div class="card my-4">
+                <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+                    <div class="bg-gradient-dark shadow-dark border-radius-lg pt-4 pb-3">
+                        <h6 class="text-white text-capitalize ps-3">Orders table</h6>
+                    </div>
+                </div>
+
+                <div class="card-body px-0 pb-2">
+                    <div class="d-flex justify-content-center mb-3">
+                        <!-- Nút Create New căn giữa -->
+                        <a href="~/Admin/OrderCreateAdmin" class="btn btn-sm btn-primary">
+                            Create New
+                        </a>
+                    </div>
+                    <div class="table-responsive p-0">
+                        <table class="table align-items-center mb-0">
+                            <thead>
+                                <tr>
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Id</th>
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">User Id</th>
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Product Id</th>
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Order Date</th>
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Price</th>
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Status</th>
+                                    <th class="text-secondary opacity-7"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var order in Model.Orders)
+                                {
+                                    <tr>
+                                        <td>
+                                            <p class="text-xs font-weight-bold mb-0">@order.Id</p>
+                                        </td>
+                                        <td>
+                                            <p class="text-xs font-weight-bold mb-0">@order.UserId</p>
+                                        </td>
+                                        <td>
+                                            <p class="text-xs font-weight-bold mb-0">@order.ProductId</p>
+                                        </td>
+                                        <td>
+                                            <p class="text-xs text-secondary mb-0">@order.OrderDate</p>
+                                        </td>
+                                        <td>
+                                            <p class="text-xs text-secondary mb-0">@order.Price</p>
+                                        </td>
+                                        <td>
+                                            @if (@order.Status == true)
+                                            {
+                                                <span class="badge badge-sm bg-gradient-success">Yes</span>
+                                            }
+                                            else
+                                            {
+                                                <span class="badge badge-sm bg-gradient-secondary">No</span>
+                                            }
+                                        </td>
+
+                                        <td class="align-middle">
+                                            <a href="~/Admin/OrderEditAdmin?id=@order.Id" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit order">
+                                                Edit
+                                            </a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

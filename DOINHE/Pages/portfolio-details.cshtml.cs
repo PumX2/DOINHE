@@ -18,7 +18,7 @@ namespace DOINHE.Pages
             _db = db;
         }
 
-        public Product products { get; set; }
+        public Entitys.Product products { get; set; }
         public async Task<IActionResult> OnGetAsync(int id)
         {
             if (_db.Products == null)

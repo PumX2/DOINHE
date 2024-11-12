@@ -4,12 +4,23 @@
     Layout = "_Layout";
 }
 <main class="main">
-    
+    <style>
+        .scrolled .header {
+            --background-color: #ff7469;
+        }
+
+        .dark-background {
+            --background-color: #ff7469;
+            --default-color: #ffffff;
+            --heading-color: #ffffff;
+            --surface-color: #284e62;
+            --contrast-color: #ffffff;
+        }
+    </style>
     <!-- Page Title -->
     <div class="page-title dark-background">
         <div class="container position-relative">
             <h1>Portfolio Details</h1>
-            <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam molestias.</p>
             <nav class="breadcrumbs">
                 <ol>
                     <li><a href="index">Home</a></li>
@@ -45,28 +56,21 @@
                         </script>
 
                         <div class="swiper-wrapper align-items-center">
+                            @if (Model.products.ImgDescription != null)
+                            {
+                                var base64Image = Convert.ToBase64String(Model.products.ImgDescription!);
+                                var imageSrc = $"data:image/png;base64,{base64Image}";
 
-                            <div class="swiper-slide">
+                                <img src="@imageSrc" alt="Image" class="table-image" />
+                            }
+                            @* <div class="swiper-slide">
                                 <img src="~/img/portfolio/app-1.jpg" alt="">
-                            </div>
-
-                            <div class="swiper-slide">
-                                <img src="~/img/portfolio/product-1.jpg" alt="">
-                            </div>
-
-                            <div class="swiper-slide">
-                                <img src="~/img/portfolio/branding-1.jpg" alt="">
-                            </div>
-
-                            <div class="swiper-slide">
-                                <img src="~/img/portfolio/books-1.jpg" alt="">
-                            </div>
-
+                            </div> *@
                         </div>
                         <div class="swiper-pagination"></div>
                     </div>
                 </div>
-
+                    
                 <div class="col-lg-4">
                     <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
                         <h3>@Html.DisplayFor(model => model.products.ProductName)</h3>
@@ -85,15 +89,24 @@
 
                             <li><strong>Address</strong>: @Html.DisplayFor(model => model.products.Address)</li>
                             <li><strong>Description</strong>: @Html.DisplayFor(model => model.products.Description)</li>
+                            <li><strong>Quantity in stock</strong>: @Html.DisplayFor(model => model.products.quantityInStock)</li>
                         </ul>
                     </div>
                     <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
-                        
-                        <a href="/Payment/?amount=@Html.DisplayFor(model => model.products.Price)" class="btn-get-started">Buy now</a>
-                        <h2>Exercitationem repudiandae officiis neque suscipit</h2>
+                        @if (HttpContext.Session.GetString("customer") != null)
+                        {
+                            <a href="/Payment?id=@Html.DisplayFor(model => model.products.Id)&UserId=@Html.DisplayFor(model => model.products.UserId)" class="btn-get-started">Buy now</a>
+
+                        }
+                        else
+                        {
+                            <a href="Login" class="btn-get-started">Buy now</a>
+
+                        }
+                        @* <h2>Exercitationem repudiandae officiis neque suscipit</h2>
                         <p>
                             Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-                        </p>
+                        </p> *@
                     </div>
                 </div>
 

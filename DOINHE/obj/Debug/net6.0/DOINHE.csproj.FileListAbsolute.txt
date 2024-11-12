@@ -1,0 +1,944 @@
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\appsettings.Development.json
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\DOINHE.staticwebassets.runtime.json
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\DOINHE.exe
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\appsettings.json
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\DOINHE.deps.json
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\DOINHE.runtimeconfig.json
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\DOINHE.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\DOINHE.pdb
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Azure.Core.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Azure.Identity.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Humanizer.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Mono.TextTemplating.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\System.CodeDom.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\System.Memory.Data.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\System.Text.Json.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\de\Microsoft.Data.SqlClient.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\es\Microsoft.Data.SqlClient.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\fr\Microsoft.Data.SqlClient.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\it\Microsoft.Data.SqlClient.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\ja\Microsoft.Data.SqlClient.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\ko\Microsoft.Data.SqlClient.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\ru\Microsoft.Data.SqlClient.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\obj\Debug\net6.0\DOINHE.csproj.AssemblyReference.cache
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\obj\Debug\net6.0\DOINHE.GeneratedMSBuildEditorConfig.editorconfig
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\obj\Debug\net6.0\DOINHE.AssemblyInfoInputs.cache
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\obj\Debug\net6.0\DOINHE.AssemblyInfo.cs
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\obj\Debug\net6.0\DOINHE.csproj.CoreCompileInputs.cache
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\obj\Debug\net6.0\DOINHE.MvcApplicationPartsAssemblyInfo.cache
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\obj\Debug\net6.0\DOINHE.RazorAssemblyInfo.cache
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\obj\Debug\net6.0\DOINHE.RazorAssemblyInfo.cs
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\obj\Debug\net6.0\staticwebassets\msbuild.DOINHE.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\obj\Debug\net6.0\staticwebassets\msbuild.build.DOINHE.props
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.DOINHE.props
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.DOINHE.props
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\obj\Debug\net6.0\staticwebassets.pack.json
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\obj\Debug\net6.0\staticwebassets.build.json
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\obj\Debug\net6.0\staticwebassets.development.json
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\obj\Debug\net6.0\scopedcss\bundle\DOINHE.styles.css
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\obj\Debug\net6.0\scopedcss\projectbundle\DOINHE.bundle.scp.css
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\obj\Debug\net6.0\DOINHE.csproj.CopyComplete
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\obj\Debug\net6.0\DOINHE.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\obj\Debug\net6.0\refint\DOINHE.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\obj\Debug\net6.0\DOINHE.pdb
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\obj\Debug\net6.0\DOINHE.genruntimeconfig.cache
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\obj\Debug\net6.0\ref\DOINHE.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\payos-lib-backend-dotnet.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\System.Formats.Asn1.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\MailKit.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\MimeKit.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\MessagePack.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\MessagePack.Annotations.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.Data.Sqlite.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\NuGet.Common.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\NuGet.Configuration.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\NuGet.Frameworks.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\NuGet.LibraryModel.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\NuGet.Packaging.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\NuGet.ProjectModel.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\NuGet.Protocol.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\NuGet.Versioning.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\SQLitePCLRaw.batteries_v2.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\SQLitePCLRaw.core.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\SQLitePCLRaw.provider.e_sqlite3.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\System.Composition.Convention.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\System.Composition.Hosting.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\System.Composition.Runtime.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\System.Composition.TypedParts.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\af\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\ar\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\az\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\bg\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\bn-BD\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\cs\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\da\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\de\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\el\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\es\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\fa\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\fi-FI\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\fr\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\fr-BE\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\he\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\hr\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\hu\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\hy\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\id\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\is\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\it\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\ja\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\ko-KR\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\ku\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\lv\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\ms-MY\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\mt\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\nb\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\nb-NO\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\nl\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\pl\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\pt\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\ro\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\ru\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\sk\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\sl\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\sr\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\sr-Latn\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\sv\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\th-TH\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\tr\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\uk\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\uz-Cyrl-UZ\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\uz-Latn-UZ\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\vi\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\zh-CN\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\zh-Hans\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\zh-Hant\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\runtimes\alpine-arm\native\libe_sqlite3.so
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\runtimes\alpine-arm64\native\libe_sqlite3.so
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\runtimes\alpine-x64\native\libe_sqlite3.so
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\runtimes\browser-wasm\nativeassets\net6.0\e_sqlite3.a
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\runtimes\linux-arm\native\libe_sqlite3.so
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\runtimes\linux-arm64\native\libe_sqlite3.so
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\runtimes\linux-armel\native\libe_sqlite3.so
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\runtimes\linux-mips64\native\libe_sqlite3.so
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\runtimes\linux-s390x\native\libe_sqlite3.so
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\runtimes\linux-x64\native\libe_sqlite3.so
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\runtimes\linux-x86\native\libe_sqlite3.so
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\runtimes\win-arm\native\e_sqlite3.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\.NET\DOINHE - Copy\DOINHE\obj\Debug\net6.0\DOINHE.csproj.AssemblyReference.cache
+D:\.NET\DOINHE - Copy\DOINHE\obj\Debug\net6.0\DOINHE.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET\DOINHE - Copy\DOINHE\obj\Debug\net6.0\DOINHE.AssemblyInfoInputs.cache
+D:\.NET\DOINHE - Copy\DOINHE\obj\Debug\net6.0\DOINHE.AssemblyInfo.cs
+D:\.NET\DOINHE - Copy\DOINHE\obj\Debug\net6.0\DOINHE.csproj.CoreCompileInputs.cache
+D:\.NET\DOINHE - Copy\DOINHE\obj\Debug\net6.0\DOINHE.MvcApplicationPartsAssemblyInfo.cache
+D:\.NET\DOINHE - Copy\DOINHE\obj\Debug\net6.0\DOINHE.RazorAssemblyInfo.cache
+D:\.NET\DOINHE - Copy\DOINHE\obj\Debug\net6.0\DOINHE.RazorAssemblyInfo.cs
+D:\.NET\DOINHE - Copy\DOINHE\obj\Debug\net6.0\DOINHE.sourcelink.json
+D:\.NET\DOINHE - Copy\DOINHE\obj\Debug\net6.0\DOINHE.dll
+D:\.NET\DOINHE - Copy\DOINHE\obj\Debug\net6.0\refint\DOINHE.dll
+D:\.NET\DOINHE - Copy\DOINHE\obj\Debug\net6.0\DOINHE.pdb
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\appsettings.Development.json
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\DOINHE.staticwebassets.runtime.json
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\DOINHE.exe
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\appsettings.json
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\DOINHE.deps.json
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\DOINHE.runtimeconfig.json
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\DOINHE.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\DOINHE.pdb
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Azure.Core.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Azure.Identity.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Humanizer.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\MailKit.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\MessagePack.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\MessagePack.Annotations.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Data.Sqlite.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\MimeKit.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\NuGet.Common.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\NuGet.Configuration.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\NuGet.Frameworks.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\NuGet.LibraryModel.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\NuGet.Packaging.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\NuGet.ProjectModel.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\NuGet.Protocol.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\NuGet.Versioning.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\payos-lib-backend-dotnet.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\SQLitePCLRaw.batteries_v2.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\SQLitePCLRaw.core.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\System.CodeDom.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\System.Composition.Convention.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\System.Composition.Hosting.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\System.Composition.Runtime.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\System.Composition.TypedParts.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\System.Formats.Asn1.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\System.Memory.Data.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\System.Text.Json.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\af\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ar\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\az\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\bg\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\bn-BD\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\cs\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\da\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\de\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\el\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\es\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\fa\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\fi-FI\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\fr\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\fr-BE\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\he\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\hr\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\hu\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\hy\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\id\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\is\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\it\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ja\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ko-KR\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ku\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\lv\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ms-MY\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\mt\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\nb\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\nb-NO\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\nl\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\pl\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\pt\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ro\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ru\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\sk\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\sl\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\sr\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\sr-Latn\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\sv\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\th-TH\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\tr\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\uk\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\vi\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\zh-CN\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\zh-Hans\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\zh-Hant\Humanizer.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\de\Microsoft.Data.SqlClient.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\es\Microsoft.Data.SqlClient.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\fr\Microsoft.Data.SqlClient.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\it\Microsoft.Data.SqlClient.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ja\Microsoft.Data.SqlClient.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ko\Microsoft.Data.SqlClient.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ru\Microsoft.Data.SqlClient.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\alpine-arm\native\libe_sqlite3.so
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\alpine-arm64\native\libe_sqlite3.so
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\browser-wasm\nativeassets\net6.0\e_sqlite3.a
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\.NET\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\.NET\DOINHE - Copy\DOINHE\obj\Debug\net6.0\staticwebassets.build.json
+D:\.NET\DOINHE - Copy\DOINHE\obj\Debug\net6.0\staticwebassets.development.json
+D:\.NET\DOINHE - Copy\DOINHE\obj\Debug\net6.0\staticwebassets\msbuild.DOINHE.Microsoft.AspNetCore.StaticWebAssets.props
+D:\.NET\DOINHE - Copy\DOINHE\obj\Debug\net6.0\staticwebassets\msbuild.build.DOINHE.props
+D:\.NET\DOINHE - Copy\DOINHE\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.DOINHE.props
+D:\.NET\DOINHE - Copy\DOINHE\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.DOINHE.props
+D:\.NET\DOINHE - Copy\DOINHE\obj\Debug\net6.0\staticwebassets.pack.json
+D:\.NET\DOINHE - Copy\DOINHE\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\.NET\DOINHE - Copy\DOINHE\obj\Debug\net6.0\scopedcss\bundle\DOINHE.styles.css
+D:\.NET\DOINHE - Copy\DOINHE\obj\Debug\net6.0\scopedcss\projectbundle\DOINHE.bundle.scp.css
+D:\.NET\DOINHE - Copy\DOINHE\obj\Debug\net6.0\DOINHE.csproj.CopyComplete
+D:\.NET\DOINHE - Copy\DOINHE\obj\Debug\net6.0\DOINHE.genruntimeconfig.cache
+D:\.NET\DOINHE - Copy\DOINHE\obj\Debug\net6.0\ref\DOINHE.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\appsettings.Development.json
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\DOINHE.staticwebassets.runtime.json
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\DOINHE.exe
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\appsettings.json
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\DOINHE.deps.json
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\DOINHE.runtimeconfig.json
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\DOINHE.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\DOINHE.pdb
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Azure.Core.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Azure.Identity.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Humanizer.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\MailKit.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\MessagePack.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\MessagePack.Annotations.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Data.Sqlite.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\MimeKit.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Mono.TextTemplating.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\NuGet.Common.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\NuGet.Configuration.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\NuGet.Frameworks.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\NuGet.LibraryModel.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\NuGet.Packaging.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\NuGet.ProjectModel.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\NuGet.Protocol.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\NuGet.Versioning.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\payos-lib-backend-dotnet.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\SQLitePCLRaw.batteries_v2.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\SQLitePCLRaw.core.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\SQLitePCLRaw.provider.e_sqlite3.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\System.CodeDom.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\System.Composition.Convention.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\System.Composition.Hosting.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\System.Composition.Runtime.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\System.Composition.TypedParts.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\System.Formats.Asn1.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\System.Memory.Data.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\System.Text.Json.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\af\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ar\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\az\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\bg\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\bn-BD\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\cs\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\da\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\de\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\el\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\es\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\fa\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\fi-FI\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\fr\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\fr-BE\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\he\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\hr\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\hu\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\hy\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\id\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\is\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\it\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ja\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ko-KR\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ku\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\lv\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ms-MY\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\mt\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\nb\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\nb-NO\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\nl\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\pl\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\pt\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ro\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ru\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\sk\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\sl\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\sr\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\sr-Latn\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\sv\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\th-TH\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\tr\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\uk\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\uz-Cyrl-UZ\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\uz-Latn-UZ\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\vi\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\zh-CN\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\zh-Hans\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\zh-Hant\Humanizer.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\de\Microsoft.Data.SqlClient.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\es\Microsoft.Data.SqlClient.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\fr\Microsoft.Data.SqlClient.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\it\Microsoft.Data.SqlClient.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ja\Microsoft.Data.SqlClient.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ko\Microsoft.Data.SqlClient.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\ru\Microsoft.Data.SqlClient.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\alpine-arm\native\libe_sqlite3.so
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\alpine-arm64\native\libe_sqlite3.so
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\alpine-x64\native\libe_sqlite3.so
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\browser-wasm\nativeassets\net6.0\e_sqlite3.a
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\linux-arm\native\libe_sqlite3.so
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\linux-arm64\native\libe_sqlite3.so
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\linux-armel\native\libe_sqlite3.so
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\linux-mips64\native\libe_sqlite3.so
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\linux-s390x\native\libe_sqlite3.so
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\linux-x64\native\libe_sqlite3.so
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\linux-x86\native\libe_sqlite3.so
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\win-arm\native\e_sqlite3.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\obj\Debug\net6.0\DOINHE.csproj.AssemblyReference.cache
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\obj\Debug\net6.0\DOINHE.GeneratedMSBuildEditorConfig.editorconfig
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\obj\Debug\net6.0\DOINHE.AssemblyInfoInputs.cache
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\obj\Debug\net6.0\DOINHE.AssemblyInfo.cs
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\obj\Debug\net6.0\DOINHE.csproj.CoreCompileInputs.cache
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\obj\Debug\net6.0\DOINHE.MvcApplicationPartsAssemblyInfo.cache
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\obj\Debug\net6.0\DOINHE.RazorAssemblyInfo.cache
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\obj\Debug\net6.0\DOINHE.RazorAssemblyInfo.cs
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\obj\Debug\net6.0\staticwebassets\msbuild.DOINHE.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\obj\Debug\net6.0\staticwebassets\msbuild.build.DOINHE.props
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.DOINHE.props
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.DOINHE.props
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\obj\Debug\net6.0\staticwebassets.pack.json
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\obj\Debug\net6.0\staticwebassets.build.json
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\obj\Debug\net6.0\staticwebassets.development.json
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\obj\Debug\net6.0\scopedcss\bundle\DOINHE.styles.css
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\obj\Debug\net6.0\scopedcss\projectbundle\DOINHE.bundle.scp.css
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\obj\Debug\net6.0\DOINHE.csproj.CopyComplete
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\obj\Debug\net6.0\DOINHE.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\obj\Debug\net6.0\refint\DOINHE.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\obj\Debug\net6.0\DOINHE.pdb
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\obj\Debug\net6.0\DOINHE.genruntimeconfig.cache
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\obj\Debug\net6.0\ref\DOINHE.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\obj\Debug\net6.0\scopedcss\Pages\Shared\_LayoutAdmin.cshtml.rz.scp.css

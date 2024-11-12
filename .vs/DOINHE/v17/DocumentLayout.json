@@ -1,0 +1,883 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9AC9339A-EB41-4E38-8911-A3691A2A4560}|DOINHE_Repository\\DOINHE_Repository.csproj|c:\\users\\nguye\\onedrive\\desktop\\doinhe - copy\\doinhe - copy\\doinhe_repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AC9339A-EB41-4E38-8911-A3691A2A4560}|DOINHE_Repository\\DOINHE_Repository.csproj|solutionrelative:doinhe_repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C87DB1AD-B2CD-482D-BF99-8DCC1FD94342}|DOINHE\\DOINHE.csproj|c:\\users\\nguye\\onedrive\\desktop\\doinhe - copy\\doinhe - copy\\doinhe\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C87DB1AD-B2CD-482D-BF99-8DCC1FD94342}|DOINHE\\DOINHE.csproj|solutionrelative:doinhe\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AC9339A-EB41-4E38-8911-A3691A2A4560}|DOINHE_Repository\\DOINHE_Repository.csproj|c:\\users\\nguye\\onedrive\\desktop\\doinhe - copy\\doinhe - copy\\doinhe_repository\\walletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AC9339A-EB41-4E38-8911-A3691A2A4560}|DOINHE_Repository\\DOINHE_Repository.csproj|solutionrelative:doinhe_repository\\walletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C87DB1AD-B2CD-482D-BF99-8DCC1FD94342}|DOINHE\\DOINHE.csproj|c:\\users\\nguye\\onedrive\\desktop\\doinhe - copy\\doinhe - copy\\doinhe\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C87DB1AD-B2CD-482D-BF99-8DCC1FD94342}|DOINHE\\DOINHE.csproj|solutionrelative:doinhe\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{640BB73C-FEDA-495D-86CD-E947553E60C3}|DOINHE1_API\\DOINHE1_API.csproj|c:\\users\\nguye\\onedrive\\desktop\\doinhe - copy\\doinhe - copy\\doinhe1_api\\controllers\\walletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{640BB73C-FEDA-495D-86CD-E947553E60C3}|DOINHE1_API\\DOINHE1_API.csproj|solutionrelative:doinhe1_api\\controllers\\walletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{640BB73C-FEDA-495D-86CD-E947553E60C3}|DOINHE1_API\\DOINHE1_API.csproj|c:\\users\\nguye\\onedrive\\desktop\\doinhe - copy\\doinhe - copy\\doinhe1_api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{640BB73C-FEDA-495D-86CD-E947553E60C3}|DOINHE1_API\\DOINHE1_API.csproj|solutionrelative:doinhe1_api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{640BB73C-FEDA-495D-86CD-E947553E60C3}|DOINHE1_API\\DOINHE1_API.csproj|c:\\users\\nguye\\onedrive\\desktop\\doinhe - copy\\doinhe - copy\\doinhe1_api\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{640BB73C-FEDA-495D-86CD-E947553E60C3}|DOINHE1_API\\DOINHE1_API.csproj|solutionrelative:doinhe1_api\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{640BB73C-FEDA-495D-86CD-E947553E60C3}|DOINHE1_API\\DOINHE1_API.csproj|c:\\users\\nguye\\onedrive\\desktop\\doinhe - copy\\doinhe - copy\\doinhe1_api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{640BB73C-FEDA-495D-86CD-E947553E60C3}|DOINHE1_API\\DOINHE1_API.csproj|solutionrelative:doinhe1_api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{640BB73C-FEDA-495D-86CD-E947553E60C3}|DOINHE1_API\\DOINHE1_API.csproj|c:\\users\\nguye\\onedrive\\desktop\\doinhe - copy\\doinhe - copy\\doinhe1_api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{640BB73C-FEDA-495D-86CD-E947553E60C3}|DOINHE1_API\\DOINHE1_API.csproj|solutionrelative:doinhe1_api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{640BB73C-FEDA-495D-86CD-E947553E60C3}|DOINHE1_API\\DOINHE1_API.csproj|c:\\users\\nguye\\onedrive\\desktop\\doinhe - copy\\doinhe - copy\\doinhe1_api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{640BB73C-FEDA-495D-86CD-E947553E60C3}|DOINHE1_API\\DOINHE1_API.csproj|solutionrelative:doinhe1_api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{640BB73C-FEDA-495D-86CD-E947553E60C3}|DOINHE1_API\\DOINHE1_API.csproj|c:\\users\\nguye\\onedrive\\desktop\\doinhe - copy\\doinhe - copy\\doinhe1_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{640BB73C-FEDA-495D-86CD-E947553E60C3}|DOINHE1_API\\DOINHE1_API.csproj|solutionrelative:doinhe1_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{640BB73C-FEDA-495D-86CD-E947553E60C3}|DOINHE1_API\\DOINHE1_API.csproj|c:\\users\\nguye\\onedrive\\desktop\\doinhe - copy\\doinhe - copy\\doinhe1_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{640BB73C-FEDA-495D-86CD-E947553E60C3}|DOINHE1_API\\DOINHE1_API.csproj|solutionrelative:doinhe1_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C87DB1AD-B2CD-482D-BF99-8DCC1FD94342}|DOINHE\\DOINHE.csproj|c:\\users\\nguye\\onedrive\\desktop\\doinhe - copy\\doinhe - copy\\doinhe\\doinhe.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C87DB1AD-B2CD-482D-BF99-8DCC1FD94342}|DOINHE\\DOINHE.csproj|solutionrelative:doinhe\\doinhe.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AC9339A-EB41-4E38-8911-A3691A2A4560}|DOINHE_Repository\\DOINHE_Repository.csproj|c:\\users\\nguye\\onedrive\\desktop\\doinhe - copy\\doinhe - copy\\doinhe_repository\\interface\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AC9339A-EB41-4E38-8911-A3691A2A4560}|DOINHE_Repository\\DOINHE_Repository.csproj|solutionrelative:doinhe_repository\\interface\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AC9339A-EB41-4E38-8911-A3691A2A4560}|DOINHE_Repository\\DOINHE_Repository.csproj|c:\\users\\nguye\\onedrive\\desktop\\doinhe - copy\\doinhe - copy\\doinhe_repository\\interface\\iwalletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AC9339A-EB41-4E38-8911-A3691A2A4560}|DOINHE_Repository\\DOINHE_Repository.csproj|solutionrelative:doinhe_repository\\interface\\iwalletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AC9339A-EB41-4E38-8911-A3691A2A4560}|DOINHE_Repository\\DOINHE_Repository.csproj|c:\\users\\nguye\\onedrive\\desktop\\doinhe - copy\\doinhe - copy\\doinhe_repository\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AC9339A-EB41-4E38-8911-A3691A2A4560}|DOINHE_Repository\\DOINHE_Repository.csproj|solutionrelative:doinhe_repository\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AC9339A-EB41-4E38-8911-A3691A2A4560}|DOINHE_Repository\\DOINHE_Repository.csproj|c:\\users\\nguye\\onedrive\\desktop\\doinhe - copy\\doinhe - copy\\doinhe_repository\\interface\\ireportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AC9339A-EB41-4E38-8911-A3691A2A4560}|DOINHE_Repository\\DOINHE_Repository.csproj|solutionrelative:doinhe_repository\\interface\\ireportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AC9339A-EB41-4E38-8911-A3691A2A4560}|DOINHE_Repository\\DOINHE_Repository.csproj|c:\\users\\nguye\\onedrive\\desktop\\doinhe - copy\\doinhe - copy\\doinhe_repository\\interface\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AC9339A-EB41-4E38-8911-A3691A2A4560}|DOINHE_Repository\\DOINHE_Repository.csproj|solutionrelative:doinhe_repository\\interface\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AC9339A-EB41-4E38-8911-A3691A2A4560}|DOINHE_Repository\\DOINHE_Repository.csproj|c:\\users\\nguye\\onedrive\\desktop\\doinhe - copy\\doinhe - copy\\doinhe_repository\\interface\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AC9339A-EB41-4E38-8911-A3691A2A4560}|DOINHE_Repository\\DOINHE_Repository.csproj|solutionrelative:doinhe_repository\\interface\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AC9339A-EB41-4E38-8911-A3691A2A4560}|DOINHE_Repository\\DOINHE_Repository.csproj|c:\\users\\nguye\\onedrive\\desktop\\doinhe - copy\\doinhe - copy\\doinhe_repository\\reportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AC9339A-EB41-4E38-8911-A3691A2A4560}|DOINHE_Repository\\DOINHE_Repository.csproj|solutionrelative:doinhe_repository\\reportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AC9339A-EB41-4E38-8911-A3691A2A4560}|DOINHE_Repository\\DOINHE_Repository.csproj|c:\\users\\nguye\\onedrive\\desktop\\doinhe - copy\\doinhe - copy\\doinhe_repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AC9339A-EB41-4E38-8911-A3691A2A4560}|DOINHE_Repository\\DOINHE_Repository.csproj|solutionrelative:doinhe_repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AC9339A-EB41-4E38-8911-A3691A2A4560}|DOINHE_Repository\\DOINHE_Repository.csproj|c:\\users\\nguye\\onedrive\\desktop\\doinhe - copy\\doinhe - copy\\doinhe_repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AC9339A-EB41-4E38-8911-A3691A2A4560}|DOINHE_Repository\\DOINHE_Repository.csproj|solutionrelative:doinhe_repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AC9339A-EB41-4E38-8911-A3691A2A4560}|DOINHE_Repository\\DOINHE_Repository.csproj|c:\\users\\nguye\\onedrive\\desktop\\doinhe - copy\\doinhe - copy\\doinhe_repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AC9339A-EB41-4E38-8911-A3691A2A4560}|DOINHE_Repository\\DOINHE_Repository.csproj|solutionrelative:doinhe_repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BE6B9FC-D47F-4EF7-89B7-34380215C3ED}|DOINHE_DataAccess\\DOINHE_DataAccess.csproj|c:\\users\\nguye\\onedrive\\desktop\\doinhe - copy\\doinhe - copy\\doinhe_dataaccess\\walletdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BE6B9FC-D47F-4EF7-89B7-34380215C3ED}|DOINHE_DataAccess\\DOINHE_DataAccess.csproj|solutionrelative:doinhe_dataaccess\\walletdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BE6B9FC-D47F-4EF7-89B7-34380215C3ED}|DOINHE_DataAccess\\DOINHE_DataAccess.csproj|c:\\users\\nguye\\onedrive\\desktop\\doinhe - copy\\doinhe - copy\\doinhe_dataaccess\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BE6B9FC-D47F-4EF7-89B7-34380215C3ED}|DOINHE_DataAccess\\DOINHE_DataAccess.csproj|solutionrelative:doinhe_dataaccess\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BE6B9FC-D47F-4EF7-89B7-34380215C3ED}|DOINHE_DataAccess\\DOINHE_DataAccess.csproj|c:\\users\\nguye\\onedrive\\desktop\\doinhe - copy\\doinhe - copy\\doinhe_dataaccess\\reportdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BE6B9FC-D47F-4EF7-89B7-34380215C3ED}|DOINHE_DataAccess\\DOINHE_DataAccess.csproj|solutionrelative:doinhe_dataaccess\\reportdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BE6B9FC-D47F-4EF7-89B7-34380215C3ED}|DOINHE_DataAccess\\DOINHE_DataAccess.csproj|c:\\users\\nguye\\onedrive\\desktop\\doinhe - copy\\doinhe - copy\\doinhe_dataaccess\\orderdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BE6B9FC-D47F-4EF7-89B7-34380215C3ED}|DOINHE_DataAccess\\DOINHE_DataAccess.csproj|solutionrelative:doinhe_dataaccess\\orderdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BE6B9FC-D47F-4EF7-89B7-34380215C3ED}|DOINHE_DataAccess\\DOINHE_DataAccess.csproj|c:\\users\\nguye\\onedrive\\desktop\\doinhe - copy\\doinhe - copy\\doinhe_dataaccess\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BE6B9FC-D47F-4EF7-89B7-34380215C3ED}|DOINHE_DataAccess\\DOINHE_DataAccess.csproj|solutionrelative:doinhe_dataaccess\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BE6B9FC-D47F-4EF7-89B7-34380215C3ED}|DOINHE_DataAccess\\DOINHE_DataAccess.csproj|c:\\users\\nguye\\onedrive\\desktop\\doinhe - copy\\doinhe - copy\\doinhe_dataaccess\\categorydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BE6B9FC-D47F-4EF7-89B7-34380215C3ED}|DOINHE_DataAccess\\DOINHE_DataAccess.csproj|solutionrelative:doinhe_dataaccess\\categorydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A63653C2-9587-4B0F-A9F4-CDAA0813DD47}|DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj|c:\\users\\nguye\\onedrive\\desktop\\doinhe - copy\\doinhe - copy\\doinhe_businessobject\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A63653C2-9587-4B0F-A9F4-CDAA0813DD47}|DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj|solutionrelative:doinhe_businessobject\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A63653C2-9587-4B0F-A9F4-CDAA0813DD47}|DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj|c:\\users\\nguye\\onedrive\\desktop\\doinhe - copy\\doinhe - copy\\doinhe_businessobject\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A63653C2-9587-4B0F-A9F4-CDAA0813DD47}|DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj|solutionrelative:doinhe_businessobject\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A63653C2-9587-4B0F-A9F4-CDAA0813DD47}|DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj|c:\\users\\nguye\\onedrive\\desktop\\doinhe - copy\\doinhe - copy\\doinhe_businessobject\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A63653C2-9587-4B0F-A9F4-CDAA0813DD47}|DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj|solutionrelative:doinhe_businessobject\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A63653C2-9587-4B0F-A9F4-CDAA0813DD47}|DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj|c:\\users\\nguye\\onedrive\\desktop\\doinhe - copy\\doinhe - copy\\doinhe_businessobject\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A63653C2-9587-4B0F-A9F4-CDAA0813DD47}|DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj|solutionrelative:doinhe_businessobject\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A63653C2-9587-4B0F-A9F4-CDAA0813DD47}|DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj|c:\\users\\nguye\\onedrive\\desktop\\doinhe - copy\\doinhe - copy\\doinhe_businessobject\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A63653C2-9587-4B0F-A9F4-CDAA0813DD47}|DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj|solutionrelative:doinhe_businessobject\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A63653C2-9587-4B0F-A9F4-CDAA0813DD47}|DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj|c:\\users\\nguye\\onedrive\\desktop\\doinhe - copy\\doinhe - copy\\doinhe_businessobject\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A63653C2-9587-4B0F-A9F4-CDAA0813DD47}|DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj|solutionrelative:doinhe_businessobject\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A63653C2-9587-4B0F-A9F4-CDAA0813DD47}|DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj|c:\\users\\nguye\\onedrive\\desktop\\doinhe - copy\\doinhe - copy\\doinhe_businessobject\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A63653C2-9587-4B0F-A9F4-CDAA0813DD47}|DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj|solutionrelative:doinhe_businessobject\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A63653C2-9587-4B0F-A9F4-CDAA0813DD47}|DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj|c:\\users\\nguye\\onedrive\\desktop\\doinhe - copy\\doinhe - copy\\doinhe_businessobject\\doinhe_businessobject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A63653C2-9587-4B0F-A9F4-CDAA0813DD47}|DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj|solutionrelative:doinhe_businessobject\\doinhe_businessobject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C87DB1AD-B2CD-482D-BF99-8DCC1FD94342}|DOINHE\\DOINHE.csproj|c:\\users\\nguye\\onedrive\\desktop\\doinhe - copy\\doinhe - copy\\doinhe\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C87DB1AD-B2CD-482D-BF99-8DCC1FD94342}|DOINHE\\DOINHE.csproj|solutionrelative:doinhe\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A63653C2-9587-4B0F-A9F4-CDAA0813DD47}|DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj|c:\\users\\nguye\\onedrive\\desktop\\doinhe - copy\\doinhe - copy\\doinhe_businessobject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A63653C2-9587-4B0F-A9F4-CDAA0813DD47}|DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj|solutionrelative:doinhe_businessobject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET\\BEBase\\ClassLibrary1\\ApplicationDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET\\FAProject - t\u1ED1i 14 tr\u01B0\u1EDBc H\u00F9ng\\ChillToeic\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Visual Studio\\DOINHE - Copy\\DOINHE_DataAccess\\CategoryDAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Visual Studio\\DOINHE - Copy\\DOINHE_DataAccess\\OrderDAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Visual Studio\\DOINHE - Copy\\DOINHE_DataAccess\\ProductDAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Visual Studio\\DOINHE - Copy\\DOINHE_DataAccess\\ReportDAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Visual Studio\\DOINHE - Copy\\DOINHE_Repository\\ICategoryRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Visual Studio\\DOINHE - Copy\\DOINHE_Repository\\IOrderRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Visual Studio\\DOINHE - Copy\\DOINHE_Repository\\IWalletRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Visual Studio\\DOINHE - Copy\\DOINHE_Repository\\IUserRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Visual Studio\\DOINHE - Copy\\DOINHE_Repository\\IReportRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Visual Studio\\DOINHE - Copy\\DOINHE_Repository\\IProductRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Visual Studio\\DOINHE - Copy\\DOINHE_DataAccess\\UserDAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Visual Studio\\DOINHE - Copy\\DOINHE_DataAccess\\WalletDAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WalletController.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE1_API\\Controllers\\WalletController.cs",
+              "RelativeDocumentMoniker": "DOINHE1_API\\Controllers\\WalletController.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE1_API\\Controllers\\WalletController.cs",
+              "RelativeToolTip": "DOINHE1_API\\Controllers\\WalletController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T15:36:38.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE1_API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "DOINHE1_API\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE1_API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "DOINHE1_API\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T15:36:35.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReportController.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE1_API\\Controllers\\ReportController.cs",
+              "RelativeDocumentMoniker": "DOINHE1_API\\Controllers\\ReportController.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE1_API\\Controllers\\ReportController.cs",
+              "RelativeToolTip": "DOINHE1_API\\Controllers\\ReportController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T15:36:32.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\Pages\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "DOINHE\\Pages\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\Pages\\Login.cshtml.cs",
+              "RelativeToolTip": "DOINHE\\Pages\\Login.cshtml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAUwBcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T01:31:50.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WalletRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_Repository\\WalletRepository.cs",
+              "RelativeDocumentMoniker": "DOINHE_Repository\\WalletRepository.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_Repository\\WalletRepository.cs",
+              "RelativeToolTip": "DOINHE_Repository\\WalletRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T07:40:44.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\appsettings.json",
+              "RelativeDocumentMoniker": "DOINHE\\appsettings.json",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\appsettings.json",
+              "RelativeToolTip": "DOINHE\\appsettings.json",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAlwBYAAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-11T01:10:29.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "DOINHE_Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_Repository\\UserRepository.cs",
+              "RelativeToolTip": "DOINHE_Repository\\UserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T07:40:03.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE1_API\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "DOINHE1_API\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE1_API\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "DOINHE1_API\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T15:36:27.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE1_API\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "DOINHE1_API\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE1_API\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "DOINHE1_API\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T15:36:24.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE1_API\\appsettings.json",
+              "RelativeDocumentMoniker": "DOINHE1_API\\appsettings.json",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE1_API\\appsettings.json",
+              "RelativeToolTip": "DOINHE1_API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-11T15:35:47.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE1_API\\Program.cs",
+              "RelativeDocumentMoniker": "DOINHE1_API\\Program.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE1_API\\Program.cs",
+              "RelativeToolTip": "DOINHE1_API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T15:35:24.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE1_API\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "DOINHE1_API\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE1_API\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "DOINHE1_API\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAA5wAYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T15:35:14.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DOINHE.csproj",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\DOINHE.csproj",
+              "RelativeDocumentMoniker": "DOINHE\\DOINHE.csproj",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\DOINHE.csproj",
+              "RelativeToolTip": "DOINHE\\DOINHE.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-11T15:32:04.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_Repository\\Interface\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "DOINHE_Repository\\Interface\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_Repository\\Interface\\ICategoryRepository.cs",
+              "RelativeToolTip": "DOINHE_Repository\\Interface\\ICategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T15:17:39.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IWalletRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_Repository\\Interface\\IWalletRepository.cs",
+              "RelativeDocumentMoniker": "DOINHE_Repository\\Interface\\IWalletRepository.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_Repository\\Interface\\IWalletRepository.cs",
+              "RelativeToolTip": "DOINHE_Repository\\Interface\\IWalletRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T15:27:07.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IReportRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_Repository\\Interface\\IReportRepository.cs",
+              "RelativeDocumentMoniker": "DOINHE_Repository\\Interface\\IReportRepository.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_Repository\\Interface\\IReportRepository.cs",
+              "RelativeToolTip": "DOINHE_Repository\\Interface\\IReportRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T15:21:10.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_Repository\\Interface\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "DOINHE_Repository\\Interface\\IOrderRepository.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_Repository\\Interface\\IOrderRepository.cs",
+              "RelativeToolTip": "DOINHE_Repository\\Interface\\IOrderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T15:19:31.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_Repository\\Interface\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "DOINHE_Repository\\Interface\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_Repository\\Interface\\IProductRepository.cs",
+              "RelativeToolTip": "DOINHE_Repository\\Interface\\IProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T15:18:28.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_Repository\\Interface\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "DOINHE_Repository\\Interface\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_Repository\\Interface\\IUserRepository.cs",
+              "RelativeToolTip": "DOINHE_Repository\\Interface\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T01:23:20.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ReportRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_Repository\\ReportRepository.cs",
+              "RelativeDocumentMoniker": "DOINHE_Repository\\ReportRepository.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_Repository\\ReportRepository.cs",
+              "RelativeToolTip": "DOINHE_Repository\\ReportRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T07:36:01.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_Repository\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "DOINHE_Repository\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_Repository\\OrderRepository.cs",
+              "RelativeToolTip": "DOINHE_Repository\\OrderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T07:37:03.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_Repository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "DOINHE_Repository\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_Repository\\ProductRepository.cs",
+              "RelativeToolTip": "DOINHE_Repository\\ProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T07:35:34.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_Repository\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "DOINHE_Repository\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_Repository\\CategoryRepository.cs",
+              "RelativeToolTip": "DOINHE_Repository\\CategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T07:15:44.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "WalletDAO.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_DataAccess\\WalletDAO.cs",
+              "RelativeDocumentMoniker": "DOINHE_DataAccess\\WalletDAO.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_DataAccess\\WalletDAO.cs",
+              "RelativeToolTip": "DOINHE_DataAccess\\WalletDAO.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAUwDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T15:24:36.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserDAO.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_DataAccess\\UserDAO.cs",
+              "RelativeDocumentMoniker": "DOINHE_DataAccess\\UserDAO.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_DataAccess\\UserDAO.cs",
+              "RelativeToolTip": "DOINHE_DataAccess\\UserDAO.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAUwDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T01:23:30.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ReportDAO.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_DataAccess\\ReportDAO.cs",
+              "RelativeDocumentMoniker": "DOINHE_DataAccess\\ReportDAO.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_DataAccess\\ReportDAO.cs",
+              "RelativeToolTip": "DOINHE_DataAccess\\ReportDAO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T15:21:02.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "OrderDAO.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_DataAccess\\OrderDAO.cs",
+              "RelativeDocumentMoniker": "DOINHE_DataAccess\\OrderDAO.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_DataAccess\\OrderDAO.cs",
+              "RelativeToolTip": "DOINHE_DataAccess\\OrderDAO.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAADwvzUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T15:19:22.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ProductDAO.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_DataAccess\\ProductDAO.cs",
+              "RelativeDocumentMoniker": "DOINHE_DataAccess\\ProductDAO.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_DataAccess\\ProductDAO.cs",
+              "RelativeToolTip": "DOINHE_DataAccess\\ProductDAO.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwBUAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T15:18:19.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CategoryDAO.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_DataAccess\\CategoryDAO.cs",
+              "RelativeDocumentMoniker": "DOINHE_DataAccess\\CategoryDAO.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_DataAccess\\CategoryDAO.cs",
+              "RelativeToolTip": "DOINHE_DataAccess\\CategoryDAO.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAUwDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T14:53:40.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_BusinessObject\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "DOINHE_BusinessObject\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_BusinessObject\\ApplicationDbContext.cs",
+              "RelativeToolTip": "DOINHE_BusinessObject\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T03:41:39.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Wallet.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_BusinessObject\\Wallet.cs",
+              "RelativeDocumentMoniker": "DOINHE_BusinessObject\\Wallet.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_BusinessObject\\Wallet.cs",
+              "RelativeToolTip": "DOINHE_BusinessObject\\Wallet.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T03:41:39.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_BusinessObject\\User.cs",
+              "RelativeDocumentMoniker": "DOINHE_BusinessObject\\User.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_BusinessObject\\User.cs",
+              "RelativeToolTip": "DOINHE_BusinessObject\\User.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T03:41:39.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Report.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_BusinessObject\\Report.cs",
+              "RelativeDocumentMoniker": "DOINHE_BusinessObject\\Report.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_BusinessObject\\Report.cs",
+              "RelativeToolTip": "DOINHE_BusinessObject\\Report.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T03:41:39.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_BusinessObject\\Product.cs",
+              "RelativeDocumentMoniker": "DOINHE_BusinessObject\\Product.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_BusinessObject\\Product.cs",
+              "RelativeToolTip": "DOINHE_BusinessObject\\Product.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAqwDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T03:41:39.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_BusinessObject\\Order.cs",
+              "RelativeDocumentMoniker": "DOINHE_BusinessObject\\Order.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_BusinessObject\\Order.cs",
+              "RelativeToolTip": "DOINHE_BusinessObject\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T03:41:39.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_BusinessObject\\Category.cs",
+              "RelativeDocumentMoniker": "DOINHE_BusinessObject\\Category.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_BusinessObject\\Category.cs",
+              "RelativeToolTip": "DOINHE_BusinessObject\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T03:41:39.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "DOINHE_BusinessObject.csproj",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj",
+              "RelativeDocumentMoniker": "DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj",
+              "RelativeToolTip": "DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-07T03:41:39.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\Pages\\Login.cshtml",
+              "RelativeDocumentMoniker": "DOINHE\\Pages\\Login.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\Pages\\Login.cshtml",
+              "RelativeToolTip": "DOINHE\\Pages\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T01:31:40.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_BusinessObject\\appsettings.json",
+              "RelativeDocumentMoniker": "DOINHE_BusinessObject\\appsettings.json",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Desktop\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_BusinessObject\\appsettings.json",
+              "RelativeToolTip": "DOINHE_BusinessObject\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-07T03:41:39.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ReportDAO.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\DOINHE - Copy\\DOINHE_DataAccess\\ReportDAO.cs",
+              "ToolTip": "D:\\Visual Studio\\DOINHE - Copy\\DOINHE_DataAccess\\ReportDAO.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T05:08:03.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ProductDAO.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\DOINHE - Copy\\DOINHE_DataAccess\\ProductDAO.cs",
+              "ToolTip": "D:\\Visual Studio\\DOINHE - Copy\\DOINHE_DataAccess\\ProductDAO.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T05:12:55.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "OrderDAO.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\DOINHE - Copy\\DOINHE_DataAccess\\OrderDAO.cs",
+              "ToolTip": "D:\\Visual Studio\\DOINHE - Copy\\DOINHE_DataAccess\\OrderDAO.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T05:14:32.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CategoryDAO.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\DOINHE - Copy\\DOINHE_DataAccess\\CategoryDAO.cs",
+              "ToolTip": "D:\\Visual Studio\\DOINHE - Copy\\DOINHE_DataAccess\\CategoryDAO.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T04:00:24.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\DOINHE - Copy\\DOINHE_Repository\\ICategoryRepository.cs",
+              "ToolTip": "D:\\Visual Studio\\DOINHE - Copy\\DOINHE_Repository\\ICategoryRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T07:13:19.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\DOINHE - Copy\\DOINHE_Repository\\IOrderRepository.cs",
+              "ToolTip": "D:\\Visual Studio\\DOINHE - Copy\\DOINHE_Repository\\IOrderRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T07:33:17.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "IWalletRepository.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\DOINHE - Copy\\DOINHE_Repository\\IWalletRepository.cs",
+              "ToolTip": "D:\\Visual Studio\\DOINHE - Copy\\DOINHE_Repository\\IWalletRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T07:32:11.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\DOINHE - Copy\\DOINHE_Repository\\IUserRepository.cs",
+              "ToolTip": "D:\\Visual Studio\\DOINHE - Copy\\DOINHE_Repository\\IUserRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T07:34:43.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "IReportRepository.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\DOINHE - Copy\\DOINHE_Repository\\IReportRepository.cs",
+              "ToolTip": "D:\\Visual Studio\\DOINHE - Copy\\DOINHE_Repository\\IReportRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T07:32:11.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\DOINHE - Copy\\DOINHE_Repository\\IProductRepository.cs",
+              "ToolTip": "D:\\Visual Studio\\DOINHE - Copy\\DOINHE_Repository\\IProductRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T07:33:52.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "UserDAO.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\DOINHE - Copy\\DOINHE_DataAccess\\UserDAO.cs",
+              "ToolTip": "D:\\Visual Studio\\DOINHE - Copy\\DOINHE_DataAccess\\UserDAO.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T05:04:58.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "WalletDAO.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\DOINHE - Copy\\DOINHE_DataAccess\\WalletDAO.cs",
+              "ToolTip": "D:\\Visual Studio\\DOINHE - Copy\\DOINHE_DataAccess\\WalletDAO.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T04:40:10.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\.NET\\BEBase\\ClassLibrary1\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\.NET\\BEBase\\ClassLibrary1\\ApplicationDbContext.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T22:39:01.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\.NET\\FAProject - t\u1ED1i 14 tr\u01B0\u1EDBc H\u00F9ng\\ChillToeic\\appsettings.json",
+              "ToolTip": "D:\\.NET\\FAProject - t\u1ED1i 14 tr\u01B0\u1EDBc H\u00F9ng\\ChillToeic\\appsettings.json",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-06T22:32:31.885Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1205,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:22:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:24:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:25:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:27:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

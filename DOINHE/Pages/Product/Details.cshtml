@@ -1,0 +1,104 @@
+﻿@page
+@model DOINHE.Pages.Product.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Product</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Product.ProductName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Product.ProductName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Product.DateTimeStart)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Product.DateTimeStart)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Product.DateTimeEnd)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Product.DateTimeEnd)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Product.CreateDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Product.CreateDate)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Product.Price)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Product.Price)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Product.Address)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Product.Address)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Product.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Product.Description)
+        </dd>
+        
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Product.ImgDescription)
+        </dt>
+        <td>
+            @if (Model.Product.ImgDescription != null)
+            {
+                var base64Image = Convert.ToBase64String(Model.Product.ImgDescription!);
+                var imageSrc = $"data:image/png;base64,{base64Image}"; // Thay đổi `image/png` nếu định dạng khác
+
+                <img src="@imageSrc" alt="Image" style="max-width: 100px; max-height: 100px;" />
+            }
+        </td>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Product.Key)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Product.Key)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Product.ImgKey)
+        </dt>
+        <td>
+            @if (Model.Product.ImgKey != null)
+            {
+               @*  var base64Image2 = Convert.ToBase64String(Model.Product.ImgKey);
+                var imageSrc2 = $"data:image/png;base64,{base64Image2}"; // Thay đổi `image/png` nếu định dạng khác
+
+                <img src="@imageSrc2" alt="Image" style="max-width: 100px; max-height: 100px;" /> *@
+            }
+        </td>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Product.Users)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Product!.Users!.Email)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Product.Categories)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Product!.Categories!.CategoryName)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Product?.Id">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

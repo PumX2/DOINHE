@@ -1,0 +1,43 @@
+﻿@page
+@model DOINHE.Pages.Admin.CategoryEditAdminModel
+@{
+    Layout = "_LayoutAdmin";
+}
+<div class="container-fluid py-4">
+    <div class="row">
+        <div class="col-12">
+            <div class="card border border-secondary shadow-sm">
+                <div class="card-header bg-gradient-dark text-white">
+                    <h6 class="text-white text-capitalize">Edit Category</h6>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <div class="table-responsive">
+                            <table class="table table-bordered">
+                                <tbody>
+                                    <!-- ID -->
+                                    <tr>
+                                        <td class="fw-bold">ID</td>
+                                        <td>@Model.Category.Id</td>
+                                        <td><input type="text" class="form-control" value="@Model.Category.Id" readonly /></td>
+                                    </tr>
+                                    <!-- Category Name -->
+                                    <tr>
+                                        <td class="fw-bold">Category Name</td>
+                                        <td>@Model.Category.CategoryName</td>
+                                        <td><input type="text" class="form-control" name="CategoryName" value="@Model.Category.CategoryName" /></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="d-flex justify-content-end">
+                            <button type="submit" class="btn btn-primary mt-3">Save Changes</button>
+                            <button type="submit" class="btn btn-danger mt-3 ms-2" name="action" value="delete">Delete</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

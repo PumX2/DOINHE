@@ -1,0 +1,144 @@
+﻿@page
+@model DOINHE.Pages.Product.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "_Layout";
+}
+
+<h1>Edit</h1>
+
+<h4>Product</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Product.Id" />
+            <div class="form-group">
+                <label asp-for="Product.ProductName" class="control-label"></label>
+                <input asp-for="Product.ProductName" class="form-control" />
+                <span asp-validation-for="Product.ProductName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+               @*  <input type="hidden" asp-for="Product.UserId" /> *@
+                <label asp-for="Product.CategoryId" class="control-label"></label>
+                <select asp-for="Product.CategoryId" class="form-control" asp-items="ViewBag.CategoryId"></select>
+                <span asp-validation-for="Product.CategoryId" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <label asp-for="Product.DateTimeStart" class="control-label"></label>
+                <input asp-for="Product.DateTimeStart" class="form-control" />
+                <span asp-validation-for="Product.DateTimeStart" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Product.DateTimeEnd" class="control-label"></label>
+                <input asp-for="Product.DateTimeEnd" class="form-control" />
+                <span asp-validation-for="Product.DateTimeEnd" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <label asp-for="Product.Price" class="control-label"></label>
+                <input asp-for="Product.Price" class="form-control" />
+                <span asp-validation-for="Product.Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Product.Address" class="control-label"></label>
+                <input asp-for="Product.Address" class="form-control" />
+                <span asp-validation-for="Product.Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Product.Description" class="control-label"></label>
+                <input asp-for="Product.Description" class="form-control" />
+                <span asp-validation-for="Product.Description" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <label asp-for="Product.ImgDescription" class="control-label"></label>
+                <input asp-for="Product.ImgDescription" class="form-control" onchange="previewImage(event)"  />
+                <span asp-validation-for="Product.ImgDescription" class="text-danger"></span>
+            </div>
+
+            @if (Model.ImgDescriptionPages!=null)
+            {
+                var base64Image = Convert.ToBase64String(Model.ImgDescriptionPages);
+                var imageSrc = $"data:image/png;base64,{base64Image}"; // Thay đổi `image/png` nếu định dạng khác
+
+                <div class="form-group">
+                    <img id="imagePreview" src="@imageSrc" alt="Image Preview" style=" width: 100px; height: auto;" />
+                </div>
+            }
+            
+            <div class="form-group">
+                <label asp-for="Product.Key" class="control-label"></label>
+                <input asp-for="Product.Key" class="form-control" />
+                <span asp-validation-for="Product.Key" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Product.ImgKey" class="control-label"></label>
+                <input asp-for="Product.ImgKey" class="form-control" onchange="previewImage2(event)" />
+                <span asp-validation-for="Product.ImgKey" class="text-danger"></span>
+            </div>
+            @if (Model.ImgKeyPages != null)
+            {
+                var base64Image2 = Convert.ToBase64String(Model.ImgKeyPages);
+                var imageSrc2 = $"data:image/png;base64,{base64Image2}"; // Thay đổi `image/png` nếu định dạng khác
+                <div class="form-group">
+                    <img id="imagePreview2" src="@imageSrc2" alt="Image Preview" style=" width: 100px; height: auto;" />
+                </div>
+
+            }
+            
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script>
+        function previewImage(event) {
+            const imagePreview = document.getElementById('imagePreview');
+            const file = event.target.files[0];
+            const reader = new FileReader();
+
+            reader.onload = function (e) {
+                imagePreview.src = e.target.result;
+                imagePreview.style.display = 'block';
+            }
+
+            if (file) {
+                reader.readAsDataURL(file);
+            } else {
+                imagePreview.src = '#';
+                imagePreview.style.display = 'none';
+            }
+        }
+    </script>
+    <script>
+        function previewImage2(event) {
+            const imagePreview = document.getElementById('imagePreview2');
+            const file = event.target.files[0];
+            const reader = new FileReader();
+
+            reader.onload = function (e) {
+                imagePreview.src = e.target.result;
+                imagePreview.style.display = 'block';
+            }
+
+            if (file) {
+                reader.readAsDataURL(file);
+            } else {
+                imagePreview.src = '#';
+                imagePreview.style.display = 'none';
+            }
+        }
+    </script>
+}

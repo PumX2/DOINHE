@@ -1,0 +1,171 @@
+﻿@page
+@model DOINHE.Pages.OrderDetailModel
+@{
+    Layout = "_Layout";
+}
+
+<main class="main">
+    <div class="page-title dark-background">
+        <div class="container position-relative">
+            <h1>Order Details</h1>
+            <nav class="breadcrumbs">
+                <ol>
+                    <li><a href="index">Home</a></li>
+                    <li class="current">Order Details</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <style>
+    .scrolled .header {
+        --background-color: #ff7469;
+    }
+
+    .dark-background {
+        --background-color: #ff7469;
+        --default-color: #ffffff;
+        --heading-color: #ffffff;
+        --surface-color: #284e62;
+        --contrast-color: #ffffff;
+    }
+</style>
+    <section id="service-details" class="service-details section">
+        <div class="container">
+            <div class="row gy-5">
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-box">
+                        <h4>Serices List</h4>
+                        <div class="services-list">
+                            <a><i class="bi bi-arrow-right-circle"></i><span>@Model.Product.ProductName</span></a>
+                            <a><i class="bi bi-arrow-right-circle"></i><span>@Model.Product.Address</span></a>
+                            <a><i class="bi bi-arrow-right-circle"></i><span>@Model.Product.DateTimeStart</span></a>
+                            @if (Model.Product.DateTimeEnd != null)
+                            {
+                                <a><i class="bi bi-arrow-right-circle"></i><span>@Model.Product.DateTimeEnd</span></a>
+                            }
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-8 ps-lg-5" data-aos="fade-up" data-aos-delay="200">
+                    @if (@Model.Product.ImgKey != null)
+                    {
+                        var base64Image = Convert.ToBase64String(@Model.Product.ImgKey);
+                        var imageSrc = $"data:image/png;base64,{base64Image}";
+
+                        <img src="@imageSrc" class="img-fluid services-img" alt="@Model.Product.ProductName">
+                    }
+                    else
+                    {
+                        <img src="~/img/default-product.jpg" class="img-fluid services-img" alt="Default Image">
+                    }
+                    <h1>Key: @Model.Product.Key</h1>
+                    <h3>@Model.Product.ProductName</h3>
+                    <p>@Model.Product.Description</p>
+
+                    <ul>
+                        <li><i class="bi bi-check-circle"></i> <span>@Model.Product.DateTimeStart</span></li>
+                        @if (Model.Product.DateTimeEnd != null)
+                        {
+                            <li><i class="bi bi-check-circle"></i> <span>@Model.Product.DateTimeEnd</span></li>
+                        }
+                        <li><i class="bi bi-check-circle"></i> <span>@Model.Product.Address</span></li>
+                    </ul>
+
+                    <hr style="width: 80%; margin-left: 10%; margin-right: 10%;">
+
+                    <h3>Chi tiết đơn hàng</h3>
+                    <ul>
+                        <li><i class="bi bi-check-circle"></i> <span>@Model.Order.OrderDate</span></li>
+                        <li><i class="bi bi-check-circle"></i> <span>@Model.Order.Price</span></li>
+                        <li>
+                            <i class="bi bi-check-circle"></i>
+                            @if (Model.Order.Status == true)
+                            {
+                                <span style="color: green;">Đã hoàn thành</span>
+                            }
+                            else
+                            {
+                                <span style="color: red;">Đang chờ</span>
+                            }
+                        </li>
+                        <li>
+                            @if (Model.Order.Status == false)
+                            {
+                                <button type="button" class="btn111" data-bs-toggle="modal" data-bs-target="#editProfileModal">Hoàn thành</button>
+                            }
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="editProfileModal" tabindex="-1" aria-labelledby="editProfileModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editProfileModalLabel">Xác nhận hóa đơn</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Bạn muốn xác nhận hóa đơn này đã hoàn thành?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                    <button type="button" class="btn btn-primary" id="confirmYes">Yes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script>
+    document.getElementById("confirmYes").addEventListener("click", function () {
+        var orderId = @Model.Order.Id;
+
+        fetch('@Url.Page("/OrderDetail", null, new { handler = "CompleteOrder" })', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]').value
+            },
+            body: JSON.stringify(orderId)
+        })
+            .then(response => {
+                if (response.ok) {
+                    location.reload();
+                } else {
+                    alert('Cập nhật thất bại.');
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+
+        var modal = bootstrap.Modal.getInstance(document.getElementById('editProfileModal'));
+        modal.hide();
+    });
+</script>
+
+<style>
+    .btn111 {
+        background-color: #1e4356;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn111:hover {
+            background-color: #0d6efd;
+            color: white;
+        }
+</style>

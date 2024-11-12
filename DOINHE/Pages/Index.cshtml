@@ -1,234 +1,645 @@
 ﻿@page
 @model IndexModel
+@using System.Text.Json
+
 @{
+    var listProduct = Model.products;
     ViewData["Title"] = "Home page";
     Layout = "_Layout";
+    // Kiểm tra nếu có thông báo thanh toán thành công
+    var successMessage = TempData["SuccessMessage"];
 }
 
-
+<link href="~/css/main.css" rel="stylesheet" />
 <main class="main">
-
-    <!-- Hero Section -->
+    @if (successMessage != null)
+    {
+        <div class="alert alert-success">@successMessage</div>
+    }
+    @*     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
-
-        <!-- <img src="~/img/hero-bg.jpg" alt="" data-aos="fade-in"> -->
-
-        <div id="hero-carousel" class="carousel carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
-
-            <div class="container position-relative">
-
-                <div class="carousel-item active">
-                    <div class="carousel-container">
-                        <h2>Welcome to Doinhe</h2>
-                        <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                        <a href="#about" class="btn-get-started">Read More</a>
-                    </div>
-                </div><!-- End Carousel Item -->
-
-                <div class="carousel-item">
-                    <div class="carousel-container">
-                        <h2>Lorem Ipsum Dolor</h2>
-                        <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                        <a href="#about" class="btn-get-started">Read More</a>
-                    </div>
-                </div><!-- End Carousel Item -->
-
-                <div class="carousel-item">
-                    <div class="carousel-container">
-                        <h2>Sequi ea ut et est quaerat</h2>
-                        <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                        <a href="#about" class="btn-get-started">Read More</a>
-                    </div>
-                </div><!-- End Carousel Item -->
-
-                <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-                </a>
-
-                <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
-                    <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-                </a>
-
-                <ol class="carousel-indicators"></ol>
-
-            </div>
-
+    <div id="hero-carousel" class="carousel carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+    <div class="container position-relative">
+    <div class="carousel-item active">
+    <div class="carousel-container">
+    <h2>Welcome to Doinhe</h2>
+    <p>Welcome to DOINHE, where you can find the most fun events in Da Nang.</p>
+    <a href="~/portfolio" class="btn-get-started">Read More</a>
+    </div>
+    </div><!-- End Carousel Item -->
+    <ol class="carousel-indicators"></ol>
+    </div>
+    </div>
+    </section><!-- /Hero Section --> *@
+    <!-- Page Title -->
+    <div class="page-title dark-background">
+        <div class="container position-relative">
+            <h1>Welcome to DOINHE</h1>
+            <nav class="breadcrumbs">
+            </nav>
         </div>
+    </div><!-- End Page Title -->
+    @{
+        // Truyền danh sách sản phẩm sang JavaScript dưới dạng JSON
+        var productsJson = JsonSerializer.Serialize(Model.products.Select(p => new { p.ProductName, p.CategoryId }));
+    }
 
-    </section><!-- /Hero Section -->
+
+    <!-- Search Widget -->
+    <div class="d-flex justify-content-center mb-4 position-relative">
+        <div class="search-widget widget-item col-md-6">
+            <h3 class="widget-title text-center">Search</h3>
+            <form method="get" action="/portfolio">
+                <input type="text" name="searchTerm" id="searchInput" placeholder="Search products..." value="@Request.Query["searchTerm"]" class="form-control" autocomplete="off">
+                <button type="submit" title="Search" class="btn btn-primary"><i class="bi bi-search"></i></button>
+            </form>
+            <div id="suggestions" class="suggestions-box"></div>
+        </div>
+    </div>
+
+    <script>
+        // Khởi tạo danh sách sản phẩm từ Razor Page
+        const products = @Html.Raw(productsJson);
+        console.log(products);  // Kiểm tra dữ liệu sản phẩm
+
+        // Khi người dùng nhập vào thanh tìm kiếm
+        document.getElementById("searchInput").addEventListener("input", function () {
+            const query = this.value.toLowerCase();
+            const suggestionsBox = document.getElementById("suggestions");
+
+            // Xóa gợi ý nếu không có đầu vào
+            if (query.length < 2) {
+                suggestionsBox.innerHTML = "";
+                suggestionsBox.style.display = "none";
+                return;
+            }
+
+            // Lọc các sản phẩm khớp với đầu vào của người dùng
+            const filteredProducts = products.filter(product => product.Name.toLowerCase().includes(query));
+            console.log(filteredProducts);  // Kiểm tra kết quả lọc
+
+            // Tạo HTML cho các gợi ý
+            const suggestionsHtml = filteredProducts.map(product => {
+                let href;
+                switch (product.CategoryId) {
+                    case 1: href = "#Nguhanhson"; break;
+                    case 2: href = "#Haichau"; break;
+                    case 6: href = "#Lienchieu"; break;
+                    case 7: href = "#Sontra"; break;
+                    case 8: href = "#Thanhkhe"; break;
+                    case 9: href = "#Hoian"; break;
+                    case 10: href = "#Camle"; break;
+                    default: href = "#";
+                }
+                return `<a href="${href}" class="suggestion-item">${product.Name}</a>`;
+            }).join("");
+
+            // Cập nhật và hiển thị các gợi ý
+            suggestionsBox.innerHTML = suggestionsHtml;
+            suggestionsBox.style.display = "block";
+        });
+
+        // Ẩn gợi ý khi nhấp bên ngoài
+        document.addEventListener("click", function (event) {
+            if (!event.target.closest(".search-widget")) {
+                document.getElementById("suggestions").style.display = "none";
+            }
+        });
+    </script>
+
+    <style>
+        .scrolled .header {
+            --background-color: #ff7469;
+        }
+
+        .dark-background {
+            --background-color: #ff7469;
+            --default-color: #ffffff;
+            --heading-color: #ffffff;
+            --surface-color: #284e62;
+            --contrast-color: #ffffff;
+        }
+        /* CSS cho dropdown gợi ý */
+        .suggestions-box {
+            display: none; /* Ẩn mặc định */
+            position: absolute;
+            width: 100%;
+            max-height: 200px;
+            overflow-y: auto;
+            background-color: white;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
+        .suggestion-item {
+            display: block;
+            padding: 10px;
+            color: #333;
+            text-decoration: none;
+        }
+
+            .suggestion-item:hover {
+                background-color: #f0f0f0;
+            }
+    </style>
+
+
     <!-- Featured Services Section -->
     <section id="featured-services" class="featured-services section">
-
         <div class="container">
-
             <div class="row gy-4">
-
                 <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="service-item item-cyan position-relative">
                         <div class="icon">
-                            <i class="bi bi-activity"></i>
+                            <i class="bi bi-geo-alt"></i>
                         </div>
-                        <a href="service-details" class="stretched-link">
-                            <h3>Nesciunt Mete</h3>
+                        <a href="#Hoian" class="stretched-link">
+                            <h3>Hoi An</h3>
                         </a>
-                        <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
                     </div>
                 </div><!-- End Service Item -->
-
                 <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
                     <div class="service-item item-orange position-relative">
                         <div class="icon">
-                            <i class="bi bi-broadcast"></i>
+                            <i class="bi bi-geo-alt"></i>
                         </div>
-                        <a href="service-details" class="stretched-link">
-                            <h3>Eosle Commodi</h3>
+                        <a href="#Nguhanhson" class="stretched-link">
+                            <h3>Ngu Hanh Son</h3>
                         </a>
-                        <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
                     </div>
                 </div><!-- End Service Item -->
-
                 <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
                     <div class="service-item item-teal position-relative">
                         <div class="icon">
-                            <i class="bi bi-easel"></i>
+                            <i class="bi bi-geo-alt"></i>
                         </div>
-                        <a href="service-details" class="stretched-link">
-                            <h3>Ledo Markt</h3>
+                        <a href="#Sontra" class="stretched-link">
+                            <h3>Son Tra</h3>
                         </a>
-                        <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
                     </div>
                 </div><!-- End Service Item -->
-
                 <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
                     <div class="service-item item-red position-relative">
                         <div class="icon">
-                            <i class="bi bi-bounding-box-circles"></i>
+                            <i class="bi bi-geo-alt"></i>
                         </div>
-                        <a href="service-details" class="stretched-link">
-                            <h3>Asperiores Commodit</h3>
+                        <a href="#Haichau" class="stretched-link">
+                            <h3>Hai Chau</h3>
                         </a>
-                        <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
-                        <a href="service-details" class="stretched-link"></a>
                     </div>
                 </div><!-- End Service Item -->
             </div>
-
         </div>
-
     </section><!-- /Featured Services Section -->
-    <!-- About Section -->
-    <section id="about" class="about section light-background">
-
-        <div class="container">
-
-            <div class="row gy-4">
-                <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
-                    <img src="~/img/about.jpg" class="img-fluid" alt="">
-                    <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
-                </div>
-                <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
-                    <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-                    <p class="fst-italic">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
-                    </p>
-                    <ul>
-                        <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-                        <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-                        <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
-                    </ul>
-                    <p>
-                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
-                    </p>
+    @if (listProduct.Any(p => p.CategoryId == 11 && p.StatusIsBuy == false && p.StatusIsApprove == true)) // Kiểm tra nếu có sản phẩm trong Hai Chau
+    {
+        <section id="Haichau" class="features section">
+            <div class="container section-title" data-aos="fade-up">
+                <h2>TP Ho Chi Minh</h2>
+            </div>
+            <div class="container">
+                <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+                    @foreach (var product in listProduct.Where(p => p.CategoryId == 11 && p.StatusIsBuy == false && p.StatusIsApprove == true))
+                    {
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-@product.CategoryId">
+                            <div class="card h-100">
+                                <a href="portfolio-details?id=@product.Id">
+                                    <div class="portfolio-content">
+                                        @if (product.ImgDescription != null)
+                                        {
+                                            var base64Image = Convert.ToBase64String(product.ImgDescription!);
+                                            var imageSrc = $"data:image/png;base64,{base64Image}";
+                                            <img src="@imageSrc" class="card-img-top img-fluid" alt="@product.ProductName">
+                                        }
+                                        else
+                                        {
+                                            <img src="~/img/default-product.jpg" class="card-img-top img-fluid" alt="Default Image">
+                                        }
+                                    </div>
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">@product.ProductName</h5>
+                                    <p class="card-text text-muted">@product.Description</p>
+                                    <p class="card-price text-danger font-weight-bold">@String.Format("{0:0,0} VND", product.Price)</p>
+                                    <a href="portfolio-details?id=@product.Id" class="btn btn-outline-primary">View detail</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
                 </div>
             </div>
+        </section>
+    }
 
-        </div>
-
-    </section><!-- /About Section -->
-    <!-- Features Section -->
-    <section id="features" class="features section">
-
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-            <h2>Features</h2>
-            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-        </div><!-- End Section Title -->
-
-        <div class="container">
-
-            <div class="row gy-4 align-items-center features-item">
-                <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-                    <img src="~/img/features-1.svg" class="img-fluid" alt="">
+    @if (listProduct.Any(p => p.CategoryId == 12 && p.StatusIsBuy == false && p.StatusIsApprove == true)) // Kiểm tra nếu có sản phẩm trong Hai Chau
+    {
+        <section id="Haichau" class="features section">
+            <div class="container section-title" data-aos="fade-up">
+                <h2>TP Thu Duc</h2>
+            </div>
+            <div class="container">
+                <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+                    @foreach (var product in listProduct.Where(p => p.CategoryId == 12 && p.StatusIsBuy == false && p.StatusIsApprove == true))
+                    {
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-@product.CategoryId">
+                            <div class="card h-100">
+                                <a href="portfolio-details?id=@product.Id">
+                                    <div class="portfolio-content">
+                                        @if (product.ImgDescription != null)
+                                        {
+                                            var base64Image = Convert.ToBase64String(product.ImgDescription!);
+                                            var imageSrc = $"data:image/png;base64,{base64Image}";
+                                            <img src="@imageSrc" class="card-img-top img-fluid" alt="@product.ProductName">
+                                        }
+                                        else
+                                        {
+                                            <img src="~/img/default-product.jpg" class="card-img-top img-fluid" alt="Default Image">
+                                        }
+                                    </div>
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">@product.ProductName</h5>
+                                    <p class="card-text text-muted">@product.Description</p>
+                                    <p class="card-price text-danger font-weight-bold">@String.Format("{0:0,0} VND", product.Price)</p>
+                                    <a href="portfolio-details?id=@product.Id" class="btn btn-outline-primary">View detail</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
                 </div>
-                <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
-                    <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-                    <p class="fst-italic">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
-                    </p>
-                    <ul>
-                        <li><i class="bi bi-check"></i><span> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-                        <li><i class="bi bi-check"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-                        <li><i class="bi bi-check"></i> <span>Ullam est qui quos consequatur eos accusamus.</span></li>
-                    </ul>
-                </div>
-            </div><!-- Features Item -->
+            </div>
+        </section>
+    }
 
-            <div class="row gy-4 align-items-center features-item">
-                <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-                    <img src="~/img/features-2.svg" class="img-fluid" alt="">
+    @if (listProduct.Any(p => p.CategoryId == 1 && p.StatusIsBuy == false && p.StatusIsApprove == true)) // Kiểm tra nếu có sản phẩm trong Ngu Hanh Son
+    {
+        <section id="Nguhanhson" class="features section">
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Ngu Hanh Son</h2>
+            </div>
+            <div class="container">
+                <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+                    @foreach (var product in listProduct.Where(p => p.CategoryId == 1 && p.StatusIsBuy == false && p.StatusIsApprove == true))
+                    {
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-@product.CategoryId">
+                            <div class="card h-100">
+                                <a href="portfolio-details?id=@product.Id">
+                                    <div class="portfolio-content">
+                                        @if (product.ImgDescription != null)
+                                        {
+                                            var base64Image = Convert.ToBase64String(product.ImgDescription!);
+                                            var imageSrc = $"data:image/png;base64,{base64Image}";
+                                            <img src="@imageSrc" class="card-img-top img-fluid" alt="@product.ProductName">
+                                        }
+                                        else
+                                        {
+                                            <img src="~/img/default-product.jpg" class="card-img-top img-fluid" alt="Default Image">
+                                        }
+                                    </div>
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">@product.ProductName</h5>
+                                    <p class="card-text text-muted">@product.Description</p>
+                                    <p class="card-price text-danger font-weight-bold">@String.Format("{0:0,0} VND", product.Price)</p>
+                                    <a href="portfolio-details?id=@product.Id" class="btn btn-outline-primary">View detail</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
                 </div>
-                <div class="col-md-7 order-2 order-md-1" data-aos="fade-up" data-aos-delay="200">
-                    <h3>Corporis temporibus maiores provident</h3>
-                    <p class="fst-italic">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
-                    </p>
-                    <p>
-                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum
-                    </p>
-                </div>
-            </div><!-- Features Item -->
+            </div>
+        </section>
+    }
 
-            <div class="row gy-4 align-items-center features-item">
-                <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out">
-                    <img src="~/img/features-3.svg" class="img-fluid" alt="">
+    @if (listProduct.Any(p => p.CategoryId == 2 && p.StatusIsBuy == false && p.StatusIsApprove == true)) // Kiểm tra nếu có sản phẩm trong Hai Chau
+    {
+        <section id="Haichau" class="features section">
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Hai Chau</h2>
+            </div>
+            <div class="container">
+                <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+                    @foreach (var product in listProduct.Where(p => p.CategoryId == 2 && p.StatusIsBuy == false && p.StatusIsApprove == true))
+                    {
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-@product.CategoryId">
+                            <div class="card h-100">
+                                <a href="portfolio-details?id=@product.Id">
+                                    <div class="portfolio-content">
+                                        @if (product.ImgDescription != null)
+                                        {
+                                            var base64Image = Convert.ToBase64String(product.ImgDescription!);
+                                            var imageSrc = $"data:image/png;base64,{base64Image}";
+                                            <img src="@imageSrc" class="card-img-top img-fluid" alt="@product.ProductName">
+                                        }
+                                        else
+                                        {
+                                            <img src="~/img/default-product.jpg" class="card-img-top img-fluid" alt="Default Image">
+                                        }
+                                    </div>
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">@product.ProductName</h5>
+                                    <p class="card-text text-muted">@product.Description</p>
+                                    <p class="card-price text-danger font-weight-bold">@String.Format("{0:0,0} VND", product.Price)</p>
+                                    <a href="portfolio-details?id=@product.Id" class="btn btn-outline-primary">View detail</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
                 </div>
-                <div class="col-md-7" data-aos="fade-up">
-                    <h3>Sunt consequatur ad ut est nulla consectetur reiciendis animi voluptas</h3>
-                    <p>Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.</p>
-                    <ul>
-                        <li><i class="bi bi-check"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-                        <li><i class="bi bi-check"></i><span> Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-                        <li><i class="bi bi-check"></i> <span>Facilis ut et voluptatem aperiam. Autem soluta ad fugiat</span>.</li>
-                    </ul>
-                </div>
-            </div><!-- Features Item -->
+            </div>
+        </section>
+    }
 
-            <div class="row gy-4 align-items-center features-item">
-                <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out">
-                    <img src="~/img/features-4.svg" class="img-fluid" alt="">
+    @if (listProduct.Any(p => p.CategoryId == 6 && p.StatusIsBuy == false && p.StatusIsApprove == true)) // Kiểm tra nếu có sản phẩm trong Lien Chieu
+    {
+        <section id="Lienchieu" class="features section">
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Lien Chieu</h2>
+            </div>
+            <div class="container">
+                <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+                    @foreach (var product in listProduct.Where(p => p.CategoryId == 6 && p.StatusIsBuy == false && p.StatusIsApprove == true))
+                    {
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-@product.CategoryId">
+                            <div class="card h-100">
+                                <a href="portfolio-details?id=@product.Id">
+                                    <div class="portfolio-content">
+                                        @if (product.ImgDescription != null)
+                                        {
+                                            var base64Image = Convert.ToBase64String(product.ImgDescription!);
+                                            var imageSrc = $"data:image/png;base64,{base64Image}";
+                                            <img src="@imageSrc" class="card-img-top img-fluid" alt="@product.ProductName">
+                                        }
+                                        else
+                                        {
+                                            <img src="~/img/default-product.jpg" class="card-img-top img-fluid" alt="Default Image">
+                                        }
+                                    </div>
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">@product.ProductName</h5>
+                                    <p class="card-text text-muted">@product.Description</p>
+                                    <p class="card-price text-danger font-weight-bold">@String.Format("{0:0,0} VND", product.Price)</p>
+                                    <a href="portfolio-details?id=@product.Id" class="btn btn-outline-primary">View detail</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
                 </div>
-                <div class="col-md-7 order-2 order-md-1" data-aos="fade-up">
-                    <h3>Quas et necessitatibus eaque impedit ipsum animi consequatur incidunt in</h3>
-                    <p class="fst-italic">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
-                    </p>
-                    <p>
-                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum
-                    </p>
+            </div>
+        </section>
+    }
+
+    @if (listProduct.Any(p => p.CategoryId == 7 && p.StatusIsBuy == false && p.StatusIsApprove == true)) // Kiểm tra nếu có sản phẩm trong Lien Chieu
+    {
+        <section id="Sontra" class="features section">
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Son Tras</h2>
+            </div>
+            <div class="container">
+                <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+                    @foreach (var product in listProduct.Where(p => p.CategoryId == 7 && p.StatusIsBuy == false && p.StatusIsApprove == true))
+                    {
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-@product.CategoryId">
+                            <div class="card h-100">
+                                <a href="portfolio-details?id=@product.Id">
+                                    <div class="portfolio-content">
+                                        @if (product.ImgDescription != null)
+                                        {
+                                            var base64Image = Convert.ToBase64String(product.ImgDescription!);
+                                            var imageSrc = $"data:image/png;base64,{base64Image}";
+                                            <img src="@imageSrc" class="card-img-top img-fluid" alt="@product.ProductName">
+                                        }
+                                        else
+                                        {
+                                            <img src="~/img/default-product.jpg" class="card-img-top img-fluid" alt="Default Image">
+                                        }
+                                    </div>
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">@product.ProductName</h5>
+                                    <p class="card-text text-muted">@product.Description</p>
+                                    <p class="card-price text-danger font-weight-bold">@String.Format("{0:0,0} VND", product.Price)</p>
+                                    <a href="portfolio-details?id=@product.Id" class="btn btn-outline-primary">View detail</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
                 </div>
-            </div><!-- Features Item -->
+            </div>
+        </section>
+    }
 
-        </div>
+    @if (listProduct.Any(p => p.CategoryId == 8 && p.StatusIsBuy == false && p.StatusIsApprove == true)) // Kiểm tra nếu có sản phẩm trong Lien Chieu
+    {
+        <section id="Thanhkhe" class="features section">
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Thanh Khe</h2>
+            </div>
+            <div class="container">
+                <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+                    @foreach (var product in listProduct.Where(p => p.CategoryId == 8 && p.StatusIsBuy == false && p.StatusIsApprove == true))
+                    {
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-@product.CategoryId">
+                            <div class="card h-100">
+                                <a href="portfolio-details?id=@product.Id">
+                                    <div class="portfolio-content">
+                                        @if (product.ImgDescription != null)
+                                        {
+                                            var base64Image = Convert.ToBase64String(product.ImgDescription!);
+                                            var imageSrc = $"data:image/png;base64,{base64Image}";
+                                            <img src="@imageSrc" class="card-img-top img-fluid" alt="@product.ProductName">
+                                        }
+                                        else
+                                        {
+                                            <img src="~/img/default-product.jpg" class="card-img-top img-fluid" alt="Default Image">
+                                        }
+                                    </div>
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">@product.ProductName</h5>
+                                    <p class="card-text text-muted">@product.Description</p>
+                                    <p class="card-price text-danger font-weight-bold">@String.Format("{0:0,0} VND", product.Price)</p>
+                                    <a href="portfolio-details?id=@product.Id" class="btn btn-outline-primary">View detail</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </section>
+    }
 
-    </section><!-- /Features Section -->
+    @if (listProduct.Any(p => p.CategoryId == 9 && p.StatusIsBuy == false && p.StatusIsApprove == true)) // Kiểm tra nếu có sản phẩm trong Lien Chieu
+    {
+        <section id="Hoian" class="features section">
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Hoi An</h2>
+            </div>
+            <div class="container">
+                <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+                    @foreach (var product in listProduct.Where(p => p.CategoryId == 9 && p.StatusIsBuy == false && p.StatusIsApprove == true))
+                    {
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-@product.CategoryId">
+                            <div class="card h-100">
+                                <a href="portfolio-details?id=@product.Id">
+                                    <div class="portfolio-content">
+                                        @if (product.ImgDescription != null)
+                                        {
+                                            var base64Image = Convert.ToBase64String(product.ImgDescription!);
+                                            var imageSrc = $"data:image/png;base64,{base64Image}";
+                                            <img src="@imageSrc" class="card-img-top img-fluid" alt="@product.ProductName">
+                                        }
+                                        else
+                                        {
+                                            <img src="~/img/default-product.jpg" class="card-img-top img-fluid" alt="Default Image">
+                                        }
+                                    </div>
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">@product.ProductName</h5>
+                                    <p class="card-text text-muted">@product.Description</p>
+                                    <p class="card-price text-danger font-weight-bold">@String.Format("{0:0,0} VND", product.Price)</p>
+                                    <a href="portfolio-details?id=@product.Id" class="btn btn-outline-primary">View detail</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </section>
+    }
+
+    @if (listProduct.Any(p => p.CategoryId == 10 && p.StatusIsBuy == false && p.StatusIsApprove == true)) // Kiểm tra nếu có sản phẩm trong Cam Le với điều kiện
+    {
+        <section id="Camle" class="features section">
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Cam Le</h2>
+            </div>
+            <div class="container">
+                <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+                    @foreach (var product in listProduct.Where(p => p.CategoryId == 10 && p.StatusIsBuy == false && p.StatusIsApprove == true))
+                    {
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-@product.CategoryId">
+                            <div class="card h-100">
+                                <a href="portfolio-details?id=@product.Id">
+                                    <div class="portfolio-content">
+                                        @if (product.ImgDescription != null)
+                                        {
+                                            var base64Image = Convert.ToBase64String(product.ImgDescription!);
+                                            var imageSrc = $"data:image/png;base64,{base64Image}";
+                                            <img src="@imageSrc" class="card-img-top img-fluid" alt="@product.ProductName">
+                                        }
+                                        else
+                                        {
+                                            <img src="~/img/default-product.jpg" class="card-img-top img-fluid" alt="Default Image">
+                                        }
+                                    </div>
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">@product.ProductName</h5>
+                                    <p class="card-text text-muted">@product.Description</p>
+                                    <p class="card-price text-danger font-weight-bold">@String.Format("{0:0,0} VND", product.Price)</p>
+                                    <a href="portfolio-details?id=@product.Id" class="btn btn-outline-primary">View detail</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </section>
+    }
 
 </main>
+
+<style>
+    .hero::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 0;
+        width: 130%;
+        height: 95%;
+        background: linear-gradient(to right, color-mix(in srgb, var(--background-color), transparent 90%), var(--background-color)), url('../img/doinhe.jpg') center top no-repeat;
+        background-image: url('img/doinhe.jpg');
+        background-size: cover;
+        z-index: 0;
+        border-radius: 0 0 50% 50%;
+        transform: translateX(-50%) rotate(0deg);
+    }
+
+    .search-widget .form-control,
+    .date-range-widget .form-control {
+        width: 100%; /* Đảm bảo input lấp đầy phần tử chứa */
+    }
+
+    .btn {
+        width: 100%; /* Đảm bảo nút có chiều rộng đầy đủ */
+    }
+
+    .d-flex.justify-content-center {
+        margin-top: 20px; /* Tạo khoảng cách phía trên nếu cần */
+    }
+
+    .date-range-widget .form-group {
+        margin-bottom: 0; /* Loại bỏ khoảng trống giữa các ô nhập liệu */
+    }
+
+    button i {
+        margin-right: 5px; /* Tạo khoảng cách nhỏ giữa icon và chữ */
+    }
+
+    .pagination {
+        margin-top: 20px; /* Tạo khoảng cách phía trên giữa các nút phân trang */
+    }
+
+    .page-item {
+        margin: 0 5px; /* Khoảng cách giữa các nút */
+    }
+
+    .page-link {
+        padding: 10px 15px; /* Tăng kích thước nút */
+    }
+
+    .portfolio-content img {
+        width: 100%; /* Chiều rộng đầy đủ của phần tử chứa */
+        height: auto; /* Đảm bảo chiều cao tự động để không làm biến dạng ảnh */
+        max-height: 300px; /* Giới hạn chiều cao tối đa để đảm bảo tỷ lệ hình vuông (điều chỉnh theo nhu cầu của bạn) */
+        object-fit: cover; /* Đảm bảo ảnh lấp đầy khung mà không bị méo */
+        border-radius: 8px; /* Bo góc nếu muốn */
+    }
+
+    .search-widget form button {
+        width: 45px;
+        background-color: #0d6efd;
+        color: white;
+        position: absolute;
+        top: 0;
+        right: -55px;
+        bottom: 0;
+        border: 0;
+        font-size: 16px;
+        padding: 0 16px;
+        transition: 0.3s;
+        line-height: 0;
+    }
+
+        .search-widget form button:hover {
+            background-color: #0b5ed7;
+        }
+
+    .search-widget form input[type=text] {
+        border: 0;
+        padding: 4px 10px;
+        border-radius: 4px;
+        width: calc(100% - 40px);
+        background-color: var(--background-color);
+        color: var(--default-color);
+    }
+
+        .search-widget form input[type=text]:focus {
+            outline: none;
+        }
+</style>

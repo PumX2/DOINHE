@@ -1,0 +1,641 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\obj\\Release\\net7.0\\scopedcss\\projectbundle\\DOINHE.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DOINHE.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\.vs\\VSWorkspaceState.json",
+      "PackagePath": "staticwebassets\\.vs\\VSWorkspaceState.json"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\Moderna\\FileContentIndex\\10c6a5c8-7daa-4887-9a64-84bb578a2092.vsidx",
+      "PackagePath": "staticwebassets\\Moderna\\FileContentIndex\\10c6a5c8-7daa-4887-9a64-84bb578a2092.vsidx"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\Moderna\\config\\applicationhost.config",
+      "PackagePath": "staticwebassets\\Moderna\\config\\applicationhost.config"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\Moderna\\v17\\.wsuo",
+      "PackagePath": "staticwebassets\\Moderna\\v17\\.wsuo"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\Readme.txt",
+      "PackagePath": "staticwebassets\\Readme.txt"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\VSWorkspaceState.json",
+      "PackagePath": "staticwebassets\\VSWorkspaceState.json"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\contact.php",
+      "PackagePath": "staticwebassets\\contact.php"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\forms\\Readme.txt",
+      "PackagePath": "staticwebassets\\forms\\Readme.txt"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\forms\\contact.php",
+      "PackagePath": "staticwebassets\\forms\\contact.php"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\forms\\newsletter.php",
+      "PackagePath": "staticwebassets\\forms\\newsletter.php"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\about.jpg",
+      "PackagePath": "staticwebassets\\img\\about.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\img\\apple-touch-icon.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\blog\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-1.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\blog\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-2.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\blog\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-3.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\blog\\blog-4.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-4.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\blog\\blog-5.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-5.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\blog\\blog-6.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-6.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\blog\\blog-author-2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-author-2.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\blog\\blog-author-3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-author-3.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\blog\\blog-author-4.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-author-4.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\blog\\blog-author-5.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-author-5.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\blog\\blog-author-6.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-author-6.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\blog\\blog-author.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-author.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\blog\\blog-inside-post.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-inside-post.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\blog\\blog-recent-1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-recent-1.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\blog\\blog-recent-2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-recent-2.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\blog\\blog-recent-3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-recent-3.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\blog\\blog-recent-4.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-recent-4.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\blog\\blog-recent-5.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-recent-5.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\blog\\comments-1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\comments-1.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\blog\\comments-2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\comments-2.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\blog\\comments-3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\comments-3.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\blog\\comments-4.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\comments-4.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\blog\\comments-5.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\comments-5.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\blog\\comments-6.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\comments-6.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\clients\\client-1.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-1.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\clients\\client-2.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-2.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\clients\\client-3.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-3.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\clients\\client-4.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-4.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\clients\\client-5.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-5.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\clients\\client-6.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-6.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\clients\\client-7.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-7.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\clients\\client-8.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-8.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\img\\favicon.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\features-1.svg",
+      "PackagePath": "staticwebassets\\img\\features-1.svg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\features-2.svg",
+      "PackagePath": "staticwebassets\\img\\features-2.svg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\features-3.svg",
+      "PackagePath": "staticwebassets\\img\\features-3.svg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\features-4.svg",
+      "PackagePath": "staticwebassets\\img\\features-4.svg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\hero-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\hero-bg.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\portfolio\\app-1.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\app-1.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\portfolio\\app-2.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\app-2.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\portfolio\\app-3.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\app-3.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\portfolio\\books-1.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\books-1.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\portfolio\\books-2.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\books-2.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\portfolio\\books-3.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\books-3.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\portfolio\\branding-1.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\branding-1.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\portfolio\\branding-2.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\branding-2.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\portfolio\\branding-3.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\branding-3.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\portfolio\\product-1.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\product-1.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\portfolio\\product-2.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\product-2.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\portfolio\\product-3.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\product-3.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\services-1.jpg",
+      "PackagePath": "staticwebassets\\img\\services-1.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\services-2.jpg",
+      "PackagePath": "staticwebassets\\img\\services-2.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\services-3.jpg",
+      "PackagePath": "staticwebassets\\img\\services-3.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\services-4.jpg",
+      "PackagePath": "staticwebassets\\img\\services-4.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\services.jpg",
+      "PackagePath": "staticwebassets\\img\\services.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\team\\team-1.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\team-1.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\team\\team-2.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\team-2.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\team\\team-3.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\team-3.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\team\\team-4.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\team-4.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\team\\team-5.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\team-5.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\team\\team-6.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\team-6.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\testimonials\\testimonials-1.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-1.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\testimonials\\testimonials-2.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-2.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\testimonials\\testimonials-3.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-3.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\testimonials\\testimonials-4.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-4.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\img\\testimonials\\testimonials-5.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-5.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\newsletter.php",
+      "PackagePath": "staticwebassets\\newsletter.php"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\scss\\Readme.txt",
+      "PackagePath": "staticwebassets\\scss\\Readme.txt"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\slnx.sqlite",
+      "PackagePath": "staticwebassets\\slnx.sqlite"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\aos\\aos.cjs.js",
+      "PackagePath": "staticwebassets\\vendor\\aos\\aos.cjs.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\aos\\aos.css",
+      "PackagePath": "staticwebassets\\vendor\\aos\\aos.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\aos\\aos.esm.js",
+      "PackagePath": "staticwebassets\\vendor\\aos\\aos.esm.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\aos\\aos.js",
+      "PackagePath": "staticwebassets\\vendor\\aos\\aos.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\aos\\aos.js.map",
+      "PackagePath": "staticwebassets\\vendor\\aos\\aos.js.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap-icons\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\bootstrap-icons.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap-icons\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\bootstrap-icons.json"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap-icons\\bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\bootstrap-icons.min.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap-icons\\bootstrap-icons.scss",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\bootstrap-icons.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\glightbox\\css\\glightbox.css",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\css\\glightbox.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\glightbox\\css\\glightbox.min.css",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\css\\glightbox.min.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\glightbox\\js\\glightbox.js",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\js\\glightbox.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\glightbox\\js\\glightbox.min.js",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\js\\glightbox.min.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\imagesloaded\\imagesloaded.pkgd.min.js",
+      "PackagePath": "staticwebassets\\vendor\\imagesloaded\\imagesloaded.pkgd.min.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\isotope-layout\\isotope.pkgd.js",
+      "PackagePath": "staticwebassets\\vendor\\isotope-layout\\isotope.pkgd.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\isotope-layout\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\vendor\\isotope-layout\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\php-email-form\\validate.js",
+      "PackagePath": "staticwebassets\\vendor\\php-email-form\\validate.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\purecounter\\purecounter_vanilla.js",
+      "PackagePath": "staticwebassets\\vendor\\purecounter\\purecounter_vanilla.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\purecounter\\purecounter_vanilla.js.map",
+      "PackagePath": "staticwebassets\\vendor\\purecounter\\purecounter_vanilla.js.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\swiper\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\vendor\\swiper\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\swiper\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\vendor\\swiper\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\swiper\\swiper-bundle.min.js.map",
+      "PackagePath": "staticwebassets\\vendor\\swiper\\swiper-bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\exe2\\DOINHE\\DOINHE\\wwwroot\\vendor\\waypoints\\noframework.waypoints.js",
+      "PackagePath": "staticwebassets\\vendor\\waypoints\\noframework.waypoints.js"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.DOINHE.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.DOINHE.props",
+      "PackagePath": "build\\DOINHE.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.DOINHE.props",
+      "PackagePath": "buildMultiTargeting\\DOINHE.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.DOINHE.props",
+      "PackagePath": "buildTransitive\\DOINHE.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

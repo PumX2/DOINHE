@@ -1,0 +1,1949 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\DOINHE.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DOINHE.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\Moderna\\FileContentIndex\\10c6a5c8-7daa-4887-9a64-84bb578a2092.vsidx",
+      "PackagePath": "staticwebassets\\Moderna\\FileContentIndex\\10c6a5c8-7daa-4887-9a64-84bb578a2092.vsidx"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\Moderna\\config\\applicationhost.config",
+      "PackagePath": "staticwebassets\\Moderna\\config\\applicationhost.config"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\Moderna\\v17\\.wsuo",
+      "PackagePath": "staticwebassets\\Moderna\\v17\\.wsuo"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\Readme.txt",
+      "PackagePath": "staticwebassets\\Readme.txt"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\VSWorkspaceState.json",
+      "PackagePath": "staticwebassets\\VSWorkspaceState.json"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\contact.php",
+      "PackagePath": "staticwebassets\\contact.php"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\css\\material-dashboard.css",
+      "PackagePath": "staticwebassets\\css\\material-dashboard.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\css\\material-dashboard.css.map",
+      "PackagePath": "staticwebassets\\css\\material-dashboard.css.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\css\\material-dashboard.min.css",
+      "PackagePath": "staticwebassets\\css\\material-dashboard.min.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\css\\nucleo-icons.css",
+      "PackagePath": "staticwebassets\\css\\nucleo-icons.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\css\\nucleo-svg.css",
+      "PackagePath": "staticwebassets\\css\\nucleo-svg.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\forms\\Readme.txt",
+      "PackagePath": "staticwebassets\\forms\\Readme.txt"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\forms\\contact.php",
+      "PackagePath": "staticwebassets\\forms\\contact.php"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\forms\\newsletter.php",
+      "PackagePath": "staticwebassets\\forms\\newsletter.php"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\forms\\nucleo-icons.eot",
+      "PackagePath": "staticwebassets\\forms\\nucleo-icons.eot"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\forms\\nucleo-icons.svg",
+      "PackagePath": "staticwebassets\\forms\\nucleo-icons.svg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\forms\\nucleo-icons.ttf",
+      "PackagePath": "staticwebassets\\forms\\nucleo-icons.ttf"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\forms\\nucleo-icons.woff",
+      "PackagePath": "staticwebassets\\forms\\nucleo-icons.woff"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\forms\\nucleo-icons.woff2",
+      "PackagePath": "staticwebassets\\forms\\nucleo-icons.woff2"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\forms\\nucleo.eot",
+      "PackagePath": "staticwebassets\\forms\\nucleo.eot"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\forms\\nucleo.ttf",
+      "PackagePath": "staticwebassets\\forms\\nucleo.ttf"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\forms\\nucleo.woff",
+      "PackagePath": "staticwebassets\\forms\\nucleo.woff"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\forms\\nucleo.woff2",
+      "PackagePath": "staticwebassets\\forms\\nucleo.woff2"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\1.png",
+      "PackagePath": "staticwebassets\\img\\1.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\2.png",
+      "PackagePath": "staticwebassets\\img\\2.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\3.png",
+      "PackagePath": "staticwebassets\\img\\3.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\4.png",
+      "PackagePath": "staticwebassets\\img\\4.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\5.png",
+      "PackagePath": "staticwebassets\\img\\5.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\6.png",
+      "PackagePath": "staticwebassets\\img\\6.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\DOINHE.jpg",
+      "PackagePath": "staticwebassets\\img\\DOINHE.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\about.jpg",
+      "PackagePath": "staticwebassets\\img\\about.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\apple-icon.png",
+      "PackagePath": "staticwebassets\\img\\apple-icon.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\img\\apple-touch-icon.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\bg-pricing.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-pricing.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\bg-smart-home-1.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-smart-home-1.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\bg-smart-home-2.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-smart-home-2.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\blog\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-1.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\blog\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-2.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\blog\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-3.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\blog\\blog-4.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-4.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\blog\\blog-5.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-5.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\blog\\blog-6.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-6.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\blog\\blog-author-2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-author-2.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\blog\\blog-author-3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-author-3.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\blog\\blog-author-4.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-author-4.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\blog\\blog-author-5.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-author-5.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\blog\\blog-author-6.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-author-6.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\blog\\blog-author.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-author.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\blog\\blog-inside-post.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-inside-post.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\blog\\blog-recent-1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-recent-1.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\blog\\blog-recent-2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-recent-2.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\blog\\blog-recent-3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-recent-3.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\blog\\blog-recent-4.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-recent-4.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\blog\\blog-recent-5.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-recent-5.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\blog\\comments-1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\comments-1.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\blog\\comments-2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\comments-2.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\blog\\comments-3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\comments-3.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\blog\\comments-4.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\comments-4.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\blog\\comments-5.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\comments-5.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\blog\\comments-6.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\comments-6.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\bruce-mars.jpg",
+      "PackagePath": "staticwebassets\\img\\bruce-mars.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\clients\\client-1.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-1.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\clients\\client-2.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-2.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\clients\\client-3.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-3.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\clients\\client-4.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-4.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\clients\\client-5.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-5.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\clients\\client-6.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-6.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\clients\\client-7.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-7.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\clients\\client-8.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-8.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\down-arrow-dark.svg",
+      "PackagePath": "staticwebassets\\img\\down-arrow-dark.svg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\down-arrow-white.svg",
+      "PackagePath": "staticwebassets\\img\\down-arrow-white.svg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\down-arrow.svg",
+      "PackagePath": "staticwebassets\\img\\down-arrow.svg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\drake.jpg",
+      "PackagePath": "staticwebassets\\img\\drake.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\img\\favicon.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\features-1.svg",
+      "PackagePath": "staticwebassets\\img\\features-1.svg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\features-2.svg",
+      "PackagePath": "staticwebassets\\img\\features-2.svg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\features-3.svg",
+      "PackagePath": "staticwebassets\\img\\features-3.svg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\features-4.svg",
+      "PackagePath": "staticwebassets\\img\\features-4.svg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\home-decor-1.jpg",
+      "PackagePath": "staticwebassets\\img\\home-decor-1.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\home-decor-2.jpg",
+      "PackagePath": "staticwebassets\\img\\home-decor-2.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\home-decor-3.jpg",
+      "PackagePath": "staticwebassets\\img\\home-decor-3.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\icons\\flags\\AU.png",
+      "PackagePath": "staticwebassets\\img\\icons\\flags\\AU.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\icons\\flags\\BR.png",
+      "PackagePath": "staticwebassets\\img\\icons\\flags\\BR.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\icons\\flags\\DE.png",
+      "PackagePath": "staticwebassets\\img\\icons\\flags\\DE.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\icons\\flags\\GB.png",
+      "PackagePath": "staticwebassets\\img\\icons\\flags\\GB.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\icons\\flags\\US.png",
+      "PackagePath": "staticwebassets\\img\\icons\\flags\\US.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\illustrations\\chat.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\chat.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\illustrations\\danger-chat-ill.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\danger-chat-ill.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\illustrations\\dark-lock-ill.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\dark-lock-ill.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\illustrations\\error-404.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\error-404.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\illustrations\\error-500.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\error-500.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\illustrations\\illustration-lock.jpg",
+      "PackagePath": "staticwebassets\\img\\illustrations\\illustration-lock.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\illustrations\\illustration-reset.jpg",
+      "PackagePath": "staticwebassets\\img\\illustrations\\illustration-reset.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\illustrations\\illustration-signin.jpg",
+      "PackagePath": "staticwebassets\\img\\illustrations\\illustration-signin.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\illustrations\\illustration-signup.jpg",
+      "PackagePath": "staticwebassets\\img\\illustrations\\illustration-signup.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\illustrations\\illustration-verification.jpg",
+      "PackagePath": "staticwebassets\\img\\illustrations\\illustration-verification.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\illustrations\\lock.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\lock.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\illustrations\\pattern-tree.svg",
+      "PackagePath": "staticwebassets\\img\\illustrations\\pattern-tree.svg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\illustrations\\rocket-white.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\rocket-white.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\ivana-square.jpg",
+      "PackagePath": "staticwebassets\\img\\ivana-square.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\ivana-squares.jpg",
+      "PackagePath": "staticwebassets\\img\\ivana-squares.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\ivancik.jpg",
+      "PackagePath": "staticwebassets\\img\\ivancik.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\kal-visuals-square.jpg",
+      "PackagePath": "staticwebassets\\img\\kal-visuals-square.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\logo-ct-dark.png",
+      "PackagePath": "staticwebassets\\img\\logo-ct-dark.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\logo-ct.png",
+      "PackagePath": "staticwebassets\\img\\logo-ct.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\logos\\gray-logos\\logo-coinbase.svg",
+      "PackagePath": "staticwebassets\\img\\logos\\gray-logos\\logo-coinbase.svg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\logos\\gray-logos\\logo-nasa.svg",
+      "PackagePath": "staticwebassets\\img\\logos\\gray-logos\\logo-nasa.svg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\logos\\gray-logos\\logo-netflix.svg",
+      "PackagePath": "staticwebassets\\img\\logos\\gray-logos\\logo-netflix.svg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\logos\\gray-logos\\logo-pinterest.svg",
+      "PackagePath": "staticwebassets\\img\\logos\\gray-logos\\logo-pinterest.svg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\logos\\gray-logos\\logo-spotify.svg",
+      "PackagePath": "staticwebassets\\img\\logos\\gray-logos\\logo-spotify.svg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\logos\\gray-logos\\logo-vodafone.svg",
+      "PackagePath": "staticwebassets\\img\\logos\\gray-logos\\logo-vodafone.svg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\marie.jpg",
+      "PackagePath": "staticwebassets\\img\\marie.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\meeting.jpg",
+      "PackagePath": "staticwebassets\\img\\meeting.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\office-dark.jpg",
+      "PackagePath": "staticwebassets\\img\\office-dark.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\portfolio\\app-1.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\app-1.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\portfolio\\app-2.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\app-2.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\portfolio\\app-3.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\app-3.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\portfolio\\books-1.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\books-1.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\portfolio\\books-2.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\books-2.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\portfolio\\books-3.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\books-3.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\portfolio\\branding-1.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\branding-1.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\portfolio\\branding-2.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\branding-2.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\portfolio\\branding-3.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\branding-3.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\portfolio\\product-1.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\product-1.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\portfolio\\product-2.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\product-2.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\portfolio\\product-3.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\product-3.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\product-12.jpg",
+      "PackagePath": "staticwebassets\\img\\product-12.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\services-1.jpg",
+      "PackagePath": "staticwebassets\\img\\services-1.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\services-2.jpg",
+      "PackagePath": "staticwebassets\\img\\services-2.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\services-3.jpg",
+      "PackagePath": "staticwebassets\\img\\services-3.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\services-4.jpg",
+      "PackagePath": "staticwebassets\\img\\services-4.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\services.jpg",
+      "PackagePath": "staticwebassets\\img\\services.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\small-logos\\bootstrap.svg",
+      "PackagePath": "staticwebassets\\img\\small-logos\\bootstrap.svg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\small-logos\\creative-tim.svg",
+      "PackagePath": "staticwebassets\\img\\small-logos\\creative-tim.svg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\small-logos\\devto.svg",
+      "PackagePath": "staticwebassets\\img\\small-logos\\devto.svg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\small-logos\\github.svg",
+      "PackagePath": "staticwebassets\\img\\small-logos\\github.svg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\small-logos\\google-webdev.svg",
+      "PackagePath": "staticwebassets\\img\\small-logos\\google-webdev.svg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\small-logos\\icon-bulb.svg",
+      "PackagePath": "staticwebassets\\img\\small-logos\\icon-bulb.svg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\small-logos\\icon-sun-cloud.png",
+      "PackagePath": "staticwebassets\\img\\small-logos\\icon-sun-cloud.png"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\small-logos\\logo-asana.svg",
+      "PackagePath": "staticwebassets\\img\\small-logos\\logo-asana.svg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\small-logos\\logo-atlassian.svg",
+      "PackagePath": "staticwebassets\\img\\small-logos\\logo-atlassian.svg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\small-logos\\logo-invision.svg",
+      "PackagePath": "staticwebassets\\img\\small-logos\\logo-invision.svg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\small-logos\\logo-jira.svg",
+      "PackagePath": "staticwebassets\\img\\small-logos\\logo-jira.svg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\small-logos\\logo-slack.svg",
+      "PackagePath": "staticwebassets\\img\\small-logos\\logo-slack.svg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\small-logos\\logo-spotify.svg",
+      "PackagePath": "staticwebassets\\img\\small-logos\\logo-spotify.svg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\small-logos\\logo-xd.svg",
+      "PackagePath": "staticwebassets\\img\\small-logos\\logo-xd.svg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\team-1.jpg",
+      "PackagePath": "staticwebassets\\img\\team-1.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\team-2.jpg",
+      "PackagePath": "staticwebassets\\img\\team-2.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\team-3.jpg",
+      "PackagePath": "staticwebassets\\img\\team-3.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\team-4.jpg",
+      "PackagePath": "staticwebassets\\img\\team-4.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\team-5.jpg",
+      "PackagePath": "staticwebassets\\img\\team-5.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\team\\Bim.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\Bim.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\team\\MinhTri.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\MinhTri.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\team\\Pum.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\Pum.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\team\\Pum2.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\Pum2.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\team\\team-1.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\team-1.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\team\\team-2.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\team-2.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\team\\team-3.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\team-3.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\team\\team-4.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\team-4.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\team\\team-5.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\team-5.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\team\\team-6.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\team-6.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\testimonials\\testimonials-1.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-1.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\testimonials\\testimonials-2.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-2.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\testimonials\\testimonials-3.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-3.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\testimonials\\testimonials-4.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-4.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\testimonials\\testimonials-5.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-5.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\img\\vr-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\vr-bg.jpg"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\js\\core\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\core\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\js\\core\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\core\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\js\\core\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\core\\popper.min.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\js\\material-dashboard.js",
+      "PackagePath": "staticwebassets\\js\\material-dashboard.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\js\\material-dashboard.js.map",
+      "PackagePath": "staticwebassets\\js\\material-dashboard.js.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\js\\material-dashboard.min.js",
+      "PackagePath": "staticwebassets\\js\\material-dashboard.min.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\js\\plugins\\Chart.extension.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\Chart.extension.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\js\\plugins\\bootstrap-notify.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\bootstrap-notify.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\js\\plugins\\chartjs.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\chartjs.min.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\js\\plugins\\countup.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\countup.min.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\js\\plugins\\perfect-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\perfect-scrollbar.min.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\js\\plugins\\smooth-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\smooth-scrollbar.min.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\js\\plugins\\world.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\world.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\newsletter.php",
+      "PackagePath": "staticwebassets\\newsletter.php"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\Readme.txt",
+      "PackagePath": "staticwebassets\\scss\\Readme.txt"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_accordion.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_accordion.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_alert.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_avatars.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_avatars.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_backgrounds.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_backgrounds.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_badge.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_breadcrumbs.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_breadcrumbs.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_buttons.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_cards-extend.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_cards-extend.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_cards.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_cards.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_components.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_components.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_dark-version.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_dark-version.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_dropdown-extend.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_dropdown-extend.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_dropdown.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_dropup.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_dropup.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_fixed-plugin.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_fixed-plugin.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_floating-elements.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_floating-elements.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_footer.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_footer.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_forms.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_gradients.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_gradients.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_header.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_header.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_icons.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_icons.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_info-areas.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_info-areas.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_list-check.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_list-check.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_misc-extend.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_misc-extend.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_misc.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_misc.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_nav.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_nav.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_navbar-vertical.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_navbar-vertical.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_navbar.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_pagination.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_popovers.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_popovers.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_progress.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_ripple.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_ripple.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_rtl-extend.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_rtl-extend.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_rtl.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_rtl.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_social-buttons.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_tables.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_tilt.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_tilt.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_timeline.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_timeline.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_tooltips.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_tooltips.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_typography.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_typography.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_utilities-extend.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_utilities-extend.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_utilities.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_variables.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\badges\\_badge-circle.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\badges\\_badge-circle.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\badges\\_badge-dot.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\badges\\_badge-dot.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\badges\\_badge-floating.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\badges\\_badge-floating.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\badges\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\badges\\_badge.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_accordion.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_accordion.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_alert.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_badge.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_breadcrumb.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_button-group.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_button-group.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_buttons.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_card.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_card.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_carousel.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_carousel.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_close.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_close.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_containers.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_containers.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_dropdown.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_forms.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_functions.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_functions.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_grid.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_helpers.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_helpers.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_images.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_images.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_list-group.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_maps.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_maps.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_mixins.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_modal.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_modal.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_nav.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_nav.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_navbar.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_offcanvas.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_pagination.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_placeholders.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_placeholders.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_popover.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_popover.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_progress.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_reboot.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_root.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_root.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_spinners.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_spinners.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_tables.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_toasts.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_toasts.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_tooltip.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_transitions.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_transitions.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_type.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_type.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_utilities.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_variables-dark.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_variables-dark.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_variables.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\bootstrap.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\forms\\_labels.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\forms\\_validation.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_color-bg.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_color-bg.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_focus-ring.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_focus-ring.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_icon-link.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_icon-link.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_position.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_stacks.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_stacks.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_vr.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_vr.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_backdrop.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_backdrop.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_banner.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_banner.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_color-mode.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_color-mode.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_container.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_image.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\tests\\jasmine.js",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\tests\\jasmine.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\tests\\mixins\\_auto-import-of-variables-dark.test.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\tests\\mixins\\_auto-import-of-variables-dark.test.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\tests\\mixins\\_color-modes.test.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\tests\\mixins\\_color-modes.test.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\tests\\mixins\\_media-query-color-mode-full.test.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\tests\\mixins\\_media-query-color-mode-full.test.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\tests\\mixins\\_utilities.test.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\tests\\mixins\\_utilities.test.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\tests\\sass-true\\register.js",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\tests\\sass-true\\register.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\tests\\sass-true\\runner.js",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\tests\\sass-true\\runner.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\tests\\utilities\\_api.test.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\tests\\utilities\\_api.test.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\utilities\\_api.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\bootstrap\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\cards\\card-background.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\cards\\card-background.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\cards\\card-blog.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\cards\\card-blog.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\cards\\card-horizontal.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\cards\\card-horizontal.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\cards\\card-pricing.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\cards\\card-pricing.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\cards\\card-profile.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\cards\\card-profile.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\cards\\card-rotate.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\cards\\card-rotate.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\custom\\_styles.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\custom\\_styles.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\custom\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\custom\\_variables.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\forms\\_form-switch.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\forms\\_form-switch.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\forms\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\forms\\_forms.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\forms\\_inputs.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\forms\\_inputs.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\forms\\_labels.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\mixins\\_colored-shadows.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\mixins\\_colored-shadows.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\mixins\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\mixins\\_social-buttons.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\mixins\\_vendor.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\mixins\\_vendor.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\mixins\\mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\mixins\\mixins.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\plugins\\free\\_flatpickr.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\free\\_flatpickr.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\plugins\\free\\_nouislider.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\free\\_nouislider.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\plugins\\free\\_perfect-scrollbar.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\free\\_perfect-scrollbar.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\plugins\\free\\_prism.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\free\\_prism.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\plugins\\free\\plugins.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\free\\plugins.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\_carousel-slick.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\_carousel-slick.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\_choices.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\_choices.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\_datatable-extend.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\_datatable-extend.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\_datatable.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\_datatable.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\_dragula.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\_dragula.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\_dropzone.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\_dropzone.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\_fullcalendar-extend.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\_fullcalendar-extend.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\_fullcalendar.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\_fullcalendar.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\_glidejs.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\_glidejs.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\_highlight.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\_highlight.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\_kanban.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\_kanban.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\_leaflet.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\_leaflet.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\_list-check.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\_list-check.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\_photoswipe.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\_photoswipe.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\_quill.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\_quill.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\_rating-widget.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\_rating-widget.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\_sweetalert2-extend.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\_sweetalert2-extend.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\_sweetalert2.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\_sweetalert2.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\_vector-map.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\_vector-map.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\multi-step.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\multi-step.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\plugins\\pro\\plugins-extend.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\pro\\plugins-extend.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\theme-pro.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\theme-pro.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\theme.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\theme.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\variables\\_animations.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_animations.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\variables\\_avatars.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_avatars.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\variables\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_badge.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\variables\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_breadcrumb.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\variables\\_cards-extend.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_cards-extend.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\variables\\_cards.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_cards.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\variables\\_choices.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_choices.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\variables\\_dark-version.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_dark-version.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\variables\\_dropdowns.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_dropdowns.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\variables\\_fixed-plugin.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_fixed-plugin.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\variables\\_form-switch.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_form-switch.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\variables\\_full-calendar.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_full-calendar.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\variables\\_header.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_header.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\variables\\_info-areas.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_info-areas.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\variables\\_misc-extend.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_misc-extend.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\variables\\_misc.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_misc.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\variables\\_navbar-vertical.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_navbar-vertical.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\variables\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_navbar.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\variables\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_pagination.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\variables\\_ripple.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_ripple.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\variables\\_rtl.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_rtl.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\variables\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_social-buttons.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\variables\\_table.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_table.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\variables\\_timeline.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_timeline.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\variables\\_utilities-extend.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_utilities-extend.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\variables\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_utilities.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\scss\\material-dashboard\\variables\\_virtual-reality.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_virtual-reality.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\slnx.sqlite",
+      "PackagePath": "staticwebassets\\slnx.sqlite"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\aos\\aos.cjs.js",
+      "PackagePath": "staticwebassets\\vendor\\aos\\aos.cjs.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\aos\\aos.css",
+      "PackagePath": "staticwebassets\\vendor\\aos\\aos.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\aos\\aos.esm.js",
+      "PackagePath": "staticwebassets\\vendor\\aos\\aos.esm.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\aos\\aos.js",
+      "PackagePath": "staticwebassets\\vendor\\aos\\aos.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\aos\\aos.js.map",
+      "PackagePath": "staticwebassets\\vendor\\aos\\aos.js.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap-icons\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\bootstrap-icons.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap-icons\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\bootstrap-icons.json"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap-icons\\bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\bootstrap-icons.min.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap-icons\\bootstrap-icons.scss",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\bootstrap-icons.scss"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\glightbox\\css\\glightbox.css",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\css\\glightbox.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\glightbox\\css\\glightbox.min.css",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\css\\glightbox.min.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\glightbox\\js\\glightbox.js",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\js\\glightbox.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\glightbox\\js\\glightbox.min.js",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\js\\glightbox.min.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\imagesloaded\\imagesloaded.pkgd.min.js",
+      "PackagePath": "staticwebassets\\vendor\\imagesloaded\\imagesloaded.pkgd.min.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\isotope-layout\\isotope.pkgd.js",
+      "PackagePath": "staticwebassets\\vendor\\isotope-layout\\isotope.pkgd.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\isotope-layout\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\vendor\\isotope-layout\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\php-email-form\\validate.js",
+      "PackagePath": "staticwebassets\\vendor\\php-email-form\\validate.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\purecounter\\purecounter_vanilla.js",
+      "PackagePath": "staticwebassets\\vendor\\purecounter\\purecounter_vanilla.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\purecounter\\purecounter_vanilla.js.map",
+      "PackagePath": "staticwebassets\\vendor\\purecounter\\purecounter_vanilla.js.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\swiper\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\vendor\\swiper\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\swiper\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\vendor\\swiper\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\swiper\\swiper-bundle.min.js.map",
+      "PackagePath": "staticwebassets\\vendor\\swiper\\swiper-bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE\\wwwroot\\vendor\\waypoints\\noframework.waypoints.js",
+      "PackagePath": "staticwebassets\\vendor\\waypoints\\noframework.waypoints.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.DOINHE.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.DOINHE.props",
+      "PackagePath": "build\\DOINHE.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.DOINHE.props",
+      "PackagePath": "buildMultiTargeting\\DOINHE.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.DOINHE.props",
+      "PackagePath": "buildTransitive\\DOINHE.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

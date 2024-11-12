@@ -1,4 +1,6 @@
-﻿using DOINHE.Db; // Đảm bảo đúng namespace của DbContext
+﻿using DOINHE;
+using DOINHE.Db; // Đảm bảo đúng namespace của DbContext
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -16,7 +18,32 @@ builder.Services.AddDbContext<MyDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DOINHE"))
 );
 
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+})
+    .AddCookie(options =>
+    {
+        options.LoginPath = "/Login"; // Đường dẫn đến trang đăng nhập
+        options.AccessDeniedPath = "/Account/AccessDenied"; // Đường dẫn nếu không đủ quyền truy cập
+    });
+
 IConfiguration configuration = builder.Configuration;
+
+// Configure EmailSender
+//builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
+//builder.Services.AddScoped<IEmailSender, EmailSender>();
+
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
 
 // Cấu hình PayOS
 builder.Services.AddSingleton<PayOS>(sp =>
@@ -30,6 +57,7 @@ builder.Services.AddSingleton<PayOS>(sp =>
         config["Environment:PAYOS_PARTNER_CODE"] // Partner code là tùy chọn, không cần throw Exception
     );
 });
+builder.Services.AddHttpClient();
 
 // Cấu hình Session
 builder.Services.AddSession(options =>
@@ -54,9 +82,9 @@ app.UseStaticFiles();
 app.UseRouting();
 
 // Sử dụng Session middleware
-app.UseSession();
-
+app.UseAuthentication();
 app.UseAuthorization();
+app.UseSession();
 
 app.MapRazorPages();
 

@@ -29,14 +29,21 @@ namespace DOINHE.Entitys
 
         public bool? StatusIsApprove { get; set; }
 
-        public byte? ImgDescription { get; set; }
+        public byte[]? ImgDescription { get; set; }
+
+        public int? quantityInStock { get; set; }
 
         public string? Key { get; set; }
 
-        public byte? ImgKey { get; set; }
+        public byte[]? ImgKey { get; set; }
 
         public virtual User? Users { get; set; }
         public virtual Category? Categories { get; set; }
         public virtual ICollection<Order>? Orders { get; set; }
+
+        public static implicit operator Product?(string? v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DOINHE_BusinessObject\DOINHE_BusinessObject.csproj" />
+    <ProjectReference Include="..\DOINHE_DataAccess\DOINHE_DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DOINHE1_API.props" />
+</Project>

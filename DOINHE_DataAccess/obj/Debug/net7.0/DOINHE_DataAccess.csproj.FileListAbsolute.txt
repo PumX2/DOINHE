@@ -1,0 +1,47 @@
+D:\Visual Studio\DOINHE - Copy\DOINHE_DataAccess\bin\Debug\net7.0\DOINHE_DataAccess.deps.json
+D:\Visual Studio\DOINHE - Copy\DOINHE_DataAccess\bin\Debug\net7.0\DOINHE_DataAccess.dll
+D:\Visual Studio\DOINHE - Copy\DOINHE_DataAccess\bin\Debug\net7.0\DOINHE_DataAccess.pdb
+D:\Visual Studio\DOINHE - Copy\DOINHE_DataAccess\bin\Debug\net7.0\DOINHE_BusinessObject.dll
+D:\Visual Studio\DOINHE - Copy\DOINHE_DataAccess\bin\Debug\net7.0\DOINHE_BusinessObject.pdb
+D:\Visual Studio\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\DOINHE_DataAccess.csproj.AssemblyReference.cache
+D:\Visual Studio\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\DOINHE_DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\DOINHE_DataAccess.AssemblyInfoInputs.cache
+D:\Visual Studio\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\DOINHE_DataAccess.AssemblyInfo.cs
+D:\Visual Studio\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\DOINHE_DataAccess.csproj.CoreCompileInputs.cache
+D:\Visual Studio\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\DOINHE_DataAccess.sourcelink.json
+D:\Visual Studio\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\DOINHE_D.7CF081FE.Up2Date
+D:\Visual Studio\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\DOINHE_DataAccess.dll
+D:\Visual Studio\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\refint\DOINHE_DataAccess.dll
+D:\Visual Studio\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\DOINHE_DataAccess.pdb
+D:\Visual Studio\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\ref\DOINHE_DataAccess.dll
+D:\.NET\DOINHE - Copy\DOINHE_DataAccess\bin\Debug\net7.0\DOINHE_DataAccess.deps.json
+D:\.NET\DOINHE - Copy\DOINHE_DataAccess\bin\Debug\net7.0\DOINHE_DataAccess.dll
+D:\.NET\DOINHE - Copy\DOINHE_DataAccess\bin\Debug\net7.0\DOINHE_DataAccess.pdb
+D:\.NET\DOINHE - Copy\DOINHE_DataAccess\bin\Debug\net7.0\DOINHE_BusinessObject.dll
+D:\.NET\DOINHE - Copy\DOINHE_DataAccess\bin\Debug\net7.0\DOINHE_BusinessObject.pdb
+D:\.NET\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\DOINHE_DataAccess.csproj.AssemblyReference.cache
+D:\.NET\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\DOINHE_DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\DOINHE_DataAccess.AssemblyInfoInputs.cache
+D:\.NET\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\DOINHE_DataAccess.AssemblyInfo.cs
+D:\.NET\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\DOINHE_DataAccess.csproj.CoreCompileInputs.cache
+D:\.NET\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\DOINHE_DataAccess.sourcelink.json
+D:\.NET\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\DOINHE_DataAccess.csproj.CopyComplete
+D:\.NET\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\DOINHE_DataAccess.dll
+D:\.NET\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\refint\DOINHE_DataAccess.dll
+D:\.NET\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\DOINHE_DataAccess.pdb
+D:\.NET\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\ref\DOINHE_DataAccess.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_DataAccess\bin\Debug\net7.0\DOINHE_DataAccess.deps.json
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_DataAccess\bin\Debug\net7.0\DOINHE_DataAccess.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_DataAccess\bin\Debug\net7.0\DOINHE_DataAccess.pdb
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_DataAccess\bin\Debug\net7.0\DOINHE_BusinessObject.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_DataAccess\bin\Debug\net7.0\DOINHE_BusinessObject.pdb
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\DOINHE_DataAccess.csproj.AssemblyReference.cache
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\DOINHE_DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\DOINHE_DataAccess.AssemblyInfoInputs.cache
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\DOINHE_DataAccess.AssemblyInfo.cs
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\DOINHE_DataAccess.csproj.CoreCompileInputs.cache
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\DOINHE_DataAccess.csproj.CopyComplete
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\DOINHE_DataAccess.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\refint\DOINHE_DataAccess.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\DOINHE_DataAccess.pdb
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\ref\DOINHE_DataAccess.dll

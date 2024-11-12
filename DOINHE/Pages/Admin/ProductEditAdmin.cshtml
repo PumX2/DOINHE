@@ -1,0 +1,69 @@
+﻿@page
+@model DOINHE.Pages.Admin.ProductEditAdminModel
+@{
+    Layout = "_LayoutAdmin";
+}
+<div class="container-fluid py-4">
+    <div class="row">
+        <div class="col-12">
+            <div class="card border border-secondary shadow-sm">
+                <div class="card-header bg-gradient-dark text-white">
+                    <h6 class="text-white text-capitalize">Edit Product</h6>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <div class="table-responsive">
+                            <table class="table table-bordered">
+                                <tbody>
+                                    <!-- ID -->
+                                    <tr>
+                                        <td class="fw-bold">ID</td>
+                                        <td>@Model.Product.Id</td>
+                                        <td><input type="text" class="form-control" value="@Model.Product.Id" readonly /></td>
+                                    </tr>
+                                    <!-- Product Name -->
+                                    <tr>
+                                        <td class="fw-bold">Product Name</td>
+                                        <td>@Model.Product.ProductName</td>
+                                        <td><input type="text" class="form-control" name="ProductName" value="@Model.Product.ProductName" /></td>
+                                    </tr>
+                                    <!-- Category -->
+                                    <tr>
+                                        <td class="fw-bold">Category</td>
+                                        <td>@Model.Product.Categories?.CategoryName</td>
+  @*                                       <td>
+                                            <select class="form-control" name="CategoryId">
+                                                @foreach (var category in Model.Categories)
+                                                {
+                                                    <option value="@category.Id" @(category.Id == Model.Product.CategoryId ? "selected" : "")>
+                                                        @category.CategoryName
+                                                    </option>
+                                                }
+                                            </select>
+                                        </td> *@
+                                    </tr>
+                                    <!-- Price -->
+                                    <tr>
+                                        <td class="fw-bold">Price</td>
+                                        <td>@Model.Product.Price</td>
+                                        <td><input type="number" class="form-control" name="Price" value="@Model.Product.Price" step="0.01" /></td>
+                                    </tr>
+                                    <!-- Quantity in Stock -->
+                                    <tr>
+                                        <td class="fw-bold">Quantity in Stock</td>
+                                        <td>@Model.Product.quantityInStock</td>
+                                        <td><input type="number" class="form-control" name="quantityInStock" value="@Model.Product.quantityInStock" /></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="d-flex justify-content-end">
+                            <button type="submit" class="btn btn-primary mt-3">Save Changes</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,3 +1,5 @@
+﻿using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
@@ -5,14 +7,15 @@ namespace PRN221_FinalProject_Team2.Pages
 {
     public class LogoutModel : PageModel
     {
-        public IActionResult OnGet()
+        public async Task<IActionResult> OnGet()
         {
-            HttpContext.Session.Remove("admin");
-            HttpContext.Session.Remove("customer");
-            HttpContext.Session.Remove("Account");
-			HttpContext.Session.Remove("Cart");
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
 
-			return RedirectToPage("/Index");
+            // Xóa toàn bộ session
+            HttpContext.Session.Clear();
+
+            // Chuyển hướng đến trang Index
+            return RedirectToPage("/Index");
         }
     }
 }

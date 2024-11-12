@@ -1,26 +1,11 @@
 ﻿@page
 @model DOINHE.Pages.LoginModel
 @{
+    // Layout = "_Layout";
 }
 <body>
     <div class="screen-1">
         <form method="post">
-            @* <div class="email">
-                <div class="sec-2">
-                    <ion-icon name="mail-outline"></ion-icon>
-                    <input asp-for="User.Email" placeholder="Username@gmail.com" />
-                    <label class="form-label" for="Account_Email">Email</label>
-                    <span asp-validation-for="User.Email" class="text-danger"></span>
-                </div>
-            </div>
-            <div class="password">
-                <div class="form-outline form-white mb-4">
-                    <input asp-for="User.Password" class="form-control form-control-lg" />
-                    <label class="form-label" for="Account_Password">Password</label>
-                    <span asp-validation-for="User.Password" class="text-danger"></span>
-                </div>
-            </div> *@
-
 
             <div class="password">
                 <label for="email">Email Address</label>
@@ -31,7 +16,7 @@
                 </div>
             </div>
             <div class="password">
-                <label for="password">Confirm Password</label>
+                <label for="password">Password</label>
                 <div class="sec-2">
                     <ion-icon name="lock-closed-outline"></ion-icon>
                     <input type="password" asp-for="User.Password" placeholder="**********" />
@@ -40,6 +25,13 @@
                 </div>
             </div>
 
+            <!-- Hiển thị thông báo lỗi nếu có -->
+            @if (TempData["msg"] != null)
+            {
+                <div class="alert alert-danger">
+                    @TempData["msg"]
+                </div>
+            }
 
             <button class="login" type="submit">Login</button>
         </form>
@@ -50,7 +42,6 @@
         </div>
     </div>
 </body>
-
 
 
 <style>
@@ -156,4 +147,13 @@
                 text-decoration: underline;
             }
 
+    .alert.alert-danger {
+        color: red;
+        background-color: #f8d7da;
+        border: 1px solid #f5c6cb;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 10px;
+        text-align: center;
+    }
 </style>
