@@ -15,7 +15,6 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace DOINHE.Pages.Product
 {
-    [Authorize]
     public class EditModel : PageModel
     {
         private readonly DOINHE.Db.MyDbContext _context;

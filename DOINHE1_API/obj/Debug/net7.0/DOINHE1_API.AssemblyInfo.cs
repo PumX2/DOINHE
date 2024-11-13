@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DOINHE1_API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b4d902fd4064e5a13d52bb1d2c4e733d2f69ac35")]
 [assembly: System.Reflection.AssemblyProductAttribute("DOINHE1_API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DOINHE1_API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

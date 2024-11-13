@@ -1,47 +1,51 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using DOINHE.Db;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using System.Net.Http;
-using System.Text.Json;
-using DOINHE_BusinessObject;
+using Microsoft.Extensions.Configuration;
 
 namespace DOINHE.Pages
 {
     public class IndexModel : PageModel
     {
-        private readonly HttpClient _httpClient;
+        private readonly MyDbContext _db;
+        private readonly IConfiguration _configuration;
 
-        public IndexModel(IHttpClientFactory httpClientFactory)
+        public IndexModel(MyDbContext db, IConfiguration configuration)
         {
-            _httpClient = httpClientFactory.CreateClient();
+            _db = db;
+            _configuration = configuration;
         }
 
         [BindProperty]
         public List<DOINHE_BusinessObject.Product> products { get; set; } = new List<DOINHE_BusinessObject.Product>();
-
+        public List<DOINHE_BusinessObject.Product> productss { get; set; } = new List<DOINHE_BusinessObject.Product>();
         public async Task<IActionResult> OnGetAsync(string searchTerm)
         {
-            // Gọi API để lấy danh sách sản phẩm
-            var response = await _httpClient.GetAsync("http://localhost:7023/api/Product");
-            if (response.IsSuccessStatusCode)
+            string UrlAPI = _configuration["UrlAPI"];
+            try
             {
-                var json = await response.Content.ReadAsStringAsync();
-                products = JsonSerializer.Deserialize<List<DOINHE_BusinessObject.Product>>(json) ?? new List<DOINHE_BusinessObject.Product>();
-
-                // Nếu có searchTerm thì lọc sản phẩm trước khi hiển thị
-                if (!string.IsNullOrEmpty(searchTerm))
+                using (var client = new HttpClient())
                 {
-                    products = products
-                        .Where(p => p.ProductName.Contains(searchTerm, StringComparison.OrdinalIgnoreCase))
-                        .ToList();
+                    client.BaseAddress = new System.Uri("https://localhost:7023/api/");
+
+                    productss = await client.GetFromJsonAsync<List<DOINHE_BusinessObject.Product>>("Product");
+                    products = productss.Where(p => p.StatusIsApprove == true).ToList();
                 }
             }
-            else
+            catch (HttpRequestException ex)
             {
-                // Xử lý lỗi nếu không lấy được dữ liệu từ API
-                ModelState.AddModelError(string.Empty, "Không thể tải danh sách sản phẩm.");
+                ModelState.AddModelError(string.Empty, $"Lỗi khi kết nối API: {ex.Message}");
+            }
+
+
+            // Nếu có searchTerm thì lọc sản phẩm trước khi hiển thị
+            if (!string.IsNullOrEmpty(searchTerm))
+            {
+                products = products.Where(p => p.ProductName.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)).ToList();
             }
 
             return Page();
         }
+
     }
 }

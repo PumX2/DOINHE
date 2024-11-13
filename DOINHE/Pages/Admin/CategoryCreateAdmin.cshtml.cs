@@ -38,7 +38,7 @@ namespace DOINHE.Pages.Admin
             try
             {
                 var client = _httpClientFactory.CreateClient();
-                client.BaseAddress = new System.Uri("https://localhost:7023/api/");
+                client.BaseAddress = new System.Uri("http://doinheexe.runasp.net/api/");
 
                 var response = await client.PostAsJsonAsync("Category", Category);
 

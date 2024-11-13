@@ -42,3 +42,4 @@ E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_
 E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_BusinessObject\obj\Debug\net7.0\DOINHE_BusinessObject.pdb
 E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_BusinessObject\obj\Debug\net7.0\DOINHE_BusinessObject.genruntimeconfig.cache
 E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_BusinessObject\obj\Debug\net7.0\ref\DOINHE_BusinessObject.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_BusinessObject\obj\Debug\net7.0\DOINHE_BusinessObject.sourcelink.json

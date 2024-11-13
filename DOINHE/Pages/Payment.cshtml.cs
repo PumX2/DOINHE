@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using Net.payOS;
 using Net.payOS.Types;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics.Metrics;
@@ -34,12 +35,12 @@ namespace DOINHE.Pages
         public async Task<IActionResult> OnGetAsync(int id, int UserId)
         {
             // Lấy session từ HttpContext
-            var accountJson = HttpContext.Session.GetString("Account");
+            var accountJson = HttpContext.Session.GetString("customer");
 
             if (!string.IsNullOrEmpty(accountJson))
             {
                 // Giải mã đối tượng từ JSON
-                var member = JsonSerializer.Deserialize<User>(accountJson);
+                var member = JsonConvert.DeserializeObject<User>(accountJson);
 
                 if (member != null)
                 {
@@ -60,7 +61,7 @@ namespace DOINHE.Pages
 
             products = product;
             users = user;
-            HttpContext.Session.SetString("Product", JsonSerializer.Serialize(product));
+            HttpContext.Session.SetString("Product", JsonConvert.SerializeObject(product));
             return Page(); // Trả về trang Payment mà không chuyển hướng
         }
 
@@ -78,7 +79,7 @@ namespace DOINHE.Pages
                 return RedirectToPage("/Login"); // Chuyển hướng tới trang đăng nhập nếu người dùng chưa đăng nhập
             }
 
-            var user = JsonSerializer.Deserialize<User>(accountJson);
+            var user = JsonConvert.DeserializeObject<User>(accountJson);
             if (user == null)
             {
                 return NotFound();
@@ -136,8 +137,8 @@ namespace DOINHE.Pages
                     amount: totalPayment,
                     description: "Thanh toán cho dịch vụ",
                     items: items,
-                    cancelUrl: "http://doinhe.runasp.net/Index",
-                    returnUrl: "http://doinhe.runasp.net/PaymentSuccess"
+                    cancelUrl: "https://localhost:7040/Index",
+                    returnUrl: "https://localhost:7040/PaymentSuccess"
                 //cancelUrl: "https://localhost:7040/Index",
                 //returnUrl: "https://localhost:7040/PaymentSuccess"
                 );

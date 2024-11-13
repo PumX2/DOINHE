@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
 	<PropertyGroup>
-		<TargetFramework>net7.0</TargetFramework>
+		<TargetFramework>net8.0</TargetFramework>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
 	</PropertyGroup>
@@ -41,11 +41,6 @@
 	  <None Include="Pages\Product\Details.cshtml" />
 	  <None Include="Pages\Product\Edit.cshtml" />
 	  <None Include="Pages\Product\Index.cshtml" />
-	  <None Include="Pages\Report\Create.cshtml" />
-	  <None Include="Pages\Report\Delete.cshtml" />
-	  <None Include="Pages\Report\Details.cshtml" />
-	  <None Include="Pages\Report\Edit.cshtml" />
-	  <None Include="Pages\Report\Index.cshtml" />
 	  <None Include="wwwroot\img\illustrations\pattern-tree.svg" />
 	  <None Include="wwwroot\img\logos\gray-logos\logo-coinbase.svg" />
 	  <None Include="wwwroot\img\logos\gray-logos\logo-nasa.svg" />

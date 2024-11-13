@@ -641,7 +641,10 @@
           "Microsoft.Extensions.Configuration.Json": "7.0.0"
         },
         "runtime": {
-          "DOINHE_BusinessObject.dll": {}
+          "DOINHE_BusinessObject.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "DOINHE_DataAccess/1.0.0": {
@@ -649,7 +652,10 @@
           "DOINHE_BusinessObject": "1.0.0"
         },
         "runtime": {
-          "DOINHE_DataAccess.dll": {}
+          "DOINHE_DataAccess.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

@@ -17,7 +17,7 @@ namespace DOINHE1_API.Controllers
             _orderRepository = orderRepository;
         }
 
-        [EnableQuery]
+        [EnableQuery(PageSize = 20)]
         [HttpGet]
         public IActionResult Get()
         {
@@ -28,7 +28,7 @@ namespace DOINHE1_API.Controllers
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
-            var order = _orderRepository.GetOrderById(id);
+            var order = _orderRepository.GetAllOrders().FirstOrDefault(o => o.Id == id);
             if (order == null)
                 return NotFound();
             return Ok(order);
@@ -37,6 +37,9 @@ namespace DOINHE1_API.Controllers
         [HttpPost]
         public IActionResult Post([FromBody] Order order)
         {
+            if (order == null)
+                return BadRequest("Order cannot be null.");
+
             _orderRepository.SaveOrder(order);
             return CreatedAtAction(nameof(Get), new { id = order.Id }, order);
         }
@@ -44,7 +47,10 @@ namespace DOINHE1_API.Controllers
         [HttpPut("{id}")]
         public IActionResult Put(int id, [FromBody] Order order)
         {
-            var existingOrder = _orderRepository.GetOrderById(id);
+            if (order == null)
+                return BadRequest("Order cannot be null.");
+
+            var existingOrder = _orderRepository.GetAllOrders().FirstOrDefault(o => o.Id == id);
             if (existingOrder == null)
                 return NotFound();
 
@@ -55,7 +61,7 @@ namespace DOINHE1_API.Controllers
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
-            var order = _orderRepository.GetOrderById(id);
+            var order = _orderRepository.GetAllOrders().FirstOrDefault(o => o.Id == id);
             if (order == null)
                 return NotFound();
 

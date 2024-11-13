@@ -11,7 +11,7 @@ namespace DOINHE_DataAccess
         {
             using (var context = new ApplicationDbContext())
             {
-                return context.Products.Include(p => p.Categories).ToList();
+                return context.Products.ToList();
             }
         }
 
@@ -19,7 +19,7 @@ namespace DOINHE_DataAccess
         {
             using (var context = new ApplicationDbContext())
             {
-                return context.Products.Include(p => p.Categories).FirstOrDefault(p => p.Id == id);
+                return context.Products.FirstOrDefault(p => p.Id == id);
             }
         }
 

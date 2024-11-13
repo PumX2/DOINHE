@@ -64,10 +64,11 @@ namespace DOINHE1_API.Controllers
             {
                 return Unauthorized(new { message = "Invalid email or password" });
             }
+            var id = user.Id;
             var userId = user.Id;
             var name = user.Name;
             var role = user.Role == 1 ? "admin" : "user";
-            return Ok(new { message = "Login successful", role = role, user = user, userId = userId, name = name });
+            return Ok(new { message = "Login successful", role = role, user = user, userId = userId, name = name , id = id});
         }
 
 

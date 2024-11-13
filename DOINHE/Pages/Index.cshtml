@@ -45,7 +45,7 @@
     }
 
 
-    @* <!-- Search Widget -->
+    <!-- Search Widget -->
     <div class="d-flex justify-content-center mb-4 position-relative">
         <div class="search-widget widget-item col-md-6">
             <h3 class="widget-title text-center">Search</h3>
@@ -55,9 +55,9 @@
             </form>
             <div id="suggestions" class="suggestions-box"></div>
         </div>
-    </div> *@
+    </div>
 
-    @* <script>
+    <script>
         // Khởi tạo danh sách sản phẩm từ Razor Page
         const products = @Html.Raw(productsJson);
         console.log(products);  // Kiểm tra dữ liệu sản phẩm
@@ -105,7 +105,7 @@
                 document.getElementById("suggestions").style.display = "none";
             }
         });
-    </script> *@
+    </script>
 
     <style>
         .scrolled .header {
@@ -192,7 +192,7 @@
             </div>
         </div>
     </section><!-- /Featured Services Section -->
-    @if (listProduct.Any(p => p.CategoryId == 11 && p.StatusIsBuy == false && p.StatusIsApprove == true)) // Kiểm tra nếu có sản phẩm trong Hai Chau
+    @if (listProduct.Any(p => p.CategoryId == 13 && p.StatusIsBuy == false && p.StatusIsApprove == true)) // Kiểm tra nếu có sản phẩm trong Hai Chau
     {
         <section id="Haichau" class="features section">
             <div class="container section-title" data-aos="fade-up">
@@ -200,7 +200,7 @@
             </div>
             <div class="container">
                 <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-                    @foreach (var product in listProduct.Where(p => p.CategoryId == 11 && p.StatusIsBuy == false && p.StatusIsApprove == true))
+                    @foreach (var product in listProduct.Where(p => p.CategoryId == 13 && p.StatusIsBuy == false && p.StatusIsApprove == true))
                     {
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-@product.CategoryId">
                             <div class="card h-100">
@@ -232,7 +232,7 @@
         </section>
     }
 
-    @if (listProduct.Any(p => p.CategoryId == 12 && p.StatusIsBuy == false && p.StatusIsApprove == true)) // Kiểm tra nếu có sản phẩm trong Hai Chau
+    @if (listProduct.Any(p => p.CategoryId == 14 && p.StatusIsBuy == false && p.StatusIsApprove == true)) // Kiểm tra nếu có sản phẩm trong Hai Chau
     {
         <section id="Haichau" class="features section">
             <div class="container section-title" data-aos="fade-up">
@@ -240,7 +240,7 @@
             </div>
             <div class="container">
                 <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-                    @foreach (var product in listProduct.Where(p => p.CategoryId == 12 && p.StatusIsBuy == false && p.StatusIsApprove == true))
+                    @foreach (var product in listProduct.Where(p => p.CategoryId == 14 && p.StatusIsBuy == false && p.StatusIsApprove == true))
                     {
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-@product.CategoryId">
                             <div class="card h-100">
@@ -272,91 +272,11 @@
         </section>
     }
 
-    @if (listProduct.Any(p => p.CategoryId == 1 && p.StatusIsBuy == false && p.StatusIsApprove == true)) // Kiểm tra nếu có sản phẩm trong Ngu Hanh Son
+    @if (listProduct.Any(p => p.CategoryId == 6 && p.StatusIsBuy == false && p.StatusIsApprove == true)) // Kiểm tra nếu có sản phẩm trong Ngu Hanh Son
     {
         <section id="Nguhanhson" class="features section">
             <div class="container section-title" data-aos="fade-up">
                 <h2>Ngu Hanh Son</h2>
-            </div>
-            <div class="container">
-                <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-                    @foreach (var product in listProduct.Where(p => p.CategoryId == 1 && p.StatusIsBuy == false && p.StatusIsApprove == true))
-                    {
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-@product.CategoryId">
-                            <div class="card h-100">
-                                <a href="portfolio-details?id=@product.Id">
-                                    <div class="portfolio-content">
-                                        @if (product.ImgDescription != null)
-                                        {
-                                            var base64Image = Convert.ToBase64String(product.ImgDescription!);
-                                            var imageSrc = $"data:image/png;base64,{base64Image}";
-                                            <img src="@imageSrc" class="card-img-top img-fluid" alt="@product.ProductName">
-                                        }
-                                        else
-                                        {
-                                            <img src="~/img/default-product.jpg" class="card-img-top img-fluid" alt="Default Image">
-                                        }
-                                    </div>
-                                </a>
-                                <div class="card-body">
-                                    <h5 class="card-title">@product.ProductName</h5>
-                                    <p class="card-text text-muted">@product.Description</p>
-                                    <p class="card-price text-danger font-weight-bold">@String.Format("{0:0,0} VND", product.Price)</p>
-                                    <a href="portfolio-details?id=@product.Id" class="btn btn-outline-primary">View detail</a>
-                                </div>
-                            </div>
-                        </div>
-                    }
-                </div>
-            </div>
-        </section>
-    }
-
-    @if (listProduct.Any(p => p.CategoryId == 2 && p.StatusIsBuy == false && p.StatusIsApprove == true)) // Kiểm tra nếu có sản phẩm trong Hai Chau
-    {
-        <section id="Haichau" class="features section">
-            <div class="container section-title" data-aos="fade-up">
-                <h2>Hai Chau</h2>
-            </div>
-            <div class="container">
-                <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-                    @foreach (var product in listProduct.Where(p => p.CategoryId == 2 && p.StatusIsBuy == false && p.StatusIsApprove == true))
-                    {
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-@product.CategoryId">
-                            <div class="card h-100">
-                                <a href="portfolio-details?id=@product.Id">
-                                    <div class="portfolio-content">
-                                        @if (product.ImgDescription != null)
-                                        {
-                                            var base64Image = Convert.ToBase64String(product.ImgDescription!);
-                                            var imageSrc = $"data:image/png;base64,{base64Image}";
-                                            <img src="@imageSrc" class="card-img-top img-fluid" alt="@product.ProductName">
-                                        }
-                                        else
-                                        {
-                                            <img src="~/img/default-product.jpg" class="card-img-top img-fluid" alt="Default Image">
-                                        }
-                                    </div>
-                                </a>
-                                <div class="card-body">
-                                    <h5 class="card-title">@product.ProductName</h5>
-                                    <p class="card-text text-muted">@product.Description</p>
-                                    <p class="card-price text-danger font-weight-bold">@String.Format("{0:0,0} VND", product.Price)</p>
-                                    <a href="portfolio-details?id=@product.Id" class="btn btn-outline-primary">View detail</a>
-                                </div>
-                            </div>
-                        </div>
-                    }
-                </div>
-            </div>
-        </section>
-    }
-
-    @if (listProduct.Any(p => p.CategoryId == 6 && p.StatusIsBuy == false && p.StatusIsApprove == true)) // Kiểm tra nếu có sản phẩm trong Lien Chieu
-    {
-        <section id="Lienchieu" class="features section">
-            <div class="container section-title" data-aos="fade-up">
-                <h2>Lien Chieu</h2>
             </div>
             <div class="container">
                 <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
@@ -392,11 +312,11 @@
         </section>
     }
 
-    @if (listProduct.Any(p => p.CategoryId == 7 && p.StatusIsBuy == false && p.StatusIsApprove == true)) // Kiểm tra nếu có sản phẩm trong Lien Chieu
+    @if (listProduct.Any(p => p.CategoryId == 7 && p.StatusIsBuy == false && p.StatusIsApprove == true)) // Kiểm tra nếu có sản phẩm trong Hai Chau
     {
-        <section id="Sontra" class="features section">
+        <section id="Haichau" class="features section">
             <div class="container section-title" data-aos="fade-up">
-                <h2>Son Tras</h2>
+                <h2>Hai Chau</h2>
             </div>
             <div class="container">
                 <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
@@ -434,9 +354,9 @@
 
     @if (listProduct.Any(p => p.CategoryId == 8 && p.StatusIsBuy == false && p.StatusIsApprove == true)) // Kiểm tra nếu có sản phẩm trong Lien Chieu
     {
-        <section id="Thanhkhe" class="features section">
+        <section id="Lienchieu" class="features section">
             <div class="container section-title" data-aos="fade-up">
-                <h2>Thanh Khe</h2>
+                <h2>Lien Chieu</h2>
             </div>
             <div class="container">
                 <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
@@ -474,9 +394,9 @@
 
     @if (listProduct.Any(p => p.CategoryId == 9 && p.StatusIsBuy == false && p.StatusIsApprove == true)) // Kiểm tra nếu có sản phẩm trong Lien Chieu
     {
-        <section id="Hoian" class="features section">
+        <section id="Sontra" class="features section">
             <div class="container section-title" data-aos="fade-up">
-                <h2>Hoi An</h2>
+                <h2>Son Tras</h2>
             </div>
             <div class="container">
                 <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
@@ -512,7 +432,87 @@
         </section>
     }
 
-    @if (listProduct.Any(p => p.CategoryId == 10 && p.StatusIsBuy == false && p.StatusIsApprove == true)) // Kiểm tra nếu có sản phẩm trong Cam Le với điều kiện
+    @if (listProduct.Any(p => p.CategoryId == 10 && p.StatusIsBuy == false && p.StatusIsApprove == true)) // Kiểm tra nếu có sản phẩm trong Lien Chieu
+    {
+        <section id="Thanhkhe" class="features section">
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Thanh Khe</h2>
+            </div>
+            <div class="container">
+                <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+                    @foreach (var product in listProduct.Where(p => p.CategoryId == 10 && p.StatusIsBuy == false && p.StatusIsApprove == true))
+                    {
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-@product.CategoryId">
+                            <div class="card h-100">
+                                <a href="portfolio-details?id=@product.Id">
+                                    <div class="portfolio-content">
+                                        @if (product.ImgDescription != null)
+                                        {
+                                            var base64Image = Convert.ToBase64String(product.ImgDescription!);
+                                            var imageSrc = $"data:image/png;base64,{base64Image}";
+                                            <img src="@imageSrc" class="card-img-top img-fluid" alt="@product.ProductName">
+                                        }
+                                        else
+                                        {
+                                            <img src="~/img/default-product.jpg" class="card-img-top img-fluid" alt="Default Image">
+                                        }
+                                    </div>
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">@product.ProductName</h5>
+                                    <p class="card-text text-muted">@product.Description</p>
+                                    <p class="card-price text-danger font-weight-bold">@String.Format("{0:0,0} VND", product.Price)</p>
+                                    <a href="portfolio-details?id=@product.Id" class="btn btn-outline-primary">View detail</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </section>
+    }
+
+    @if (listProduct.Any(p => p.CategoryId == 11 && p.StatusIsBuy == false && p.StatusIsApprove == true)) // Kiểm tra nếu có sản phẩm trong Lien Chieu
+    {
+        <section id="Hoian" class="features section">
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Hoi An</h2>
+            </div>
+            <div class="container">
+                <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+                    @foreach (var product in listProduct.Where(p => p.CategoryId == 11 && p.StatusIsBuy == false && p.StatusIsApprove == true))
+                    {
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-@product.CategoryId">
+                            <div class="card h-100">
+                                <a href="portfolio-details?id=@product.Id">
+                                    <div class="portfolio-content">
+                                        @if (product.ImgDescription != null)
+                                        {
+                                            var base64Image = Convert.ToBase64String(product.ImgDescription!);
+                                            var imageSrc = $"data:image/png;base64,{base64Image}";
+                                            <img src="@imageSrc" class="card-img-top img-fluid" alt="@product.ProductName">
+                                        }
+                                        else
+                                        {
+                                            <img src="~/img/default-product.jpg" class="card-img-top img-fluid" alt="Default Image">
+                                        }
+                                    </div>
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">@product.ProductName</h5>
+                                    <p class="card-text text-muted">@product.Description</p>
+                                    <p class="card-price text-danger font-weight-bold">@String.Format("{0:0,0} VND", product.Price)</p>
+                                    <a href="portfolio-details?id=@product.Id" class="btn btn-outline-primary">View detail</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </section>
+    }
+
+    @if (listProduct.Any(p => p.CategoryId == 12 && p.StatusIsBuy == false && p.StatusIsApprove == true)) // Kiểm tra nếu có sản phẩm trong Cam Le với điều kiện
     {
         <section id="Camle" class="features section">
             <div class="container section-title" data-aos="fade-up">
@@ -520,7 +520,7 @@
             </div>
             <div class="container">
                 <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-                    @foreach (var product in listProduct.Where(p => p.CategoryId == 10 && p.StatusIsBuy == false && p.StatusIsApprove == true))
+                    @foreach (var product in listProduct.Where(p => p.CategoryId == 12 && p.StatusIsBuy == false && p.StatusIsApprove == true))
                     {
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-@product.CategoryId">
                             <div class="card h-100">

@@ -28,8 +28,9 @@ E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_
 E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_Repository\obj\Debug\net7.0\DOINHE_Repository.AssemblyInfoInputs.cache
 E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_Repository\obj\Debug\net7.0\DOINHE_Repository.AssemblyInfo.cs
 E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_Repository\obj\Debug\net7.0\DOINHE_Repository.csproj.CoreCompileInputs.cache
-E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_Repository\obj\Debug\net7.0\DOINHE_Repository.csproj.CopyComplete
 E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_Repository\obj\Debug\net7.0\DOINHE_Repository.dll
 E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_Repository\obj\Debug\net7.0\refint\DOINHE_Repository.dll
 E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_Repository\obj\Debug\net7.0\DOINHE_Repository.pdb
 E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_Repository\obj\Debug\net7.0\ref\DOINHE_Repository.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_Repository\obj\Debug\net7.0\DOINHE_Repository.sourcelink.json
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_Repository\obj\Debug\net7.0\DOINHE_R.B960BCF6.Up2Date

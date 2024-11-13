@@ -57,6 +57,7 @@ namespace DOINHE.Pages
                 var user = responseData.GetProperty("user");
                 var userId = responseData.GetProperty("userId");
                 var name = responseData.GetProperty("name");
+                var id = responseData.GetProperty("id");
 
                 // Lưu thông tin người dùng vào Session
                 HttpContext.Session.SetString("Account", user.ToString());
@@ -64,6 +65,9 @@ namespace DOINHE.Pages
                 if (role == "admin")
                 {
                     HttpContext.Session.SetString("admin", user.ToString());
+                    HttpContext.Session.SetString("UserId", userId.ToString());
+                    HttpContext.Session.SetString("name", name.ToString());
+                    HttpContext.Session.SetString("id", id.ToString());
                     return RedirectToPage("/Admin/Dashboard");
                 }
                 if (role == "user")
@@ -71,6 +75,8 @@ namespace DOINHE.Pages
                     HttpContext.Session.SetString("customer", user.ToString());
                     HttpContext.Session.SetString("UserId", userId.ToString());
                     HttpContext.Session.SetString("name", name.ToString());
+                    HttpContext.Session.SetString("id", id.ToString());
+
                     return RedirectToPage("/Index");
                 }
             }

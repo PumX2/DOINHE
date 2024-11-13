@@ -40,8 +40,9 @@ E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_
 E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\DOINHE_DataAccess.AssemblyInfoInputs.cache
 E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\DOINHE_DataAccess.AssemblyInfo.cs
 E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\DOINHE_DataAccess.csproj.CoreCompileInputs.cache
-E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\DOINHE_DataAccess.csproj.CopyComplete
 E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\DOINHE_DataAccess.dll
 E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\refint\DOINHE_DataAccess.dll
 E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\DOINHE_DataAccess.pdb
 E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\ref\DOINHE_DataAccess.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\DOINHE_DataAccess.sourcelink.json
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_DataAccess\obj\Debug\net7.0\DOINHE_D.7CF081FE.Up2Date

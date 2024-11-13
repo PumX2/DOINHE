@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r7mRnRXVtgvWZzv8w0pN8K+TVvHlbotNijmx6ENtXp6U8GZOCgw91t+mWHW+edXQlPCsH9oTlAfZK3ro2YFiJQ==",
+  "dgSpecHash": "dKcv9n6lKA8=",
   "success": true,
-  "projectFilePath": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_Repository\\DOINHE_Repository.csproj",
+  "projectFilePath": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy - Copy\\DOINHE_Repository\\DOINHE_Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ACER\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -9,45 +9,70 @@ namespace DOINHE.Pages
 {
     public class OrderDetailModel : PageModel
     {
-        public OrderDetailModel OrderDetail { get; set; }
+        private readonly HttpClient _httpClient;
+
+        // Inject IHttpClientFactory vào để tạo HttpClient
+        public OrderDetailModel(IHttpClientFactory httpClientFactory)
+        {
+            _httpClient = httpClientFactory.CreateClient();
+        }
+
+        // Các thuộc tính của model sẽ được hiển thị trong view
         public DOINHE_BusinessObject.Product Product { get; set; }
         public Order Order { get; set; }
 
+        // Phương thức OnGetAsync để lấy thông tin sản phẩm và đơn hàng
         public async Task<IActionResult> OnGetAsync(int id)
         {
-            using (var client = new HttpClient())
+
+            // Gọi API để lấy thông tin sản phẩm và đơn hàng
+
+
+            try
             {
-                // Sử dụng https://localhost:7023 cho API
-                client.BaseAddress = new System.Uri("https://localhost:7023/api/");
-
-                try
+                using (var client = new HttpClient())
                 {
-                    // Lấy thông tin sản phẩm và đơn hàng
-                    var productResponse = await client.GetFromJsonAsync<DOINHE_BusinessObject.Product>($"Product/{id}");
-                    var orderResponse = await client.GetFromJsonAsync<Order>($"Order/{id}");
+                    client.BaseAddress = new System.Uri("https://localhost:7023/api/");
 
-                    if (productResponse == null || orderResponse == null)
+                    var orderResponse = await client.GetFromJsonAsync<DOINHE_BusinessObject.Order>($"Order/{id}");
+                    if (orderResponse == null)
                     {
                         return NotFound();
                     }
 
-                    // Cập nhật model
-                    OrderDetail = new OrderDetailModel
-                    {
-                        Product = productResponse,
-                        Order = orderResponse
-                    };
+                    Order = orderResponse;
                 }
-                catch (HttpRequestException ex)
-                {
-                    // Xử lý lỗi khi có lỗi mạng hoặc phản hồi không thành công
-                    ModelState.AddModelError(string.Empty, $"Request failed: {ex.Message}");
-                    return Page();
-                }
-
-                return Page();
             }
-        }
+            catch (HttpRequestException ex)
+            {
+                ModelState.AddModelError(string.Empty, $"Error connecting to API: {ex.Message}");
+            }
 
+            try
+            {
+                using (var client = new HttpClient())
+                {
+                    client.BaseAddress = new System.Uri("https://localhost:7023/api/");
+
+                    var productResponse = await client.GetFromJsonAsync<DOINHE_BusinessObject.Product>($"Product/{Order.ProductId}");
+                    if (productResponse == null)
+                    {
+                        return NotFound();
+                    }
+
+                    Product = productResponse;
+                }
+            }
+            catch (HttpRequestException ex)
+            {
+                ModelState.AddModelError(string.Empty, $"Error connecting to API: {ex.Message}");
+            }
+            // Cập nhật thông tin cho model
+
+
+
+
+            return Page(); // Trả về trang với dữ liệu đã được cập nhật
+        }
     }
 }

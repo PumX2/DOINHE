@@ -43,10 +43,6 @@ namespace DOINHE_BusinessObject
         public virtual Category? Categories { get; set; }
 
         public virtual ICollection<Order>? Orders { get; set; } = new List<Order>();
-        public static implicit operator Product?(string? v)
-        {
-            throw new NotImplementedException();
-        }
     }
 
 }

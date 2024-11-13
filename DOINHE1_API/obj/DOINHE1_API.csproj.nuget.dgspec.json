@@ -1,41 +1,41 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE1_API\\DOINHE1_API.csproj": {}
+    "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy - Copy\\DOINHE1_API\\DOINHE1_API.csproj": {}
   },
   "projects": {
-    "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE1_API\\DOINHE1_API.csproj": {
+    "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy - Copy\\DOINHE1_API\\DOINHE1_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE1_API\\DOINHE1_API.csproj",
+        "projectUniqueName": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy - Copy\\DOINHE1_API\\DOINHE1_API.csproj",
         "projectName": "DOINHE1_API",
-        "projectPath": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE1_API\\DOINHE1_API.csproj",
+        "projectPath": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy - Copy\\DOINHE1_API\\DOINHE1_API.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE1_API\\obj\\",
+        "outputPath": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy - Copy\\DOINHE1_API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj": {
-                "projectPath": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj"
+              "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy - Copy\\DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj": {
+                "projectPath": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy - Copy\\DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj"
               },
-              "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_DataAccess\\DOINHE_DataAccess.csproj": {
-                "projectPath": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_DataAccess\\DOINHE_DataAccess.csproj"
+              "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy - Copy\\DOINHE_DataAccess\\DOINHE_DataAccess.csproj": {
+                "projectPath": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy - Copy\\DOINHE_DataAccess\\DOINHE_DataAccess.csproj"
               },
-              "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_Repository\\DOINHE_Repository.csproj": {
-                "projectPath": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_Repository\\DOINHE_Repository.csproj"
+              "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy - Copy\\DOINHE_Repository\\DOINHE_Repository.csproj": {
+                "projectPath": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy - Copy\\DOINHE_Repository\\DOINHE_Repository.csproj"
               }
             }
           }
@@ -44,15 +44,20 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.OData": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -82,18 +87,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj": {
+    "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy - Copy\\DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj",
+        "projectUniqueName": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy - Copy\\DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj",
         "projectName": "DOINHE_BusinessObject",
-        "projectPath": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj",
+        "projectPath": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy - Copy\\DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_BusinessObject\\obj\\",
+        "outputPath": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy - Copy\\DOINHE_BusinessObject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -116,6 +121,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -167,18 +177,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_DataAccess\\DOINHE_DataAccess.csproj": {
+    "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy - Copy\\DOINHE_DataAccess\\DOINHE_DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_DataAccess\\DOINHE_DataAccess.csproj",
+        "projectUniqueName": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy - Copy\\DOINHE_DataAccess\\DOINHE_DataAccess.csproj",
         "projectName": "DOINHE_DataAccess",
-        "projectPath": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_DataAccess\\DOINHE_DataAccess.csproj",
+        "projectPath": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy - Copy\\DOINHE_DataAccess\\DOINHE_DataAccess.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_DataAccess\\obj\\",
+        "outputPath": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy - Copy\\DOINHE_DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -195,8 +205,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj": {
-                "projectPath": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj"
+              "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy - Copy\\DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj": {
+                "projectPath": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy - Copy\\DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj"
               }
             }
           }
@@ -205,6 +215,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -226,18 +241,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_Repository\\DOINHE_Repository.csproj": {
+    "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy - Copy\\DOINHE_Repository\\DOINHE_Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_Repository\\DOINHE_Repository.csproj",
+        "projectUniqueName": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy - Copy\\DOINHE_Repository\\DOINHE_Repository.csproj",
         "projectName": "DOINHE_Repository",
-        "projectPath": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_Repository\\DOINHE_Repository.csproj",
+        "projectPath": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy - Copy\\DOINHE_Repository\\DOINHE_Repository.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_Repository\\obj\\",
+        "outputPath": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy - Copy\\DOINHE_Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -254,11 +269,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj": {
-                "projectPath": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj"
+              "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy - Copy\\DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj": {
+                "projectPath": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy - Copy\\DOINHE_BusinessObject\\DOINHE_BusinessObject.csproj"
               },
-              "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_DataAccess\\DOINHE_DataAccess.csproj": {
-                "projectPath": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy\\DOINHE_DataAccess\\DOINHE_DataAccess.csproj"
+              "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy - Copy\\DOINHE_DataAccess\\DOINHE_DataAccess.csproj": {
+                "projectPath": "E:\\Tài liệu\\8 - FA24\\PE-PRN\\DOINHE - Copy\\DOINHE - Copy\\DOINHE - Copy - Copy\\DOINHE_DataAccess\\DOINHE_DataAccess.csproj"
               }
             }
           }
@@ -267,6 +282,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -288,7 +308,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

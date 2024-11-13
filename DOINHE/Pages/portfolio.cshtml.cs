@@ -2,20 +2,24 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using DOINHE.Entitys;
+//using DOINHE_BusinessObject;
 using System.Linq;
 using DOINHE.Db;
+using Newtonsoft.Json;
+using System.Net.Http;
 
 namespace DOINHE.Pages
 {
     public class portfolioModel : PageModel
     {
-        private readonly MyDbContext _db;
+        private readonly IHttpClientFactory _httpClientFactory;
+        private readonly IConfiguration _configuration;
 
-        public portfolioModel(MyDbContext db)
+        public portfolioModel(IHttpClientFactory httpClientFactory, IConfiguration configuration)
         {
-            _db = db;
+            _httpClientFactory = httpClientFactory;
+            _configuration = configuration;
         }
-
         [BindProperty]
         public List<Entitys.Product> products { get; set; } = new List<Entitys.Product>();
 
@@ -28,11 +32,21 @@ namespace DOINHE.Pages
         public int? categoryId { get; set; }
         public async Task<IActionResult> OnGetAsync(int? pageNumber, string? searchTerm, DateTime? startDate, DateTime? endDate, double? minPrice, double? maxPrice)
         {
+            var client = _httpClientFactory.CreateClient();
+            var response = await client.GetAsync("https://localhost:7023/api/Product");
+            List<Entitys.Product>? productss= new();
+            if (response.IsSuccessStatusCode)
+            {
+                productss = JsonConvert.DeserializeObject<List<Entitys.Product>>(await response.Content.ReadAsStringAsync());
+
+            }
+
+
             int pageSize = 12;
             CurrentPage = pageNumber ?? 1;
 
             // Lấy sản phẩm đã được duyệt và chưa mua
-            var totalProducts = _db.Products.Where(p => p.StatusIsApprove == true && p.StatusIsBuy == false);
+            var totalProducts = productss.Where(p => p.StatusIsApprove == true && p.StatusIsBuy == false);
 
             // Lọc theo từ khóa nếu có
             if (!string.IsNullOrEmpty(searchTerm))
@@ -58,12 +72,13 @@ namespace DOINHE.Pages
             TotalPages = (int)Math.Ceiling(totalProducts.Count() / (double)pageSize);
 
             // Lấy sản phẩm cho trang hiện tại
-            products = await totalProducts
+            products = totalProducts
                 .Skip((CurrentPage - 1) * pageSize)
                 .Take(pageSize)
-                .ToListAsync();
+                .ToList();
+            var response1 = await client.GetAsync("https://localhost:7023/api/Category");
+            var categories = JsonConvert.DeserializeObject<List<Entitys.Category>>(await response1.Content.ReadAsStringAsync());
 
-            categories = await _db.Categories.ToListAsync();
 
             return Page();
         }
