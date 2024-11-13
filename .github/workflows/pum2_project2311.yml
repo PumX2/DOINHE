@@ -1,0 +1,89 @@
+name: Build and deploy ASP.Net Core app to Azure Web App - project2311
+
+on:
+  push:
+    branches:
+      - Pum2
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up .NET Core
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.x'
+
+      - name: Restore dependencies for all projects
+        run: |
+          dotnet restore DOINHE/DOINHE.csproj
+          dotnet restore DOINHE1_API/DOINHE1_API.csproj
+          dotnet restore DOINHE_DataAccess/DOINHE_DataAccess.csproj
+          dotnet restore DOINHE_Repository/DOINHE_Repository.csproj
+          dotnet restore DOINHE_BusinessObject/DOINHE_BusinessObject.csproj
+
+      - name: Build Web Razor, API, and Libraries
+        run: |
+          dotnet build DOINHE/DOINHE.csproj --configuration Release
+          dotnet build DOINHE1_API/DOINHE1_API.csproj --configuration Release
+          dotnet build DOINHE_DataAccess/DOINHE_DataAccess.csproj --configuration Release
+          dotnet build DOINHE_Repository/DOINHE_Repository.csproj --configuration Release
+          dotnet build DOINHE_BusinessObject/DOINHE_BusinessObject.csproj --configuration Release
+
+      - name: Publish Web Razor, API, and Libraries
+        run: |
+          dotnet publish DOINHE/DOINHE.csproj -c Release -o ${{env.DOTNET_ROOT}}/myapp/web
+          dotnet publish DOINHE1_API/DOINHE1_API.csproj -c Release -o ${{env.DOTNET_ROOT}}/myapp/api
+          dotnet publish DOINHE_DataAccess/DOINHE_DataAccess.csproj -c Release -o ${{env.DOTNET_ROOT}}/myapp/api
+          dotnet publish DOINHE_Repository/DOINHE_Repository.csproj -c Release -o ${{env.DOTNET_ROOT}}/myapp/api
+          dotnet publish DOINHE_BusinessObject/DOINHE_BusinessObject.csproj -c Release -o ${{env.DOTNET_ROOT}}/myapp/api
+
+      - name: Upload artifact for deployment job
+        uses: actions/upload-artifact@v4
+        with:
+          name: .net-app
+          path: ${{env.DOTNET_ROOT}}/myapp
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    environment:
+      name: 'Production'
+      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+    permissions:
+      id-token: write #This is required for requesting the JWT
+
+    steps:
+      - name: Download artifact from build job
+        uses: actions/download-artifact@v4
+        with:
+          name: .net-app
+
+      - name: Login to Azure
+        uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_2E67EFACE3614FA9988E8CDC0631A01F }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_831B9E6BF3634ABA98A71D41553AEB7C }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_C4EBF23E3EAB42DC9872E0A17A695A79 }}
+
+      # Deploy Web Razor app
+      - name: Deploy Web Razor to Azure Web App
+        id: deploy-web
+        uses: azure/webapps-deploy@v3
+        with:
+          app-name: 'project2311-web'    # Name of the Web Razor App in Azure
+          slot-name: 'Production'
+          package: ${{env.DOTNET_ROOT}}/myapp/web
+
+      # Deploy API app
+      - name: Deploy API to Azure Web App
+        id: deploy-api
+        uses: azure/webapps-deploy@v3
+        with:
+          app-name: 'project2311-api'    # Name of the API App in Azure
+          slot-name: 'Production'
+          package: ${{env.DOTNET_ROOT}}/myapp/api
