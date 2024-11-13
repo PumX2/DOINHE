@@ -4,15 +4,120 @@
     ViewData["Title"] = "Payment";
     Layout = "_Layout";
 }
+<style>
+    .scrolled .header {
+        --background-color: #ff7469;
+    }
 
-<h1>Payment</h1>
+    .dark-background {
+        --background-color: #ff7469;
+        --default-color: #ffffff;
+        --heading-color: #ffffff;
+        --surface-color: #284e62;
+        --contrast-color: #ffffff;
+    }
+</style>
+<main class="main">
 
-@if (!string.IsNullOrEmpty(Model.PaymentUrl))
-{
-    <p>Click the link below to proceed with the payment:</p>
-    <a href="@Model.PaymentUrl" class="btn btn-primary">Pay Now</a>
-}
-else
-{
-    <p>Payment is not available at this time.</p>
-}
+    <!-- Page Title -->
+    <div class="page-title dark-background">
+        <div class="container position-relative">
+            <h1>Payment</h1>
+            <nav class="breadcrumbs">
+                <ol>
+                    <li><a href="index">Home</a></li>
+                    <li class="current">Payment</li>
+                </ol>
+            </nav>
+        </div>
+    </div><!-- End Page Title -->
+    <!-- Payment Section -->
+    <section id="payment" class="payment section">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+            <div class="row gy-4">
+                <div class="col-lg-12">
+                    <div class="row gy-4">
+                        <div class="col-md-6">
+                            <h3>Product Name:</h3>
+                        </div>
+                        <div class="col-md-6">
+                            <p>@Html.DisplayFor(model => model.products.ProductName)</p>
+                        </div>
+
+                        <div class="col-md-6">
+                            <h3>Price:</h3>
+                        </div>
+                        <div class="col-md-6">
+                            <p id="product-price">@Html.DisplayFor(model => model.products.Price)</p>
+                        </div>
+
+                        <div class="col-md-6">
+                            <h3>Available Credit:</h3>
+                        </div>
+                        <div class="col-md-6">
+                            <p id="available-credit">@Html.DisplayFor(model => model.users.Money)</p>
+                        </div>
+
+                        <div class="col-md-12">
+                            <input type="checkbox" id="use-1000" name="use_1000" value="yes">
+                            <label for="use-1000">Sử dụng @Html.DisplayFor(model => model.users.Money) có sẵn</label>
+                        </div>
+
+                        <hr style="width: 80%; margin-left: 10%; margin-right: 10%;">
+
+                        <div class="col-md-6">
+                            <h3>Total Payment:</h3>
+                        </div>
+                        <div class="col-md-6">
+                            <p id="total-payment">@Model.products.Price</p>
+                            <input type="hidden" id="total-payment-input" name="totalPayment" value="@Model.products.Price" />
+                        </div>
+
+
+                        <div class="col-md-12 text-center">
+                            <!-- Form để tạo liên kết thanh toán -->
+                            <form method="post" asp-page-handler="CreatePaymentLink">
+                                <input type="hidden" id="available-credit-input" name="availableCredit" value="0" />
+                                <input type="hidden" name="id" value="@Model.products.Id" />
+                                @if (string.IsNullOrEmpty(Model.PaymentUrl))
+                                {
+                                    <button type="submit" class="btn btn-primary">Create Payment Link</button>
+                                }
+                            </form>
+
+                            <!-- Nếu có URL thanh toán, hiển thị nút Pay Now -->
+                            @if (!string.IsNullOrEmpty(Model.PaymentUrl))
+                            {
+                                <a href="@Model.PaymentUrl" class="btn btn-success">Pay Now</a>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- End Payment Section -->
+</main>
+@* 
+<script>
+    document.getElementById('use-1000').addEventListener('change', function () {
+        var price = parseFloat(document.getElementById('product-price').innerText);
+        var availableCredit = parseFloat(document.getElementById('available-credit').innerText);
+        var availableCreditInput = document.getElementById('available-credit-input');
+        var totalPaymentElement = document.getElementById('total-payment');
+        var totalPaymentInput = document.getElementById('total-payment-input');
+
+        if (this.checked) {
+            // Nếu checkbox được tick, sử dụng hết tiền có sẵn
+            availableCreditInput.value = availableCredit; // Gán giá trị tiền có sẵn
+            var totalPayment = Math.max(price - availableCredit, 0); // Đảm bảo không âm
+            totalPaymentElement.innerText = totalPayment;
+            totalPaymentInput.value = totalPayment; // Cập nhật giá trị vào input hidden
+        } else {
+            // Nếu checkbox không được tick, không sử dụng tiền có sẵn
+            availableCreditInput.value = 0; // Không sử dụng tiền có sẵn
+            totalPaymentElement.innerText = price;
+            totalPaymentInput.value = price; // Cập nhật lại giá trị gốc
+        }
+    });
+
+</script> *@

@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DOINHE", "DOINHE\DOINHE.csproj", "{39434FD6-4FC7-4FAF-B5FD-CC1F0169C1BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DOINHE_BusinessObject", "DOINHE_BusinessObject\DOINHE_BusinessObject.csproj", "{A63653C2-9587-4B0F-A9F4-CDAA0813DD47}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DOINHE_DataAccess", "DOINHE_DataAccess\DOINHE_DataAccess.csproj", "{6BE6B9FC-D47F-4EF7-89B7-34380215C3ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DOINHE_Repository", "DOINHE_Repository\DOINHE_Repository.csproj", "{9AC9339A-EB41-4E38-8911-A3691A2A4560}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DOINHE", "DOINHE\DOINHE.csproj", "{C87DB1AD-B2CD-482D-BF99-8DCC1FD94342}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DOINHE1_API", "DOINHE1_API\DOINHE1_API.csproj", "{640BB73C-FEDA-495D-86CD-E947553E60C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +19,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{39434FD6-4FC7-4FAF-B5FD-CC1F0169C1BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{39434FD6-4FC7-4FAF-B5FD-CC1F0169C1BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{39434FD6-4FC7-4FAF-B5FD-CC1F0169C1BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{39434FD6-4FC7-4FAF-B5FD-CC1F0169C1BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A63653C2-9587-4B0F-A9F4-CDAA0813DD47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A63653C2-9587-4B0F-A9F4-CDAA0813DD47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A63653C2-9587-4B0F-A9F4-CDAA0813DD47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A63653C2-9587-4B0F-A9F4-CDAA0813DD47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BE6B9FC-D47F-4EF7-89B7-34380215C3ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BE6B9FC-D47F-4EF7-89B7-34380215C3ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BE6B9FC-D47F-4EF7-89B7-34380215C3ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BE6B9FC-D47F-4EF7-89B7-34380215C3ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AC9339A-EB41-4E38-8911-A3691A2A4560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AC9339A-EB41-4E38-8911-A3691A2A4560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AC9339A-EB41-4E38-8911-A3691A2A4560}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AC9339A-EB41-4E38-8911-A3691A2A4560}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C87DB1AD-B2CD-482D-BF99-8DCC1FD94342}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C87DB1AD-B2CD-482D-BF99-8DCC1FD94342}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C87DB1AD-B2CD-482D-BF99-8DCC1FD94342}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C87DB1AD-B2CD-482D-BF99-8DCC1FD94342}.Release|Any CPU.Build.0 = Release|Any CPU
+		{640BB73C-FEDA-495D-86CD-E947553E60C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{640BB73C-FEDA-495D-86CD-E947553E60C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{640BB73C-FEDA-495D-86CD-E947553E60C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{640BB73C-FEDA-495D-86CD-E947553E60C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

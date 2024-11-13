@@ -97,11 +97,11 @@ namespace DOINHE.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<byte?>("ImgDescription")
-                        .HasColumnType("tinyint");
+                    b.Property<byte[]>("ImgDescription")
+                        .HasColumnType("varbinary(max)");
 
-                    b.Property<byte?>("ImgKey")
-                        .HasColumnType("tinyint");
+                    b.Property<byte[]>("ImgKey")
+                        .HasColumnType("varbinary(max)");
 
                     b.Property<string>("Key")
                         .HasColumnType("nvarchar(max)");
@@ -119,6 +119,9 @@ namespace DOINHE.Migrations
                         .HasColumnType("bit");
 
                     b.Property<int?>("UserId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("quantityInStock")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -142,8 +145,8 @@ namespace DOINHE.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<byte>("ImgReport")
-                        .HasColumnType("tinyint");
+                    b.Property<byte[]>("ImgReport")
+                        .HasColumnType("varbinary(max)");
 
                     b.Property<int>("OrderId")
                         .HasColumnType("int");
@@ -164,6 +167,7 @@ namespace DOINHE.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int?>("Id"));
 
                     b.Property<string>("Email")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<double?>("Money")
@@ -173,7 +177,9 @@ namespace DOINHE.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Password")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<string>("Phone")
                         .HasColumnType("nvarchar(max)");

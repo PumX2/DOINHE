@@ -1,20 +1,24 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.EntityFrameworkCore;
-using DOINHE.Entitys;
+﻿using System.Net.Http;
+using System.Text;
 using System.Text.Json;
-using DOINHE.Db;
-using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using DOINHE.Entitys;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Configuration;
 
 namespace DOINHE.Pages
 {
     public class LoginModel : PageModel
     {
-        private readonly MyDbContext _dbContext;
+        private readonly IHttpClientFactory _httpClientFactory;
+        private readonly IConfiguration _configuration;
 
-        public LoginModel(MyDbContext dbContext)
+        public LoginModel(IHttpClientFactory httpClientFactory, IConfiguration configuration)
         {
-            _dbContext = dbContext;
+            _httpClientFactory = httpClientFactory;
+            _configuration = configuration;
         }
 
         [BindProperty]
@@ -22,7 +26,7 @@ namespace DOINHE.Pages
 
         public IActionResult OnGet()
         {
-            User = new User(); // Ensure model is initialized
+            User = new User(); // Đảm bảo model được khởi tạo
 
             if (HttpContext.Session.GetString("admin") != null || HttpContext.Session.GetString("customer") != null)
             {
@@ -33,48 +37,54 @@ namespace DOINHE.Pages
 
         public async Task<IActionResult> OnPostAsync()
         {
-            //if (!ModelState.IsValid)
-            //{
-            //    // Optional: Log or display the errors
-            //    var errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage);
-            //    TempData["msg"] = string.Join(", ", errors); // Show validation errors
-            //    return Page();
-            //}
+            // Cấu hình client API
+            var client = _httpClientFactory.CreateClient();
 
-            // Tìm user với email khớp
-            var member = await _dbContext.Users.SingleOrDefaultAsync(a => a.Email.Equals(User.Email));
-
-            if (member != null)
+            var loginUser = new
             {
-                // So sánh mật khẩu người dùng đã nhập và mật khẩu trong cơ sở dữ liệu
-                if (member.Password == User.Password)
-                {
-                    // Đăng nhập thành công
-                    HttpContext.Session.SetString("Account", JsonSerializer.Serialize(member));
+                Email = User.Email,
+                Password = User.Password
+            };
 
-                    if (member.Role == 1)
-                    {
-                        HttpContext.Session.SetString("admin", JsonSerializer.Serialize(member));
-                        return RedirectToPage("./Admin/Orders/Index");
-                    }
-                    if (member.Role == 2)
-                    {
-                        HttpContext.Session.SetString("customer", JsonSerializer.Serialize(member));
-                        HttpContext.Session.SetString("name", member.Name);
-                        return RedirectToPage("/Index");
-                    }
-                }
-                else
+            var content = new StringContent(JsonSerializer.Serialize(loginUser), Encoding.UTF8, "application/json");
+
+            // Gửi yêu cầu đăng nhập đến API
+            var response = await client.PostAsync("https://localhost:7023/api/user/login", content);
+            if (response.IsSuccessStatusCode)
+            {
+                var responseData = JsonSerializer.Deserialize<JsonElement>(await response.Content.ReadAsStringAsync());
+                var role = responseData.GetProperty("role").GetString();
+                var user = responseData.GetProperty("user");
+                var userId = responseData.GetProperty("userId");
+                var name = responseData.GetProperty("name");
+                var id = responseData.GetProperty("id");
+
+                // Lưu thông tin người dùng vào Session
+                HttpContext.Session.SetString("Account", user.ToString());
+
+                if (role == "admin")
                 {
-                    // Mật khẩu không chính xác
-                    TempData["msg"] = "Invalid password.";
-                    return Page();
+                    HttpContext.Session.SetString("admin", user.ToString());
+                    HttpContext.Session.SetString("UserId", userId.ToString());
+                    HttpContext.Session.SetString("name", name.ToString());
+                    HttpContext.Session.SetString("id", id.ToString());
+                    return RedirectToPage("/Admin/Dashboard");
+                }
+                if (role == "user")
+                {
+                    HttpContext.Session.SetString("customer", user.ToString());
+                    HttpContext.Session.SetString("UserId", userId.ToString());
+                    HttpContext.Session.SetString("name", name.ToString());
+                    HttpContext.Session.SetString("id", id.ToString());
+
+                    return RedirectToPage("/Index");
                 }
             }
 
-            // Không tìm thấy user với email đã nhập
-            TempData["msg"] = "Email or password invalid.";
+            // Nếu đăng nhập không thành công, thông báo lỗi ngay lập tức
+            TempData["msg"] = "Invalid email or password.";
             return Page();
         }
+
     }
 }

@@ -1,0 +1,307 @@
+﻿@page
+@model DOINHE.Pages.ProfileModel
+@{
+    Layout = "_Layout";
+
+}@*
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script> *@
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+@using System.Globalization
+
+<style>
+    .scrolled .header {
+        --background-color: #ff7469;
+    }
+
+    .dark-background {
+        --background-color: #ff7469;
+        --default-color: #ffffff;
+        --heading-color: #ffffff;
+        --surface-color: #284e62;
+        --contrast-color: #ffffff;
+    }
+
+    .order-summary {
+        margin: 20px;
+        padding: 15px;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+    }
+
+    .order-blockquote {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-left: 4px solid #007bff;
+        padding: 15px;
+        margin: 0;
+    }
+
+    .product-name {
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: #333;
+        margin: 0;
+    }
+
+    .order-price {
+        font-size: 1.4rem;
+        font-weight: bold;
+        color: #007bff;
+        margin: 0;
+    }
+
+    .order-status {
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+    .order-summary:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        transform: scale(1.02);
+    }
+
+    .order-info {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        text-align: left; /* Căn trái nội dung */
+    }
+
+    .img-fluid {
+        max-width: 100%;
+        height: 100px;
+    }
+</style>
+<main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background">
+        <div class="container position-relative">
+            <h1>Profile</h1>
+            <nav class="breadcrumbs">
+                <ol>
+                    <li><a href="index">Home</a></li>
+                    <li class="current">Profile</li>
+                </ol>
+            </nav>
+        </div>
+    </div><!-- End Page Title -->
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-8">
+
+                <!-- Blog Details Section -->
+                <section id="blog-details" class="blog-details section">
+                    <div class="container">
+
+                        <article class="article">
+
+                            <h3 class="widget-title">My orders</h3>
+
+                            <div class="content">
+
+                                @foreach (var order in Model.OrderProducts)
+                                {
+                                    <a href="OrderDetail?id=@order.OrderId">
+                                        <div class="order-summary">
+                                            <blockquote class="order-blockquote">
+                                                <div class="order-info">
+                                                    <p class="product-name">Name: @order.ProductName</p>
+                                                    <h4 class="order-price">@String.Format("{0:N0}", order.OrderPrice) VND</h4>
+                                                    <h4 class="order-status" style="color:@((order.Status ?? false) ? "green" : "red")">
+                                                        Status: @(order.Status == true ? "Completed" : "Pending")
+                                                    </h4>
+                                                </div>
+                                                <div class="portfolio-content">
+                                                    @if (order.ImgDescription != null)
+                                                    {
+                                                        var base64Image = Convert.ToBase64String(order.ImgDescription);
+                                                        var imageSrc = $"data:image/png;base64,{base64Image}";
+
+                                                        <img src="@imageSrc" class="card-img-top img-fluid" alt="@order.ProductName">
+                                                    }
+                                                    else
+                                                    {
+                                                        <img src="~/img/default-product.jpg" class="card-img-top img-fluid" alt="Default Image">
+                                                    }
+                                                </div>
+                                                
+                                            </blockquote>
+                                            <h4 style="text-align: center;">Click to see details</h4>
+
+                                        </div>
+                                    </a>
+                                }
+                            </div><!-- End post content -->
+
+
+                        </article>
+
+                    </div>
+                </section><!-- /Blog Details Section -->
+                @*                 <!-- Comment Form Section -->
+                <section id="comment-form" class="comment-form section">
+                <div class="container">
+
+                <form action="">
+
+                <h4>Post Comment</h4>
+                <p>Your email address will not be published. Required fields are marked * </p>
+                <div class="row">
+                <div class="col-md-6 form-group">
+                <input name="name" type="text" class="form-control" placeholder="Your Name*">
+                </div>
+                <div class="col-md-6 form-group">
+                <input name="email" type="text" class="form-control" placeholder="Your Email*">
+                </div>
+                </div>
+                <div class="row">
+                <div class="col form-group">
+                <input name="website" type="text" class="form-control" placeholder="Your Website">
+                </div>
+                </div>
+                <div class="row">
+                <div class="col form-group">
+                <textarea name="comment" class="form-control" placeholder="Your Comment*"></textarea>
+                </div>
+                </div>
+
+                <div class="text-center">
+                <button type="submit" class="btn btn-primary">Post Comment</button>
+                </div>
+
+                </form>
+
+                </div>
+                </section><!-- /Comment Form Section --> *@
+
+            </div>
+
+            <div class="col-lg-4 sidebar">
+
+                <div class="widgets-container">
+
+                    <!-- Blog Author Widget -->
+                    <div class="blog-author-widget widget-item">
+
+                        <div class="d-flex flex-column align-items-center">
+                            <h4>@Model.users.Name</h4>
+                            @*           <div class="social-links">
+                            <a href="https://x.com/#"><i class="bi bi-twitter-x"></i></a>
+                            <a href="https://facebook.com/#"><i class="bi bi-facebook"></i></a>
+                            <a href="https://instagram.com/#"><i class="biu bi-instagram"></i></a>
+                            <a href="https://instagram.com/#"><i class="biu bi-linkedin"></i></a>
+                            </div> *@
+
+                            @* <p>
+                            Itaque quidem optio quia voluptatibus dolorem dolor. Modi eum sed possimus accusantium. Quas repellat voluptatem officia numquam sint aspernatur voluptas. Esse et accusantium ut unde voluptas.
+                            </p> *@
+
+                        </div>
+                    </div><!--/Blog Author Widget -->
+                    <!-- Search Widget -->
+                    <div class="search-widget widget-item">
+
+                        <h3 class="widget-title">Email</h3>
+                        <h5>@Model.users.Email</h5>
+                        <h3 class="widget-title">Phone</h3>
+                        <h5>@Model.users.Phone</h5>
+                        <h3 class="widget-title">Money in wallet</h3>
+                        <h5>@Model.users.Money VND</h5>
+                        <a class="btn111" href="Product">My products </a>
+                    </div><!--/Search Widget -->
+                    <!-- Categories Widget -->
+                    <button type="button" class="btn111" data-bs-toggle="modal" data-bs-target="#editProfileModal">Edit profile</button>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Edit Profile Modal -->
+    <div class="modal fade" id="editProfileModal" tabindex="-1" aria-labelledby="editProfileModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editProfileModalLabel">Edit Profile</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form method="post" asp-page-handler="EditProfile" id="editProfileForm">
+                        <div class="mb-3">
+                            <label for="nameInput" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="nameInput" name="name" value="@Model.users.Name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="phoneInput" class="form-label">Phone</label>
+                            <input type="text" class="form-control" id="phoneInput" name="phone" value="@Model.users.Phone">
+                        </div>
+                        <div class="mb-3">
+                            <label for="emailInput" class="form-label">Email (Read-Only)</label>
+                            <input type="email" class="form-control" id="emailInput" value="@Model.users.Email" readonly>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</main>
+
+<style>
+    .btn111 {
+        background-color: #1e4356; /* Màu nền */
+        color: white; /* Màu chữ */
+        border: none; /* Xóa đường viền */
+        padding: 10px 20px; /* Khoảng cách giữa nội dung và viền */
+        text-align: center; /* Canh giữa nội dung */
+        /* text-decoration: none; /* Bỏ gạch chân */ */ display: inline-block; /* Hiển thị dạng khối inline */
+        font-size: 16px; /* Kích thước chữ */
+        border-radius: 25px; /* Bo tròn các góc */
+        cursor: pointer; /* Con trỏ chuột thay đổi khi di chuột qua */
+        transition: background-color 0.3s ease; /* Hiệu ứng khi hover */
+    }
+
+        .btn111:hover {
+            background-color: #0d6efd;
+            color: white /* Màu nền khi di chuột qua */
+        }
+
+</style>
+
+<script>
+    document.getElementById("saveChangesBtn").addEventListener("click", function () {
+        var name = document.getElementById("nameInput").value;
+        var phone = document.getElementById("phoneInput").value;
+
+        // Xử lý logic lưu thông tin ở đây
+        // Bạn có thể thực hiện gọi API để cập nhật thông tin user
+        console.log("Saving changes:", { name, phone });
+
+        // Đóng modal sau khi lưu thành công
+        var editProfileModal = new bootstrap.Modal(document.getElementById('editProfileModal'));
+        editProfileModal.hide();
+    });
+</script>

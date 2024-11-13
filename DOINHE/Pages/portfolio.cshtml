@@ -6,151 +6,232 @@
     Layout = "_Layout";
 }
 <main class="main">
+    <style>
+        .scrolled .header {
+            --background-color: #ff7469;
+        }
 
+        .dark-background {
+            --background-color: #ff7469;
+            --default-color: #ffffff;
+            --heading-color: #ffffff;
+            --surface-color: #284e62;
+            --contrast-color: #ffffff;
+        }
+    </style>
     <!-- Page Title -->
     <div class="page-title dark-background">
         <div class="container position-relative">
-            <h1>Portfolio</h1>
-            <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam molestias.</p>
+            <h1>Home</h1>
             <nav class="breadcrumbs">
                 <ol>
                     <li><a href="index">Home</a></li>
-                    <li class="current">Portfolio</li>
+                    <li class="current">Product</li>
                 </ol>
             </nav>
         </div>
     </div><!-- End Page Title -->
+    <!-- Search Widget -->
+    <div class="d-flex justify-content-center mb-4">
+        <div class="search-widget widget-item col-md-6">
+            <h3 class="widget-title text-center">Search</h3>
+            <form method="get">
+                <input type="text" name="searchTerm" placeholder="Search products..." value="@Request.Query["searchTerm"]" class="form-control">
+                <button type="submit" title="Search" class="btn btn-primary"><i class="bi bi-search"></i></button>
+            </form>
+        </div>
+    </div>
+    <!--/Search Widget -->
+    <!-- Unified Filter Widget -->
+    <div class="d-flex justify-content-center mt-4">
+        <div class="filter-widget widget-item col-md-8">
+            <h3 class="widget-title text-center">Filter Products</h3>
+            <form method="get">
+                <div class="row">
+                    <!-- Date Range Filter -->
+                    <div class="form-group col-md-4">
+                        <label for="start-date">From:</label>
+                        <input type="date" id="start-date" name="startDate" class="form-control" value="@Request.Query["startDate"]">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="end-date">To:</label>
+                        <input type="date" id="end-date" name="endDate" class="form-control" value="@Request.Query["endDate"]">
+                    </div>
+
+                    <!-- Category Filter -->
+                    <div class="form-group col-md-4">
+                        <label for="category">Category:</label>
+                        <select name="categoryId" class="form-control" onchange="this.form.submit()">
+                            <option value="">All Categories</option>
+                            @foreach (var category in listCategory)
+                            {
+                                <option value="@category.Id">@category.CategoryName</option>
+                            }
+                        </select>
+                    </div>
+
+
+                    <!-- Price Range Filter -->
+                    <div class="form-group col-md-4">
+                        <label for="min-price">Min Price:</label>
+                        <input type="number" id="min-price" name="minPrice" class="form-control" placeholder="Min Price" value="@Request.Query["minPrice"]">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="max-price">Max Price:</label>
+                        <input type="number" id="max-price" name="maxPrice" class="form-control" placeholder="Max Price" value="@Request.Query["maxPrice"]">
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="col-md-12 d-flex align-items-end mt-3">
+                        <button type="submit" class="btn btn-primary w-100" title="Filter">
+                            <i class="bi bi-funnel-fill"></i> Filter
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
     <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio section">
-        
         <div class="container">
-            <div class="row">
+            <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+                @foreach (var product in listProduct)
+                {
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-@product.CategoryId">
+                        <div class="card h-100">
+                            <a href="portfolio-details?id=@product.Id">
+                                <div class="portfolio-content">
+                                    @if (product.ImgDescription != null)
+                                    {
+                                        var base64Image = Convert.ToBase64String(product.ImgDescription!);
+                                        var imageSrc = $"data:image/png;base64,{base64Image}";
 
-                <!-- Search Widget -->
-                <div class="search-widget widget-item col-md-6">
+                                        <img src="@imageSrc" class="card-img-top img-fluid" alt="@product.ProductName">
+                                    }
+                                    else
+                                    {
+                                        <img src="~/img/default-product.jpg" class="card-img-top img-fluid" alt="Default Image">
+                                    }
+                                </div>
+                            </a>
 
-                    <h3 class="widget-title">Search</h3>
-                    <form action="">
-                        <input type="text">
-                        <button type="submit" title="Search"><i class="bi bi-search"></i></button>
-                    </form>
-                </div>
-                <!--/Search Widget -->
-                <!-- Date Range Search Widget -->
-                <div class="col-md-6">
-                    <div class="date-range-widget widget-item">
-                        <h3 class="widget-title">Search by Date</h3>
-                        <form action="">
-                            <div class="row">
-                                <div class="form-group col-md-5" class="col-md-5">
-                                    <div class="d-flex align-items-center mb-3">
-                                        <label for="start-date" class="mr-2">From: </label>
-                                        <input type="date" id="start-date" name="start-date" class="form-control" style="max-width: 200px;">
-                                    </div>
-                                </div>
-                                <div class="form-group col-md-5" class="col-md-5">
-                                    <div class="d-flex align-items-center mb-3">
-                                        <label for="start-date" class="mr-2">To: </label>
-                                        <input type="date" id="start-date" name="start-date" class="form-control" style="max-width: 200px;">
-                                    </div>
-                                </div>
-                                <div class="col-md-2">
-                                    <button type="submit" class="btn btn-primary" title="Search by Date">
-                                        <i class="bi bi-search"></i>
-                                    </button>
-                                </div>
+                            <div class="card-body">
+                                <h5 class="card-title">@product.ProductName</h5>
+                                <p class="card-text text-muted">@product.Description</p>
+                                <p class="card-price text-danger font-weight-bold">@String.Format("{0:0,0} VND", product.Price)</p>
+                                <a href="portfolio-details?id=@product.Id" class="btn btn-outline-primary">View detail</a>
                             </div>
                         </div>
-                    </div><!-- End Portfolio Item -->
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                        <div class="portfolio-content h-100">
-                            <img src="~/img/portfolio/branding-1.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-                    <li data-filter="*" class="filter-active">All</li>
-                    @foreach (var category in listCategory)
-                    {
-                        <li data-filter=".filter-@category.Id">@category.CategoryName</li>
-                    }
-                </ul><!-- End Portfolio Filters -->
-
-                <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-                    @foreach (var product in listProduct)
-                    {
-                        <a href="portfolio-details?id=@product.Id">
-                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-@product.CategoryId">
-                                <div class="portfolio-content h-100">
-                                    <img src="~/img/portfolio/app-1.jpg" class="img-fluid" alt="">
-                                    <div class="portfolio-info">
-                                        <h4>@product.ProductName</h4>
-                                        <p>@product.Description - @product.Price VND</p>
-                                        <a href="~/img/portfolio/app-1.jpg" title="@product.ProductName" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                        <a href="portfolio-details?id=@product.Id" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                                    </div>
-                                </div>
-                            </div><!-- End Portfolio Item -->
-                        </a>
-
-                    }
-
-                                <h4>Branding 2</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                <a href="~/img/portfolio/branding-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div>
-                    </div><!-- End Portfolio Item -->
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-                        <div class="portfolio-content h-100">
-                            <img src="~/img/portfolio/books-2.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Books 2</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                <a href="~/img/portfolio/books-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div>
-                    </div><!-- End Portfolio Item -->
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                        <div class="portfolio-content h-100">
-                            <img src="~/img/portfolio/app-3.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>App 3</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                <a href="~/img/portfolio/app-3.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div>
-                    </div><!-- End Portfolio Item -->
-
-                </div><!-- End Portfolio Container -->
-
-            </div>
-
-        </div>
-
-    </section><!-- /Portfolio Section -->
-    <!-- Blog Pagination Section -->
-    <section id="blog-pagination" class="blog-pagination section">
-
-        <div class="container">
+                    </div>
+                }
+            </div><!-- End Portfolio Container -->
+            <!-- Pagination -->
             <div class="d-flex justify-content-center">
-                <ul>
-                    <li><a href="#"><i class="bi bi-chevron-left"></i></a></li>
-                    <li><a href="#">1</a></li>
-                    <li><a href="#" class="active">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">4</a></li>
-                    <li>...</li>
-                    <li><a href="#">10</a></li>
-                    <li><a href="#"><i class="bi bi-chevron-right"></i></a></li>
+                <ul class="pagination">
+                    @if (Model.CurrentPage > 1)
+                    {
+                        <li class="page-item">
+                            <a class="page-link" href="?pageNumber=@(Model.CurrentPage - 1)" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                    }
+
+                    @for (var i = 1; i <= Model.TotalPages; i++)
+                    {
+                        <li class="page-item @(Model.CurrentPage == i ? "active" : "")">
+                            <a class="page-link" href="?pageNumber=@i">@i</a>
+                        </li>
+                    }
+
+                    @if (Model.CurrentPage < Model.TotalPages)
+                    {
+                        <li class="page-item">
+                            <a class="page-link" href="?pageNumber=@(Model.CurrentPage + 1)" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    }
                 </ul>
             </div>
+            <!-- End Pagination -->
         </div>
-
-    </section><!-- /Blog Pagination Section -->
-
+    </section><!-- /Portfolio Section -->
 </main>
+<style>
+
+    .search-widget .form-control,
+    .date-range-widget .form-control {
+        width: 100%; /* Đảm bảo input lấp đầy phần tử chứa */
+    }
+
+    .btn {
+        width: 100%; /* Đảm bảo nút có chiều rộng đầy đủ */
+    }
+
+    .d-flex.justify-content-center {
+        margin-top: 20px; /* Tạo khoảng cách phía trên nếu cần */
+    }
+
+    .date-range-widget .form-group {
+        margin-bottom: 0; /* Loại bỏ khoảng trống giữa các ô nhập liệu */
+    }
+
+    button i {
+        margin-right: 5px; /* Tạo khoảng cách nhỏ giữa icon và chữ */
+    }
+
+    .pagination {
+        margin-top: 20px; /* Tạo khoảng cách phía trên giữa các nút phân trang */
+    }
+
+    .page-item {
+        margin: 0 5px; /* Khoảng cách giữa các nút */
+    }
+
+    .page-link {
+        padding: 10px 15px; /* Tăng kích thước nút */
+    }
+
+    .portfolio-content img {
+        width: 100%; /* Chiều rộng đầy đủ của phần tử chứa */
+        height: auto; /* Đảm bảo chiều cao tự động để không làm biến dạng ảnh */
+        max-height: 300px; /* Giới hạn chiều cao tối đa để đảm bảo tỷ lệ hình vuông (điều chỉnh theo nhu cầu của bạn) */
+        object-fit: cover; /* Đảm bảo ảnh lấp đầy khung mà không bị méo */
+        border-radius: 8px; /* Bo góc nếu muốn */
+    }
+
+    .search-widget form button {
+        width: 45px;
+        background-color: #0d6efd;
+        color: white;
+        position: absolute;
+        top: 0;
+        right: -55px;
+        bottom: 0;
+        border: 0;
+        font-size: 16px;
+        padding: 0 16px;
+        transition: 0.3s;
+        line-height: 0;
+    }
+
+        .search-widget form button:hover {
+            background-color: #0b5ed7;
+        }
+
+    .search-widget form input[type=text] {
+        border: 1;
+        padding: 4px 10px;
+        border-radius: 4px;
+        width: calc(100% - 40px);
+        background-color: var(--background-color);
+        color: var(--default-color);
+    }
+
+        .search-widget form input[type=text]:focus {
+            outline: none;
+        }
+</style>

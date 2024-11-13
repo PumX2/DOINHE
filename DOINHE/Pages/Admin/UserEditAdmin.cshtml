@@ -1,0 +1,79 @@
+﻿@page
+@model DOINHE.Pages.Admin.UserEditAdminModel
+@{
+    Layout = "_LayoutAdmin";
+}
+<div class="container-fluid py-4">
+    <div class="row">
+        <div class="col-12">
+            <div class="card border border-secondary shadow-sm">
+                <div class="card-header bg-gradient-dark text-white">
+                    <h6 class="text-white text-capitalize">Edit User</h6>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <div class="table-responsive">
+                            <table class="table table-bordered">
+                                <tbody>
+                                    <!-- ID -->
+                                    <tr>
+                                        <td class="fw-bold">ID</td>
+                                        <td>@Model.User.Id</td>
+                                        <td><input type="text" class="form-control" value="@Model.User.Id" readonly /></td>
+                                    </tr>
+                                    <!-- Name -->
+                                    <tr>
+                                        <td class="fw-bold">Name</td>
+                                        <td>@Model.User.Name</td>
+                                        <td><input type="text" class="form-control" name="Name" value="@Model.User.Name" /></td>
+                                    </tr>
+                                    <!-- Email -->
+                                    <tr>
+                                        <td class="fw-bold">Email</td>
+                                        <td>@Model.User.Email</td>
+                                        <td><input type="email" class="form-control" name="Email" value="@Model.User.Email" /></td>
+                                    </tr>
+                                    <!-- Password -->
+                                    <tr>
+                                        <td class="fw-bold">Password</td>
+                                        <td>*******</td>
+                                        <td><input type="password" class="form-control" name="Password" value="@Model.User.Password" /></td>
+                                    </tr>
+                                    <!-- Username -->
+                                    <tr>
+                                        <td class="fw-bold">Username</td>
+                                        <td>@Model.User.UserName</td>
+                                        <td><input type="text" class="form-control" name="UserName" value="@Model.User.UserName" /></td>
+                                    </tr>
+                                    <!-- Phone -->
+                                    <tr>
+                                        <td class="fw-bold">Phone</td>
+                                        <td>@Model.User.Phone</td>
+                                        <td><input type="text" class="form-control" name="Phone" value="@Model.User.Phone" /></td>
+                                    </tr>
+                                    <!-- Role -->
+                                    <tr>
+                                        <td class="fw-bold">Role</td>
+                                        <td>@Model.User.Role</td>
+                                        <td><input type="text" class="form-control" name="Role" value="@Model.User.Role" /></td>
+                                    </tr>
+                                    <!-- Money -->
+                                    <tr>
+                                        <td class="fw-bold">Money</td>
+                                        <td>@Model.User.Money</td>
+                                        <td><input type="number" class="form-control" name="Money" value="@Model.User.Money" step="0.01" /></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="d-flex justify-content-end">
+                            <button type="submit" class="btn btn-primary mt-3">Save Changes</button>
+                            <button type="submit" class="btn btn-danger mt-3 ms-2" name="action" value="delete">Delete</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

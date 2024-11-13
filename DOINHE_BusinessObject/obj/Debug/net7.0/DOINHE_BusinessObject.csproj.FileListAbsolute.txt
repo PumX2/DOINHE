@@ -1,0 +1,45 @@
+D:\.NET\DOINHE - Copy\DOINHE_BusinessObject\bin\Debug\net7.0\DOINHE_BusinessObject.deps.json
+D:\.NET\DOINHE - Copy\DOINHE_BusinessObject\bin\Debug\net7.0\DOINHE_BusinessObject.runtimeconfig.json
+D:\.NET\DOINHE - Copy\DOINHE_BusinessObject\bin\Debug\net7.0\DOINHE_BusinessObject.dll
+D:\.NET\DOINHE - Copy\DOINHE_BusinessObject\bin\Debug\net7.0\DOINHE_BusinessObject.pdb
+D:\.NET\DOINHE - Copy\DOINHE_BusinessObject\obj\Debug\net7.0\DOINHE_BusinessObject.csproj.AssemblyReference.cache
+D:\.NET\DOINHE - Copy\DOINHE_BusinessObject\obj\Debug\net7.0\DOINHE_BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET\DOINHE - Copy\DOINHE_BusinessObject\obj\Debug\net7.0\DOINHE_BusinessObject.AssemblyInfoInputs.cache
+D:\.NET\DOINHE - Copy\DOINHE_BusinessObject\obj\Debug\net7.0\DOINHE_BusinessObject.AssemblyInfo.cs
+D:\.NET\DOINHE - Copy\DOINHE_BusinessObject\obj\Debug\net7.0\DOINHE_BusinessObject.csproj.CoreCompileInputs.cache
+D:\.NET\DOINHE - Copy\DOINHE_BusinessObject\obj\Debug\net7.0\DOINHE_BusinessObject.sourcelink.json
+D:\.NET\DOINHE - Copy\DOINHE_BusinessObject\obj\Debug\net7.0\DOINHE_BusinessObject.dll
+D:\.NET\DOINHE - Copy\DOINHE_BusinessObject\obj\Debug\net7.0\refint\DOINHE_BusinessObject.dll
+D:\.NET\DOINHE - Copy\DOINHE_BusinessObject\obj\Debug\net7.0\DOINHE_BusinessObject.pdb
+D:\.NET\DOINHE - Copy\DOINHE_BusinessObject\obj\Debug\net7.0\DOINHE_BusinessObject.genruntimeconfig.cache
+D:\.NET\DOINHE - Copy\DOINHE_BusinessObject\obj\Debug\net7.0\ref\DOINHE_BusinessObject.dll
+D:\Visual Studio\DOINHE - Copy\DOINHE_BusinessObject\bin\Debug\net7.0\DOINHE_BusinessObject.deps.json
+D:\Visual Studio\DOINHE - Copy\DOINHE_BusinessObject\bin\Debug\net7.0\DOINHE_BusinessObject.runtimeconfig.json
+D:\Visual Studio\DOINHE - Copy\DOINHE_BusinessObject\bin\Debug\net7.0\DOINHE_BusinessObject.dll
+D:\Visual Studio\DOINHE - Copy\DOINHE_BusinessObject\bin\Debug\net7.0\DOINHE_BusinessObject.pdb
+D:\Visual Studio\DOINHE - Copy\DOINHE_BusinessObject\obj\Debug\net7.0\DOINHE_BusinessObject.csproj.AssemblyReference.cache
+D:\Visual Studio\DOINHE - Copy\DOINHE_BusinessObject\obj\Debug\net7.0\DOINHE_BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio\DOINHE - Copy\DOINHE_BusinessObject\obj\Debug\net7.0\DOINHE_BusinessObject.AssemblyInfoInputs.cache
+D:\Visual Studio\DOINHE - Copy\DOINHE_BusinessObject\obj\Debug\net7.0\DOINHE_BusinessObject.AssemblyInfo.cs
+D:\Visual Studio\DOINHE - Copy\DOINHE_BusinessObject\obj\Debug\net7.0\DOINHE_BusinessObject.csproj.CoreCompileInputs.cache
+D:\Visual Studio\DOINHE - Copy\DOINHE_BusinessObject\obj\Debug\net7.0\DOINHE_BusinessObject.sourcelink.json
+D:\Visual Studio\DOINHE - Copy\DOINHE_BusinessObject\obj\Debug\net7.0\DOINHE_BusinessObject.dll
+D:\Visual Studio\DOINHE - Copy\DOINHE_BusinessObject\obj\Debug\net7.0\refint\DOINHE_BusinessObject.dll
+D:\Visual Studio\DOINHE - Copy\DOINHE_BusinessObject\obj\Debug\net7.0\DOINHE_BusinessObject.pdb
+D:\Visual Studio\DOINHE - Copy\DOINHE_BusinessObject\obj\Debug\net7.0\DOINHE_BusinessObject.genruntimeconfig.cache
+D:\Visual Studio\DOINHE - Copy\DOINHE_BusinessObject\obj\Debug\net7.0\ref\DOINHE_BusinessObject.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_BusinessObject\bin\Debug\net7.0\DOINHE_BusinessObject.deps.json
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_BusinessObject\bin\Debug\net7.0\DOINHE_BusinessObject.runtimeconfig.json
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_BusinessObject\bin\Debug\net7.0\DOINHE_BusinessObject.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_BusinessObject\bin\Debug\net7.0\DOINHE_BusinessObject.pdb
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_BusinessObject\obj\Debug\net7.0\DOINHE_BusinessObject.csproj.AssemblyReference.cache
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_BusinessObject\obj\Debug\net7.0\DOINHE_BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_BusinessObject\obj\Debug\net7.0\DOINHE_BusinessObject.AssemblyInfoInputs.cache
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_BusinessObject\obj\Debug\net7.0\DOINHE_BusinessObject.AssemblyInfo.cs
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_BusinessObject\obj\Debug\net7.0\DOINHE_BusinessObject.csproj.CoreCompileInputs.cache
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_BusinessObject\obj\Debug\net7.0\DOINHE_BusinessObject.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_BusinessObject\obj\Debug\net7.0\refint\DOINHE_BusinessObject.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_BusinessObject\obj\Debug\net7.0\DOINHE_BusinessObject.pdb
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_BusinessObject\obj\Debug\net7.0\DOINHE_BusinessObject.genruntimeconfig.cache
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_BusinessObject\obj\Debug\net7.0\ref\DOINHE_BusinessObject.dll
+E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE_BusinessObject\obj\Debug\net7.0\DOINHE_BusinessObject.sourcelink.json

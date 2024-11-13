@@ -1,0 +1,55 @@
+﻿@page
+@model DOINHE.Pages.Admin.OrderAddAdminModel
+@{
+    Layout = "_LayoutAdmin";
+}
+<div class="container-fluid py-4">
+    <div class="row">
+        <div class="col-12">
+            <div class="card border border-secondary shadow-sm">
+                <div class="card-header bg-gradient-dark text-white">
+                    <h6 class="text-white text-capitalize">Create New Order</h6>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <div class="table-responsive">
+                            <table class="table table-bordered">
+                                <tbody>
+                                    <!-- User Id -->
+                                    <tr>
+                                        <td class="fw-bold">User Id</td>
+                                        <td><input type="number" class="form-control" name="UserId" required /></td>
+                                    </tr>
+                                    <!-- Product Id -->
+                                    <tr>
+                                        <td class="fw-bold">Product Id</td>
+                                        <td><input type="number" class="form-control" name="ProductId" required /></td>
+                                    </tr>
+                                    <!-- Quantity -->
+                                    <tr>
+                                        <td class="fw-bold">Quantity</td>
+                                        <td><input type="number" class="form-control" name="Quantity" required /></td>
+                                    </tr>
+                                    <!-- Price -->
+                                    <tr>
+                                        <td class="fw-bold">Price</td>
+                                        <td><input type="number" class="form-control" name="Price" required /></td>
+                                    </tr>
+                                    <!-- Order Date -->
+                                    <tr>
+                                        <td class="fw-bold">Order Date</td>
+                                        <td><input type="datetime-local" class="form-control" name="OrderDate" required /></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="d-flex justify-content-end">
+                            <button type="submit" class="btn btn-primary mt-3">Create</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

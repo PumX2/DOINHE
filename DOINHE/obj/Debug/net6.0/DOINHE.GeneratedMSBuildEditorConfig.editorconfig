@@ -1,0 +1,141 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DOINHE
+build_property.RootNamespace = DOINHE
+build_property.ProjectDir = E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\Tài liệu\8 - FA24\PE-PRN\DOINHE - Copy\DOINHE - Copy\DOINHE - Copy\DOINHE
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/Tài liệu/8 - FA24/PE-PRN/DOINHE - Copy/DOINHE - Copy/DOINHE - Copy/DOINHE/Pages/Admin/CategoryAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ2F0ZWdvcnlBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tài liệu/8 - FA24/PE-PRN/DOINHE - Copy/DOINHE - Copy/DOINHE - Copy/DOINHE/Pages/Admin/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tài liệu/8 - FA24/PE-PRN/DOINHE - Copy/DOINHE - Copy/DOINHE - Copy/DOINHE/Pages/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tài liệu/8 - FA24/PE-PRN/DOINHE - Copy/DOINHE - Copy/DOINHE - Copy/DOINHE/Pages/Admin/OrderAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cT3JkZXJBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tài liệu/8 - FA24/PE-PRN/DOINHE - Copy/DOINHE - Copy/DOINHE - Copy/DOINHE/Pages/Admin/ProductAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZHVjdEFkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tài liệu/8 - FA24/PE-PRN/DOINHE - Copy/DOINHE - Copy/DOINHE - Copy/DOINHE/Pages/Admin/UserAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVXNlckFkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tài liệu/8 - FA24/PE-PRN/DOINHE - Copy/DOINHE - Copy/DOINHE - Copy/DOINHE/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tài liệu/8 - FA24/PE-PRN/DOINHE - Copy/DOINHE - Copy/DOINHE - Copy/DOINHE/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tài liệu/8 - FA24/PE-PRN/DOINHE - Copy/DOINHE - Copy/DOINHE - Copy/DOINHE/Pages/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tài liệu/8 - FA24/PE-PRN/DOINHE - Copy/DOINHE - Copy/DOINHE - Copy/DOINHE/Pages/OrderDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tài liệu/8 - FA24/PE-PRN/DOINHE - Copy/DOINHE - Copy/DOINHE - Copy/DOINHE/Pages/Payment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF5bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tài liệu/8 - FA24/PE-PRN/DOINHE - Copy/DOINHE - Copy/DOINHE - Copy/DOINHE/Pages/PaymentSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF5bWVudFN1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tài liệu/8 - FA24/PE-PRN/DOINHE - Copy/DOINHE - Copy/DOINHE - Copy/DOINHE/Pages/portfolio-details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccG9ydGZvbGlvLWRldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tài liệu/8 - FA24/PE-PRN/DOINHE - Copy/DOINHE - Copy/DOINHE - Copy/DOINHE/Pages/portfolio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccG9ydGZvbGlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tài liệu/8 - FA24/PE-PRN/DOINHE - Copy/DOINHE - Copy/DOINHE - Copy/DOINHE/Pages/Product/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tài liệu/8 - FA24/PE-PRN/DOINHE - Copy/DOINHE - Copy/DOINHE - Copy/DOINHE/Pages/Product/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tài liệu/8 - FA24/PE-PRN/DOINHE - Copy/DOINHE - Copy/DOINHE - Copy/DOINHE/Pages/Product/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tài liệu/8 - FA24/PE-PRN/DOINHE - Copy/DOINHE - Copy/DOINHE - Copy/DOINHE/Pages/Product/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tài liệu/8 - FA24/PE-PRN/DOINHE - Copy/DOINHE - Copy/DOINHE - Copy/DOINHE/Pages/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tài liệu/8 - FA24/PE-PRN/DOINHE - Copy/DOINHE - Copy/DOINHE - Copy/DOINHE/Pages/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tài liệu/8 - FA24/PE-PRN/DOINHE - Copy/DOINHE - Copy/DOINHE - Copy/DOINHE/Pages/Report/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tài liệu/8 - FA24/PE-PRN/DOINHE - Copy/DOINHE - Copy/DOINHE - Copy/DOINHE/Pages/Report/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tài liệu/8 - FA24/PE-PRN/DOINHE - Copy/DOINHE - Copy/DOINHE - Copy/DOINHE/Pages/Report/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tài liệu/8 - FA24/PE-PRN/DOINHE - Copy/DOINHE - Copy/DOINHE - Copy/DOINHE/Pages/Report/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tài liệu/8 - FA24/PE-PRN/DOINHE - Copy/DOINHE - Copy/DOINHE - Copy/DOINHE/Pages/Report/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tài liệu/8 - FA24/PE-PRN/DOINHE - Copy/DOINHE - Copy/DOINHE - Copy/DOINHE/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tài liệu/8 - FA24/PE-PRN/DOINHE - Copy/DOINHE - Copy/DOINHE - Copy/DOINHE/Pages/Signup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lnbnVwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tài liệu/8 - FA24/PE-PRN/DOINHE - Copy/DOINHE - Copy/DOINHE - Copy/DOINHE/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tài liệu/8 - FA24/PE-PRN/DOINHE - Copy/DOINHE - Copy/DOINHE - Copy/DOINHE/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tài liệu/8 - FA24/PE-PRN/DOINHE - Copy/DOINHE - Copy/DOINHE - Copy/DOINHE/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-nyqj8iaf2n
+
+[E:/Tài liệu/8 - FA24/PE-PRN/DOINHE - Copy/DOINHE - Copy/DOINHE - Copy/DOINHE/Pages/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-95ke7bjl5c

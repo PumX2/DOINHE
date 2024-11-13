@@ -1,0 +1,7 @@
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\obj\Release\net7.0\PubTmp\Out\DOINHE.exe
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\obj\Release\net7.0\PubTmp\Out\appsettings.Development.json
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\obj\Release\net7.0\PubTmp\Out\appsettings.json
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\obj\Release\net7.0\PubTmp\Out\DOINHE.dll
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\obj\Release\net7.0\PubTmp\Out\DOINHE.deps.json
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\obj\Release\net7.0\PubTmp\Out\DOINHE.runtimeconfig.json
+E:\Tài liệu\8 - FA24\exe2\DOINHE\DOINHE\obj\Release\net7.0\PubTmp\Out\DOINHE.pdb

@@ -1,172 +1,207 @@
 ﻿@page
-@model DOINHE.Pages.LoginModel
+@model DOINHE.Pages.SignupModel
 @{
 }
+
 <body>
-    <!-- partial:index.partial.html -->
     <div class="screen-1">
-        <form>
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success" role="alert" id="successAlert">
+                @TempData["SuccessMessage"]
+            </div>
+        }
+        else if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger" role="alert" id="errorAlert">
+                @TempData["ErrorMessage"]
+            </div>
+        }
+
+        <form method="post">
             <div class="password">
-                <label for="email">Full name</label>
+                <label for="email">User name</label>
                 <div class="sec-2">
                     <ion-icon name="mail-outline"></ion-icon>
-                    <input type="email" name="email" placeholder="Full name" />
+                    <input asp-for="UserDTO.Name" type="text" class="form-control" placeholder="abc123" />
                 </div>
+                <span asp-validation-for="UserDTO.Name" class="text-danger"></span>
             </div>
             <div class="password">
                 <label for="email">Email Address</label>
                 <div class="sec-2">
                     <ion-icon name="mail-outline"></ion-icon>
-                    <input type="email" name="email" placeholder="Username@gmail.com" />
+                    <input asp-for="UserDTO.Email" type="email" class="form-control" placeholder="Username@gmail.com" />
                 </div>
+                <span asp-validation-for="UserDTO.Email" class="text-danger"></span>
             </div>
-            <div class="password">
-                <label for="email">Email verify</label>
-                <div class="sec-2">
-                    <ion-icon name="mail-outline"></ion-icon>
-                    <input type="email" name="email" placeholder="123456" />
-                </div>
-            </div>
-            <div class="password">
-                <label for="email">Phone</label>
-                <div class="sec-2">
-                    <ion-icon name="mail-outline"></ion-icon>
-                    <input type="email" name="email" placeholder="0123456789" />
-                </div>
-            </div>
-            <div class="password">
-                <label for="email">User name</label>
-                <div class="sec-2">
-                    <ion-icon name="mail-outline"></ion-icon>
-                    <input type="email" name="email" placeholder="abc123" />
-                </div>
-            </div>
+
             <div class="password">
                 <label for="password">Password</label>
                 <div class="sec-2">
                     <ion-icon name="lock-closed-outline"></ion-icon>
-                    <input class="pas" type="password" name="password" placeholder="**********" />
+                    <input asp-for="UserDTO.Password" type="password" class="form-pas" placeholder="**********" />
                     <ion-icon class="show-hide" name="eye-outline"></ion-icon>
                 </div>
+                <span asp-validation-for="UserDTO.Password" class="text-danger"></span>
             </div>
             <div class="password">
                 <label for="password">Confirm Password</label>
                 <div class="sec-2">
                     <ion-icon name="lock-closed-outline"></ion-icon>
-                    <input class="pas" type="password" name="password" placeholder="**********" />
+                    <input asp-for="UserDTO.ConfirmPassword" type="password" class="pas" placeholder="**********" />
                     <ion-icon class="show-hide" name="eye-outline"></ion-icon>
                 </div>
+                <span asp-validation-for="UserDTO.ConfirmPassword" class="text-danger"></span>
             </div>
-            <button class="login" type="submit">Submit </button>
+            <button class="login" type="submit">Submit</button>
         </form>
-        
-        <div class="footer"><span><a href="/Login">Login</a></span><span>Forgot Password?</span></div>
+
+        <div class="footer">
+            <span><a href="/Login">Login</a></span>
+            <span>Forgot Password?</span>
+        </div>
     </div>
-    <!-- partial -->
 
-</body>
+    <script>
+        // Show alert and redirect if successful
+        document.addEventListener("DOMContentLoaded", function () {
+            var successAlert = document.getElementById("successAlert");
+            var errorAlert = document.getElementById("errorAlert");
 
-<style>
-    body {
-        font-family: 'Arial', sans-serif;
-        background-color: #f5f6fa;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-    }
+            if (successAlert) {
+                // Show the success message and then redirect after OK is clicked
+                alert(successAlert.innerText);
+                setTimeout(function () {
+                    window.location.href = '/Login'; // Redirect to login page after success
+                }, 100); // Short delay for alert to close before redirect
+            } else if (errorAlert) {
+                // Show error message and do nothing
+                alert(errorAlert.innerText);
+            }
+        });
+    </script>
 
-    .screen-1 {
-        background-color: #fff;
-        padding: 30px;
-        border-radius: 10px;
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-        width: 320px;
-    }
-
-    form {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .password {
-        margin-bottom: 20px;
-    }
-
-    label {
-        font-size: 14px;
-        color: #333;
-        margin-bottom: 5px;
-        display: block;
-    }
-
-    .sec-2 {
-        position: relative;
-        display: flex;
-        align-items: center;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        padding: 10px;
-    }
-
-        .sec-2 ion-icon {
-            color: #999;
-            font-size: 18px;
-            margin-right: 10px;
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f6fa;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
 
-    input[type="email"], input[type="password"] {
-        border: none;
-        outline: none;
-        font-size: 16px;
-        width: 100%;
-    }
-
-    .pas {
-        letter-spacing: 5px;
-    }
-
-    .show-hide {
-        position: absolute;
-        right: 10px;
-        cursor: pointer;
-        color: #999;
-    }
-
-    button.login {
-        background-color: #1e4356;
-        color: white;
-        border: none;
-        padding: 10px;
-        border-radius: 5px;
-        font-size: 16px;
-        cursor: pointer;
-    }
-
-        button.login:hover {
-            background-color: #1e4356;
+        .screen-1 {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            width: 320px;
         }
 
-    .footer {
-        margin-top: 20px;
-        text-align: center;
-    }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
 
-        .footer span {
+        .password {
+            margin-bottom: 20px;
+        }
+
+        label {
             font-size: 14px;
-            color: #777;
-            margin: 0 10px;
+            color: #333;
+            margin-bottom: 5px;
+            display: block;
         }
 
-        .footer a {
-            color: #1e4356;
-            text-decoration: none;
+        .sec-2 {
+            position: relative;
+            display: flex;
+            align-items: center;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
         }
 
-            .footer a:hover {
-                text-decoration: underline;
+            .sec-2 ion-icon {
+                color: #999;
+                font-size: 18px;
+                margin-right: 10px;
             }
 
-</style>
+        input[type="email"], input[type="password"], input[type="text"] {
+            border: none;
+            outline: none;
+            font-size: 16px;
+            width: 100%;
+        }
+
+        .pas {
+            letter-spacing: 5px;
+        }
+
+        .show-hide {
+            position: absolute;
+            right: 10px;
+            cursor: pointer;
+            color: #999;
+        }
+
+        button.login {
+            background-color: #1e4356;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+            button.login:hover {
+                background-color: #1e4356;
+            }
+
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+            .footer span {
+                font-size: 14px;
+                color: #777;
+                margin: 0 10px;
+            }
+
+            .footer a {
+                color: #1e4356;
+                text-decoration: none;
+            }
+
+                .footer a:hover {
+                    text-decoration: underline;
+                }
+
+        /* Alert styles */
+        .alert {
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .alert-success {
+            background-color: #d4edda;
+            border: 1px solid #c3e6cb;
+            color: #155724;
+        }
+
+        .alert-danger {
+            background-color: #f8d7da;
+            border: 1px solid #f5c6cb;
+            color: #721c24;
+        }
+    </style>
+</body>

@@ -1,0 +1,80 @@
+﻿@page
+@model DOINHE.Pages.Admin.OrderEditAdminModel
+@{
+    Layout = "_LayoutAdmin";
+}
+<div class="container-fluid py-4">
+    <div class="row">
+        <div class="col-12">
+            <div class="card border border-secondary shadow-sm">
+                <div class="card-header bg-gradient-dark text-white">
+                    <h6 class="text-white text-capitalize">Edit Order</h6>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <div class="table-responsive">
+                            <table class="table table-bordered">
+                                <tbody>
+                                    <!-- ID -->
+                                    <tr>
+                                        <td class="fw-bold">ID</td>
+                                        <td>@Model.Order.Id</td>
+                                        <td><input type="text" class="form-control" value="@Model.Order.Id" readonly /></td>
+                                    </tr>
+                                    <!-- User ID -->
+                                    <tr>
+                                        <td class="fw-bold">User ID</td>
+                                        <td>@Model.Order.UserId</td>
+                                        <td><input type="text" class="form-control" name="UserId" value="@Model.Order.UserId" /></td>
+                                    </tr>
+                                    <!-- Product ID -->
+                                    <tr>
+                                        <td class="fw-bold">Product ID</td>
+                                        <td>@Model.Order.ProductId</td>
+                                        <td><input type="text" class="form-control" name="ProductId" value="@Model.Order.ProductId" /></td>
+                                    </tr>
+                                    <!-- Order Date -->
+                                    <tr>
+                                        <td class="fw-bold">Order Date</td>
+                                        <td>@Model.Order.OrderDate</td>
+                                        @* <td><input type="datetime-local" class="form-control" name="OrderDate" value="@Model.Order.OrderDate.ToString("yyyy-MM-ddTHH:mm")" /></td> *@
+                                    </tr>
+                                    <!-- Price -->
+                                    <tr>
+                                        <td class="fw-bold">Price</td>
+                                        <td>@Model.Order.Price</td>
+                                        <td><input type="number" class="form-control" name="Price" value="@Model.Order.Price" step="0.01" /></td>
+                                    </tr>
+                                    <!-- Status -->
+                                    <tr>
+                                        <td class="fw-bold">Status</td>
+                                    <tr>
+                                        <td class="fw-bold">Status</td>
+                                        @* @* <td>@Model.Order.Status</td> *@ 
+                                        <td>
+                                                @if (Model.Order.Status == true)
+                                                {
+                                                <span class="badge badge-sm bg-gradient-success">Yes</span>
+                                                }
+                                                else
+                                                {
+                                                <span class="badge badge-sm bg-gradient-secondary">No</span>
+                                                }
+                                        </td>
+                                    </tr>
+
+                                        <td><input type="text" class="form-control" name="Status" value="@Model.Order.Status" /></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="d-flex justify-content-end">
+                            <button type="submit" class="btn btn-primary mt-3">Save Changes</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
